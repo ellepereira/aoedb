@@ -1,3 +1,2 @@
-# aoedb
-Age of Empires Online Database
+# Age of Empires Online Database
 =============================
