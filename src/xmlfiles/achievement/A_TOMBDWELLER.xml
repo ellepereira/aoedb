@@ -1,0 +1,9 @@
+<achievement>
+		<internalname>A_TOMBDWELLER</internalname>
+		<displaynameid>57767</displaynameid>
+		<type>cATUnitListInCapital</type>
+		<data>
+			<entry>Eg_Van_Tomb</entry>
+		</data>
+		<liveid>7</liveid>
+	</achievement>

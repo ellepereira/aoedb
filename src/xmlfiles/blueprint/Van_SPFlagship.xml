@@ -1,0 +1,14 @@
+<blueprint name="Van_SPFlagship">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800209</rollovertextid>
+		<displaynameid>800208</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Van_Cap_SPFlagship</protounit>
+	</blueprint>

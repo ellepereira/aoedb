@@ -1,0 +1,24 @@
+<trait name="Shield1H_E007">
+		<dbid>984</dbid>
+		<traittype>Shields</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\SHIELDL4_ua</icon>
+		<rollovertextid>54490</rollovertextid>
+		<displaynameid>54491</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>0</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="16.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0073" scaling="0.0020" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0076" scaling="0.0020" subtype="Armor" visible="true" damagetype="Hand" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0165" scaling="0.0044" subtype="TargetSpeedBoostResist" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

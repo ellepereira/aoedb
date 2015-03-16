@@ -1,0 +1,18 @@
+<advisor name="Dumnorix_C_II">
+		<age>1</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorDumnorix1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58797</displaynameid>
+		<displaydescriptionid>58825</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="100">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>5</minlevel>
+		<itemlevel>5</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Dumnorix_C</tech>
+		</techs>
+	</advisor>

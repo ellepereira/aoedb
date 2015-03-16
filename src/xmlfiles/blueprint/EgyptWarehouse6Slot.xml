@@ -1,0 +1,17 @@
+<blueprint name="EgyptWarehouse6Slot">
+		<icon>UserInterface/Icons/Blueprints/BlueprintWarehouse_ua</icon>
+		<rollovertextid>800054</rollovertextid>
+		<displaynameid>0</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="50">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Eg_Cap_Warehouse01</protounit>
+	</blueprint>

@@ -1,0 +1,106 @@
+<Unit id="805" name="Pe_Bldg_Dock">
+		<DBID>2391</DBID>
+		<DisplayNameID>61004</DisplayNameID>
+		<EditorNameID>61005</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>GearBldg</Trait4>
+		<ObstructionRadiusX>4.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>4.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>water</MovementType>
+		<AnimFile>CivPersian\Buildings\Dock\Dock.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>dock.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Dock64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarBocks_ua</PortraitIcon>
+		<RolloverTextID>61003</RolloverTextID>
+		<ShortRolloverTextID>61002</ShortRolloverTextID>
+		<InitialHitpoints>2250.0000</InitialHitpoints>
+		<MaxHitpoints>2250.0000</MaxHitpoints>
+		<LOS>30.0000</LOS>
+		<BuildPoints>30.0000</BuildPoints>
+		<Bounty>4.0000</Bounty>
+		<Cost resourcetype="Wood">150.0000</Cost>
+		<CarryCapacity resourcetype="Food">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="stone">1.0000</CarryCapacity>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<InputContext>Pe_DockAccel</InputContext>
+		<SoundFile>Pe_Bldg_Dock</SoundFile>
+		<BuilderLimit>20</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>Dropsite</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>AbstractDock</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>TradeableTo</UnitType>
+		<UnitType>TradeableFrom</UnitType>
+		<UnitType>ConvertableBuilding</UnitType>
+		<UnitType>UnitTypeBldgDock</UnitType>
+		<UnitType>UnitTypeBldgEmpowerable</UnitType>
+		<UnitType>EquipmentFilterEconomy</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Train row="0" page="0" column="4">UnitTypeShipSiege1</Train>
+		<Train row="0" page="0" column="2">UnitTypeShipBasic1</Train>
+		<Train row="0" page="0" column="1">UnitTypeShipUtility1</Train>
+		<Train row="0" page="0" column="0">UnitTypeShipFishing1</Train>
+		<Train row="0" page="0" column="3">UnitTypeShipAntiShip1</Train>
+		<Tech row="2" page="0" column="0">TechArmorBoat1</Tech>
+		<Tech row="2" page="0" column="0">TechArmorBoat2</Tech>
+		<Tech row="2" page="0" column="0">TechArmorBoat3</Tech>
+		<Tech row="1" page="0" column="0">TechFishingBoat1</Tech>
+		<Tech row="1" page="0" column="0">TechFishingBoat2</Tech>
+		<Tech row="1" page="0" column="0">TechFishingBoat3</Tech>
+		<Tech row="1" page="0" column="4">PersiaTechMangonelGalley1_Shadow</Tech>
+		<Tech row="1" page="0" column="4">PersiaTechMangonelGalley2_Shadow</Tech>
+		<Tech row="1" page="0" column="4">PersiaTechMangonelGalley3_Shadow</Tech>
+		<Tech row="1" page="0" column="4">PersiaTechMangonelGalleyS</Tech>
+		<Tech row="1" page="0" column="2">PersiaTechGalley1_Shadow</Tech>
+		<Tech row="1" page="0" column="2">PersiaTechGalley2</Tech>
+		<Tech row="1" page="0" column="2">PersiaTechGalley3</Tech>
+		<Tech row="1" page="0" column="2">PersiaTechGalleyS</Tech>
+		<Tech row="1" page="0" column="3">PersiaTechRamShip1_Shadow</Tech>
+		<Tech row="1" page="0" column="3">PersiaTechRamShip2_Shadow</Tech>
+		<Tech row="1" page="0" column="3">PersiaTechRamShip3</Tech>
+		<Tech row="1" page="0" column="3">PersiaTechRamShipS</Tech>
+		<Tech row="1" page="0" column="2">PersiaTechGalley_Upgrade1</Tech>
+		<Tech row="1" page="0" column="4">PersiaTechMangonelGalley_Upgrade1</Tech>
+		<Tech row="1" page="0" column="3">PersiaTechRamShip_Upgrade1</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>DontFlattenGround</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SnapPlacement</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="2">Delete</Command>
+	</Unit>

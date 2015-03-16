@@ -1,0 +1,20 @@
+<trait name="Warpaint_U107">
+		<dbid>1654</dbid>
+		<traittype>Warpaint</traittype>
+		<rarity>uncommon</rarity>
+		<icon>\UserInterface\Icons\Equipment\Celt\WarPaint2_U10_ua</icon>
+		<rollovertextid>59508</rollovertextid>
+		<displaynameid>59509</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0110" scaling="0.0018" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0147" scaling="0.0023" subtype="DamageBonus" visible="true" unittype="AbstractArtillery" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

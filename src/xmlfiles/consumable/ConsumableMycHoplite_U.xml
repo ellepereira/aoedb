@@ -1,0 +1,18 @@
+<consumable name="ConsumableMycHoplite_U">
+		<icon>UserInterface\Icons\Consumable\ConMycHoplite2_ua</icon>
+		<rollovertextid>56690</rollovertextid>
+		<displaynameid>52895</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="10">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<power>PowerSpawnMycenaeanHoplite_U</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

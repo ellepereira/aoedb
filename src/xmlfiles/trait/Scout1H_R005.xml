@@ -1,0 +1,21 @@
+<trait name="Scout1H_R005">
+		<dbid>1412</dbid>
+		<traittype>ScoutSpecial1H</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ScoutGearRHealing_ua</icon>
+		<rollovertextid>56442</rollovertextid>
+		<displaynameid>56443</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="1.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" action="SelfHeal" amount="1.0000" scaling="0.0000" subtype="ActionEnable" visible="true" relativity="Assign">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="SelfHeal" amount="1.5500" scaling="0.1500" subtype="WorkRate" visible="true" unittype="LogicalTypeHealed" relativity="Absolute">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,28 @@
+<econdesign name="CreateConstructionGear_Boat_E101">
+		<icon>UserInterface/Icons/Crafting/CraftingBuildings4_ua</icon>
+		<rollovertextid>53209</rollovertextid>
+		<displaynameid>800504</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>40</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityEpic</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="18">4PureGoldIngot</material>
+			<material quantity="8">4ArchimedesTool</material>
+			<material quantity="4">4PhilosopherStone</material>
+		</input>
+		<output>
+			<trait quantity="1" level="40">Gear_Boat_E101</trait>
+		</output>
+		<outputtraitlevel>40</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>Construction</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

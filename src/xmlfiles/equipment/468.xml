@@ -1,0 +1,22 @@
+<equipment version="0" id="468">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\c03startechtaliesinssong_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700625</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>12</uirow>
+		<uicol>43</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivCeltic</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeStar_InfTrain1" cost="3" descid="700626"/>
+		</ranks>
+		<prereq>436</prereq>
+		<prereq>437</prereq>
+	</equipment>

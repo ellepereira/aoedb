@@ -1,0 +1,14 @@
+<blueprint name="EgyptBasicStore01">
+		<icon>UserInterface/Icons/Blueprints/BlueprintStore_ua</icon>
+		<rollovertextid>800031</rollovertextid>
+		<displaynameid>800030</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Eg_Cap_BasicStore01</protounit>
+	</blueprint>

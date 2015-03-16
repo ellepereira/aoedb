@@ -1,0 +1,91 @@
+<Unit id="111" name="Gr_Cav_Hippikon">
+		<DBID>1399</DBID>
+		<DisplayNameID>49670</DisplayNameID>
+		<EditorNameID>49671</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>3</PopulationCount>
+		<Trait1>Swords1H</Trait1>
+		<Trait2>Shields</Trait2>
+		<Trait3>ArmorLgt</Trait3>
+		<Trait4>Gear</Trait4>
+		<VanTrait1>VanityWeapon</VanTrait1>
+		<VanTrait2>VanityShield</VanTrait2>
+		<VanTrait3>VanityHelm</VanTrait3>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>8.0000</MaxVelocity>
+		<MaxRunVelocity>12.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Mounted\Hippikon\Hippikon.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Hippikon64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarHippikon_ua</PortraitIcon>
+		<RolloverTextID>49669</RolloverTextID>
+		<ShortRolloverTextID>49668</ShortRolloverTextID>
+		<InitialHitpoints>780.0000</InitialHitpoints>
+		<MaxHitpoints>780.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>25.0000</TrainPoints>
+		<Bounty>2.0000</Bounty>
+		<Cost resourcetype="Food">110.0000</Cost>
+		<Cost resourcetype="Gold">70.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>3</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_Cav_Hippikon</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeCavalryBasic1</UnitType>
+		<UnitType>ConvertableCavalry</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.3000"/>
+		<Armor type="Siege" value="0.5000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>24.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Cavalry</DamageType>
+			<ImpactEffect>effects\impacts\sword</ImpactEffect>
+		</ProtoAction>
+	</Unit>

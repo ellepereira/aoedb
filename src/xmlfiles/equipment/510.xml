@@ -1,0 +1,20 @@
+<equipment version="0" id="510">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c04techcataphracts_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700689</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>7</uirow>
+		<uicol>29</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="PersiaTechCataphractS" cost="2" descid="700690"/>
+		</ranks>
+		<prereq>509</prereq>
+	</equipment>

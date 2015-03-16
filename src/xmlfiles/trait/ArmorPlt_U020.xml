@@ -1,0 +1,21 @@
+<trait name="ArmorPlt_U020">
+		<dbid>1573</dbid>
+		<traittype>ArmorPlt</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmBoatSiegeU2_ua</icon>
+		<rollovertextid>59346</rollovertextid>
+		<displaynameid>59347</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Body" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>0</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0031" scaling="0.0005" subtype="MaximumVelocity" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0081" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,18 @@
+<advisor name="Hathor_E_III">
+		<age>2</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorHathor4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>57055</displaynameid>
+		<displaydescriptionid>57059</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="350">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Hathor_E</tech>
+		</techs>
+	</advisor>

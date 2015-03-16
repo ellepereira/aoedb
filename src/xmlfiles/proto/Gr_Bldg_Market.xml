@@ -1,0 +1,86 @@
+<Unit id="124" name="Gr_Bldg_Market">
+		<DBID>1415</DBID>
+		<DisplayNameID>49737</DisplayNameID>
+		<EditorNameID>49738</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>GearBldg</Trait4>
+		<ObstructionRadiusX>4.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>4.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGreek\Buildings\Market\Market.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>buildinglarge.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Market64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarMarket_ua</PortraitIcon>
+		<RolloverTextID>49736</RolloverTextID>
+		<ShortRolloverTextID>49735</ShortRolloverTextID>
+		<InitialHitpoints>2250.0000</InitialHitpoints>
+		<MaxHitpoints>2250.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<BuildPoints>50.0000</BuildPoints>
+		<Bounty>4.0000</Bounty>
+		<Cost resourcetype="Wood">250.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>1</AllowedAge>
+		<InputContext>MarketAccel</InputContext>
+		<SoundFile>Gr_Bldg_Market</SoundFile>
+		<BuilderLimit>20</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>TradeableFrom</UnitType>
+		<UnitType>ConvertableBuilding</UnitType>
+		<UnitType>AbstractMarket</UnitType>
+		<UnitType>UnitTypeBldgMarket</UnitType>
+		<UnitType>UnitTypeBldgEmpowerable</UnitType>
+		<UnitType>EquipmentFilterUtility</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Train row="0" page="0" column="3">UnitTypeCaravan1</Train>
+		<Tech row="1" page="0" column="3">TechCaravan1</Tech>
+		<Tech row="1" page="0" column="4">TechMarketTribute1</Tech>
+		<Tech row="1" page="0" column="4">TechMarketTribute2</Tech>
+		<Tech row="0" page="0" column="4">TechMarketExchance1</Tech>
+		<Tech row="0" page="0" column="4">TechMarketExchance2</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="1" page="0" column="0">MarketBuy1</Command>
+		<Command row="1" page="0" column="1">MarketBuy2</Command>
+		<Command row="0" page="0" column="0">MarketSell1</Command>
+		<Command row="0" page="0" column="1">MarketSell2</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Command row="0" page="0" column="2">MarketSell3</Command>
+		<Command row="1" page="0" column="2">MarketBuy3</Command>
+		<Command row="0" page="10" column="3">ToggleTributeDialog</Command>
+	</Unit>

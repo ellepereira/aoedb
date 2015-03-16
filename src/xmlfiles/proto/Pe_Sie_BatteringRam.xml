@@ -1,0 +1,86 @@
+<Unit id="790" name="Pe_Sie_BatteringRam">
+		<DBID>2376</DBID>
+		<DisplayNameID>60938</DisplayNameID>
+		<EditorNameID>60939</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>3</PopulationCount>
+		<Trait1>RamHeads</Trait1>
+		<Trait3>ArmorPlt</Trait3>
+		<Trait4>GearSiege</Trait4>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>4.5000</MaxVelocity>
+		<MaxRunVelocity>7.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>6.0000</TurnRate>
+		<AnimFile>CivPersian\Units\Siege\BatteringRam\BatteringRam.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\PBatteringRam64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarPBatteringRam_ua</PortraitIcon>
+		<RolloverTextID>60937</RolloverTextID>
+		<ShortRolloverTextID>60936</ShortRolloverTextID>
+		<InitialHitpoints>440.0000</InitialHitpoints>
+		<MaxHitpoints>440.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>22.0000</TrainPoints>
+		<RepairPoints>10.0000</RepairPoints>
+		<Bounty>4.0000</Bounty>
+		<Cost resourcetype="Wood">250.0000</Cost>
+		<Cost resourcetype="Gold">80.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Pe_Sie_BatteringRam</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractArtillery</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeSiegeRam1</UnitType>
+		<UnitType>ConvertableSiege</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.8500"/>
+		<Armor type="Hand" value="0.3000"/>
+		<Armor type="Cavalry" value="0.3000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>AttackBuildingsFirst</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>ram.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="Building">5.000000</DamageBonus>
+			<Damage>32.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Siege</DamageType>
+			<ImpactEffect>effects\impacts\siege1</ImpactEffect>
+		</ProtoAction>
+	</Unit>

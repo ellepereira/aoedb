@@ -1,0 +1,98 @@
+<Unit id="797" name="Pe_Civ_FishingBoat">
+		<DBID>2383</DBID>
+		<DisplayNameID>60968</DisplayNameID>
+		<EditorNameID>60969</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait1>FishingNet</Trait1>
+		<Trait2>Arrows</Trait2>
+		<Trait3>ArmorPlt</Trait3>
+		<Trait4>GearBoat</Trait4>
+		<ObstructionRadiusX>1.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>1.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>8.0000</MaxVelocity>
+		<MaxRunVelocity>12.0000</MaxRunVelocity>
+		<MovementType>water</MovementType>
+		<TurnRate>3.0000</TurnRate>
+		<AnimFile>CivPersian\Units\Ships\FishingBoat\FishingBoat.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\PFishingBoat64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarPFishingBoat_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>60967</RolloverTextID>
+		<ShortRolloverTextID>60966</ShortRolloverTextID>
+		<InitialHitpoints>300.0000</InitialHitpoints>
+		<MaxHitpoints>300.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>30.0000</TrainPoints>
+		<RepairPoints>10.0000</RepairPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Wood">100.0000</Cost>
+		<CarryCapacity resourcetype="Food">30.0000</CarryCapacity>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Pe_Civ_FishingBoat</SoundFile>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeEasySelectAvoid</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeAffectedByTownBell</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>AbstractVillager</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>Ship</UnitType>
+		<UnitType>ValidIdleVillager</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>UnitTypeShipFishing1</UnitType>
+		<UnitType>EquipmentFilterEconomy</UnitType>
+		<Armor type="Ranged" value="0.5000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="1">Repair</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Tactics>fishingboat.tactics</Tactics>
+		<ProtoAction>
+			<Name>Repair</Name>
+			<Rate type="ConvertableSiege">1.000000</Rate>
+			<Type>Repair</Type>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Gather</Name>
+			<Rate type="AbstractFish">1.600000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>8.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>18.000000</MaxRange>
+			<DamageType>Ranged</DamageType>
+			<Projectile>Proj_Arrow</Projectile>
+			<MaxHeight>3.000000</MaxHeight>
+			<ImpactEffect>effects\impacts\arrow</ImpactEffect>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Repair</Name>
+			<Rate type="Ship">1.000000</Rate>
+			<Type>Repair</Type>
+		</ProtoAction>
+	</Unit>

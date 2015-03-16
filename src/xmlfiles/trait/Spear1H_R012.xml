@@ -1,0 +1,21 @@
+<trait name="Spear1H_R012">
+		<dbid>902</dbid>
+		<traittype>Spears1H</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\SPEAR_R011_ua</icon>
+		<rollovertextid>54316</rollovertextid>
+		<displaynameid>54317</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="8.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0346" scaling="0.0090" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="0.9846" scaling="-0.0034" subtype="TargetSpeedBoost" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

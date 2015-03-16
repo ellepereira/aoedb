@@ -1,0 +1,20 @@
+<equipment version="0" id="374">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techarmorwall2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700245</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>4</uirow>
+		<uicol>22</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechArmorWall2" cost="1" descid="700657"/>
+		</ranks>
+		<prereq>373</prereq>
+	</equipment>

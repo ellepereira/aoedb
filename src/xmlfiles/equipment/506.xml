@@ -1,0 +1,20 @@
+<equipment version="0" id="506">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c04mountedarcher2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700681</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>3</uirow>
+		<uicol>37</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="PersiaTechMountedArcher3" cost="1" descid="700686"/>
+		</ranks>
+		<prereq>505</prereq>
+	</equipment>

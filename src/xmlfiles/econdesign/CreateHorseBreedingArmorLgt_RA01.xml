@@ -1,0 +1,31 @@
+<econdesign name="CreateHorseBreedingArmorLgt_RA01">
+		<icon>UserInterface/Icons/Crafting/CraftingCav3_ua</icon>
+		<rollovertextid>801097</rollovertextid>
+		<displaynameid>801096</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>24</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="100">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="22">2Garnet</material>
+			<material quantity="12">3FineLeather</material>
+			<material quantity="5">!MinoanTools</material>
+		</input>
+		<output>
+			<trait quantity="1" level="24">ArmorLgt_RA01</trait>
+		</output>
+		<outputtraitlevel>24</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>HorseBreeding</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

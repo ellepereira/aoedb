@@ -1,0 +1,90 @@
+<Unit id="925" name="Ce_Sie_Palintonon">
+		<DBID>2522</DBID>
+		<DisplayNameID>62514</DisplayNameID>
+		<EditorNameID>62515</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>4</PopulationCount>
+		<Trait1>BallistaArms</Trait1>
+		<Trait3>ArmorMed</Trait3>
+		<Trait4>GearSiege</Trait4>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>4.5000</MaxVelocity>
+		<MaxRunVelocity>7.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>6.0000</TurnRate>
+		<AnimFile>CivCelt\Units\Siege\Rockthrower\RockThrower.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\CRockThrower64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarCRockLauncher_ua</PortraitIcon>
+		<RolloverTextID>62513</RolloverTextID>
+		<ShortRolloverTextID>62512</ShortRolloverTextID>
+		<InitialHitpoints>290.0000</InitialHitpoints>
+		<MaxHitpoints>290.0000</MaxHitpoints>
+		<LOS>43.0000</LOS>
+		<ProjectileProtoUnit>Proj_Hammer</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>30.0000</TrainPoints>
+		<Bounty>6.0000</Bounty>
+		<Cost resourcetype="Wood">280.0000</Cost>
+		<Cost resourcetype="Gold">130.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>3</AllowedAge>
+		<VisualScale>0.9500</VisualScale>
+		<SoundFile>Gr_Sie_Palintonon</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractArtillery</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeSiegeTrebuchet1</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.8500"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>RotateInPlace</Flag>
+		<Flag>AttackBuildingsFirst</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="4">Tactic3</Command>
+		<Command row="0" page="10" column="3">Tactic4</Command>
+		<Tactics>stonethrower.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MinRange>13.000000</MinRange>
+			<MaxRange>41.000000</MaxRange>
+			<DamageArea>1.500000</DamageArea>
+			<DamageFlags>Gaia Enemy</DamageFlags>
+			<DamageType>Siege</DamageType>
+			<Projectile>Proj_Hammer</Projectile>
+			<ImpactEffect>effects\impacts\siege3</ImpactEffect>
+			<DamageBonus type="Building">2.500000</DamageBonus>
+		</ProtoAction>
+	</Unit>

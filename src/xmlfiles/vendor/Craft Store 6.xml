@@ -1,0 +1,73 @@
+<vendor name="Craft Store 6">
+		<protounit>Pe_Cap_BasicCraftStore06</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenTool1H_U004</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="5">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenFishingNet1H_U004</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="10">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenTool1H_U010</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="20">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenMerchant2H_U005</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenGear_Vill_U003</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="30">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenFishingNet1H_U006</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="35">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenTool1H_U018</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="45">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateCraftsmenMerchant2H_U007</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

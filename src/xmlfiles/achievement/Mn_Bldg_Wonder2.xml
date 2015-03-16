@@ -1,0 +1,9 @@
+<achievement>
+		<internalname>Mn_Bldg_Wonder2</internalname>
+		<displaynameid>61908</displaynameid>
+		<type>cATUnitListInCapital</type>
+		<data>
+			<entry>Mn_Bldg_Wonder2</entry>
+		</data>
+		<liveid>57</liveid>
+	</achievement>

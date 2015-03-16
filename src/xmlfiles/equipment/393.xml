@@ -1,0 +1,20 @@
+<equipment version="0" id="393">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c03techlongswordsmanmaster_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700556</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>3</uirow>
+		<uicol>8</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeltTechSwordsman3" cost="1" descid="700555"/>
+		</ranks>
+		<prereq>392</prereq>
+	</equipment>

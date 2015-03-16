@@ -1,0 +1,93 @@
+<Unit id="993" name="A03_Hero01">
+		<DBID>2732</DBID>
+		<DisplayNameID>64060</DisplayNameID>
+		<EditorNameID>64061</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>9.0000</MaxVelocity>
+		<MaxRunVelocity>13.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivAlliance/LegionofCarthage/Units/Hero/Hannibal/HannibalHero.xml</AnimFile>
+		<CorpseDecalTime>0.0000</CorpseDecalTime>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\Hannibal64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarHannibal_ua</PortraitIcon>
+		<RolloverTextID>64059</RolloverTextID>
+		<ShortRolloverTextID>64058</ShortRolloverTextID>
+		<InitialHitpoints>1000.0000</InitialHitpoints>
+		<MaxHitpoints>1000.0000</MaxHitpoints>
+		<LOS>18.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.2500</VisualScale>
+		<SoundFile>A03_Hero01</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeInfantryHeavy1</UnitType>
+		<Armor type="Ranged" value="0.2000"/>
+		<Armor type="Hand" value="0.2000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CanAutoHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>heroLegion.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="AbstractInfantry">2.000000</DamageBonus>
+			<DamageBonus type="AbstractPriest">1.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>SelfHeal</Name>
+			<Rate type="LogicalTypeHealed">4.000000</Rate>
+			<Active>1</Active>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>35.000000</Damage>
+			<DamageArea>0.000000</DamageArea>
+			<DamageType>Hand</DamageType>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Charge</Name>
+			<Active>1</Active>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="AbstractArcher">1.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

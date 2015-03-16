@@ -1,0 +1,18 @@
+<Unit id="101" name="TestObject">
+		<DBID>1099</DBID>
+		<EditorNameID>62735</EditorNameID>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<MaxVelocity>4.0000</MaxVelocity>
+		<MovementType>air</MovementType>
+		<AnimFile>test_object\test_object.xml</AnimFile>
+		<Icon>ui\Buildings\house_icon</Icon>
+		<PortraitIcon>ui\Buildings\house_portrait</PortraitIcon>
+		<LOS>20.0000</LOS>
+		<SoundFile>TestObject</SoundFile>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>Tracked</Flag>
+	</Unit>

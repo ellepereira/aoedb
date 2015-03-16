@@ -1,0 +1,28 @@
+<trait name="Sling2H_E001">
+		<dbid>1302</dbid>
+		<traittype>Sling</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\SlingE7_ua</icon>
+		<rollovertextid>55509</rollovertextid>
+		<displaynameid>55510</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="7.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="7.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0398" scaling="0.0138" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0176" scaling="0.0053" subtype="DamageBonus" visible="true" unittype="AbstractArcher" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0078" scaling="0.0023" subtype="MaximumRange" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0078" scaling="0.0025" subtype="LOS" visible="false" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

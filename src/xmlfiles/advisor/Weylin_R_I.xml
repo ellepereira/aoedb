@@ -1,0 +1,18 @@
+<advisor name="Weylin_R_I">
+		<age>0</age>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorWeylin3_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>60116</displaynameid>
+		<displaydescriptionid>60119</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="125">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>5</minlevel>
+		<itemlevel>5</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Weylin_R</tech>
+		</techs>
+	</advisor>

@@ -1,0 +1,19 @@
+<equipment version="0" id="353">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\buildings\cbardhall64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700539</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>2</uirow>
+		<uicol>43</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Ce_Ct_BldgBardHall1" cost="3" descid="700642"/>
+		</ranks>
+	</equipment>

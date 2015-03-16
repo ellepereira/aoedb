@@ -1,0 +1,18 @@
+<advisor name="Pamphilos_C_III">
+		<age>2</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorPamphilos1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52121</displaynameid>
+		<displaydescriptionid>52122</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="125">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Pamphilos_C</tech>
+		</techs>
+	</advisor>

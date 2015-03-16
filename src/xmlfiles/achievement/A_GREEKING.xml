@@ -1,0 +1,11 @@
+<achievement>
+		<internalname>A_GREEKING</internalname>
+		<displaynameid>57794</displaynameid>
+		<type>cATLevel</type>
+		<data>
+			<entry>Greek</entry>
+			<entry>30</entry>
+		</data>
+		<liveid>34</liveid>
+		<offer>eOfferCivGreek</offer>
+	</achievement>

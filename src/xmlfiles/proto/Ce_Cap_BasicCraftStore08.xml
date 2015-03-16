@@ -1,0 +1,69 @@
+<Unit id="926" name="Ce_Cap_BasicCraftStore08">
+		<DBID>2523</DBID>
+		<DisplayNameID>62523</DisplayNameID>
+		<EditorNameID>62524</EditorNameID>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<ObstructionRadiusX>4.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>4.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivCelt/Buildings/Capital/BustedStore/BustedStore.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>CapitalBldg.xml</PlacementFile>
+		<Icon>\UserInterface\Icons\Vanity\DecrepitBuilding_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Vanity\AvatarDecrepitBuilding_ua</PortraitIcon>
+		<RolloverTextID>62522</RolloverTextID>
+		<ShortRolloverTextID>62521</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<BuildPoints>10.0000</BuildPoints>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<SoundFile>Ce_Cap_BasicCraftStore</SoundFile>
+		<BuilderLimit>14</BuilderLimit>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>RewardDelivery</UnitType>
+		<UnitType>CapitolBldgAll</UnitType>
+		<Armor type="Ranged" value="0.7500"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>StartingColonyBuilding</Flag>
+		<Flag>ColonyPlacementCenter</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Contain>AbstractVillager</Contain>
+		<Command row="0" page="10" column="2">Eject</Command>
+		<Command row="0" page="10" column="3">TownBell</Command>
+		<Command row="0" page="10" column="3">ReturnToWork</Command>
+		<Command row="0" page="10" column="4">Delete</Command>
+		<Command row="0" page="10" column="0">SetGatherPointEconomy</Command>
+		<Command row="0" page="10" column="1">SetGatherPointMilitary</Command>
+	</Unit>

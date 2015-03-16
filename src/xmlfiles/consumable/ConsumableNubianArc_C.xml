@@ -1,0 +1,18 @@
+<consumable name="ConsumableNubianArc_C">
+		<icon>UserInterface\Icons\Consumable\ConNubArcher1_ua</icon>
+		<rollovertextid>56802</rollovertextid>
+		<displaynameid>56800</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="5">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<power>PowerSpawnNubianArcher_C</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

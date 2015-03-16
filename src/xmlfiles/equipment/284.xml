@@ -1,0 +1,21 @@
+<equipment version="0" id="284">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\egstar_raraxtrainrate1_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700462</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>12</uirow>
+		<uicol>4</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivEgyptian</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgStar_RaRaxTrainRate1" cost="3" descid="700463"/>
+		</ranks>
+		<prereq>159</prereq>
+	</equipment>

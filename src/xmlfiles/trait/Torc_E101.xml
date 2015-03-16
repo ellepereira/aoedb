@@ -1,0 +1,20 @@
+<trait name="Torc_E101">
+		<dbid>1609</dbid>
+		<traittype>Torc</traittype>
+		<rarity>epic</rarity>
+		<icon>\UserInterface\Icons\Equipment\Celt\Torc_E60_ua</icon>
+		<rollovertextid>59418</rollovertextid>
+		<displaynameid>59419</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0347" scaling="0.0118" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0207" scaling="0.0067" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

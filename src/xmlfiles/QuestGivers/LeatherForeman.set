@@ -1,0 +1,5 @@
+<artset>
+   <newquest textureCoords="0 0 1 1">UserInterface/Quest/QuestGivers/LeatherForemanQGNewQuest_ua</newquest>
+   <inprogress textureCoords="0 0 1 1">UserInterface/Quest/QuestGivers/LeatherForemanQGInProgress_ua</inprogress>
+   <complete textureCoords="0 0 1 1">UserInterface/Quest/QuestGivers/LeatherForemanQGCompleted_ua</complete>
+</artset>

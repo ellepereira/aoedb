@@ -1,0 +1,21 @@
+<advisor name="Djer_C_III">
+		<age>2</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorDjer1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>56263</displaynameid>
+		<displaydescriptionid>56264</displaydescriptionid>
+		<shortdescriptionid>58056</shortdescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="125">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeEgyptian</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitNomadCavalry_C</tech>
+		</techs>
+	</advisor>

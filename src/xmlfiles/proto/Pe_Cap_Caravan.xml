@@ -1,0 +1,52 @@
+<Unit id="854" name="Pe_Cap_Caravan">
+		<DBID>2441</DBID>
+		<DisplayNameID>61213</DisplayNameID>
+		<EditorNameID>61214</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivPersian\Units\Civilian\Caravan\Caravan.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\PCaravan64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarPCaravan_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>61212</RolloverTextID>
+		<ShortRolloverTextID>61211</ShortRolloverTextID>
+		<InitialHitpoints>300.0000</InitialHitpoints>
+		<MaxHitpoints>300.0000</MaxHitpoints>
+		<LOS>15.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>15.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">50.0000</Cost>
+		<Cost resourcetype="Wood">50.0000</Cost>
+		<CarryCapacity resourcetype="Gold">150.0000</CarryCapacity>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Pe_Cap_Caravan</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<Flag>NotSelectable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Garrison</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Command page="10" column="3">AutoGather</Command>
+		<Tactics>trade.tactics</Tactics>
+	</Unit>

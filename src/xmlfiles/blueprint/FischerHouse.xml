@@ -1,0 +1,21 @@
+<blueprint name="FischerHouse">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity4_ua</icon>
+		<rollovertextid>800146</rollovertextid>
+		<displaynameid>800145</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="250">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<cost>
+			<material quantity="40">3EbonyPlank</material>
+			<material quantity="30">3ConcreteBlock</material>
+			<material quantity="10">3CottonCloth</material>
+		</cost>
+		<protounit>Gn_Cap_FischerHouse</protounit>
+	</blueprint>

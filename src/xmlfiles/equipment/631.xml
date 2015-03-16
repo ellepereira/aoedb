@@ -1,0 +1,23 @@
+<equipment version="0" id="631">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\egstar_criticalstrike_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700346</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>12</uirow>
+		<uicol>3</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivPersian</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="PeStar_AttackCrit1" cost="3" descid="700347"/>
+		</ranks>
+		<prereq>569</prereq>
+		<prereq>572</prereq>
+		<prereq>575</prereq>
+	</equipment>

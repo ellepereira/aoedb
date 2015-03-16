@@ -1,0 +1,52 @@
+<Unit id="172" name="Gr_ArgosKing">
+		<DBID>1538</DBID>
+		<DisplayNameID>50675</DisplayNameID>
+		<EditorNameID>50676</EditorNameID>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivGreek\Units\QuestGivers\ArgosKingQuestGiver\ArgosKingQuestGiver.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\QuestGiver64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\QuestGiver64_ua</PortraitIcon>
+		<RolloverTextID>50674</RolloverTextID>
+		<ShortRolloverTextID>50673</ShortRolloverTextID>
+		<InitialHitpoints>2000.0000</InitialHitpoints>
+		<MaxHitpoints>2000.0000</MaxHitpoints>
+		<LOS>2.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>18.0000</TrainPoints>
+		<Bounty>2.0000</Bounty>
+		<Cost resourcetype="Food">50.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_ArgosKing</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<Armor type="Hand" value="0.2500"/>
+		<Armor type="Cavalry" value="0.2500"/>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>NotCommandable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+	</Unit>

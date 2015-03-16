@@ -1,0 +1,24 @@
+<trait name="BellyBow1H_E006">
+		<dbid>624</dbid>
+		<traittype>BellyBows</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\GASTRAPHETESBOWL6_ua</icon>
+		<rollovertextid>53606</rollovertextid>
+		<displaynameid>53607</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="5.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0320" scaling="0.0103" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0066" scaling="0.0018" subtype="DamageBonus" visible="true" unittype="AbstractInfantry" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0029" scaling="0.0008" subtype="HitPercent" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

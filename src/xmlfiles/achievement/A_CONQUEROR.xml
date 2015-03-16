@@ -1,0 +1,10 @@
+<achievement>
+		<internalname>A_CONQUEROR</internalname>
+		<displaynameid>57773</displaynameid>
+		<type>cATQuestComplete</type>
+		<data>
+			<entry>78</entry>
+		</data>
+		<liveid>19</liveid>
+		<offer>eOfferCivGreek</offer>
+	</achievement>

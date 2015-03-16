@@ -1,0 +1,89 @@
+<vendor name="Minoan Rare/Epics Store">
+		<protounit>Mn_Cap_BasicStore02</protounit>
+		<itemsets>
+			<itemset regionid="14">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="18">Sling2H_RA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Javelin2H_RA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="500">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="28">ArmorClth_RA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="700">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="28">BellyBow1H_RA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="700">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="33">ArmorBldg_RA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="1000">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="33">Spear1H_EA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="3000">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="38">Shield1H_EA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="3000">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="38">Javelin2H_EA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="3500">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">ArmorMed_EA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="3500">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Spear2H_EA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="4000">cCapResFactionPoints5</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

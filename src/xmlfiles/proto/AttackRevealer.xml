@@ -1,0 +1,24 @@
+<Unit id="0" name="AttackRevealer">
+		<DBID>61</DBID>
+		<DisplayNameID>58258</DisplayNameID>
+		<EditorNameID>62725</EditorNameID>
+		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>air</MovementType>
+		<Lifespan>15.0000</Lifespan>
+		<LOS>8.0000</LOS>
+		<SoundFile>AttackRevealer</SoundFile>
+		<Decay delay="0.0000" duration="1.0000"/>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>DoNotShowOnMiniMap</Flag>
+		<Flag>NotSearchable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoUnitAI</Flag>
+		<Flag>InvulnerableIfGaia</Flag>
+		<Flag>Invulnerable</Flag>
+	</Unit>

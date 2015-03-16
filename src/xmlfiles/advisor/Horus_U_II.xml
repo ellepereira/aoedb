@@ -1,0 +1,18 @@
+<advisor name="Horus_U_II">
+		<age>1</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorHorus2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52109</displaynameid>
+		<displaydescriptionid>57052</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>5</minlevel>
+		<itemlevel>5</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Horus_U</tech>
+		</techs>
+	</advisor>

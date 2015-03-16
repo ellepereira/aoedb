@@ -1,0 +1,19 @@
+<trait name="Sling2H_U101">
+		<dbid>1582</dbid>
+		<traittype>Sling</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\SlingU1_ua</icon>
+		<rollovertextid>59364</rollovertextid>
+		<displaynameid>59365</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="1.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0500" scaling="0.0090" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

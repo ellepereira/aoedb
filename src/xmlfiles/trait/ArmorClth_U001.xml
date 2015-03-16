@@ -1,0 +1,18 @@
+<trait name="ArmorClth_U001">
+		<dbid>462</dbid>
+		<traittype>ArmorCloth</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmClothU1_ua</icon>
+		<rollovertextid>53277</rollovertextid>
+		<displaynameid>53278</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Body" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0500" scaling="0.0090" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

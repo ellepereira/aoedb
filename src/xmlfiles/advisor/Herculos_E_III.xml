@@ -1,0 +1,21 @@
+<advisor name="Herculos_E_III">
+		<age>2</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorHerculos4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52389</displaynameid>
+		<displaydescriptionid>57199</displaydescriptionid>
+		<shortdescriptionid>58047</shortdescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="350">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeGreek</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitPhalanx_E</tech>
+		</techs>
+	</advisor>

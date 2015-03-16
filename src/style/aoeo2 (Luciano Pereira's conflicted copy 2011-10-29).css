@@ -1,0 +1,321 @@
+body {
+ font-family: Helvetica,Arial, Sans-Serif;
+ background-image: url('/images/bg.jpg');
+ background-size: 100%;
+ color: #E6C953;
+ 
+ font-size: 14px;
+ 
+}
+
+#news
+{
+	font-size: 12px;
+	color: white;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#news h1
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #3b8fff;
+	border-bottom: 1px dotted #3b8fff;
+}
+
+#alltop
+{
+	text-align: right;
+	height: 20px;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-size: 14px;
+}
+
+* a
+{
+	color: white;
+}
+
+* a:hover
+{
+	color: #3b8fff;
+}
+
+.scriptlink
+{
+	color: white;
+	cursor: pointer;
+}
+
+table.tooltip {
+  border-spacing: 0px;
+}
+
+table.tooltip .topleft {
+  height: 6px;
+  width: 6px;
+  background-image: url('../images/tooltip/topleft.png');
+  background-repeat: no-repeat;
+}
+
+table.tooltip .top {
+  background-image: url('../images/tooltip/top.png');
+  background-repeat: repeat-x;
+}
+
+table.tooltip .topright {
+  height: 6px;
+  width: 6px;
+  background-image: url('../images/tooltip/topright.png');
+  background-repeat: no-repeat;
+}
+
+table.tooltip .left {
+  background-image: url('../images/tooltip/left.png');
+  background-repeat: repeat-y;
+}
+
+table.tooltip .mid {
+  padding: 0px 2px;
+  color: white;
+  font-weight: bold;
+  background-image: url('../images/tooltip/mid.png');
+}
+
+table.tooltip .right {
+  background-image: url('../images/tooltip/right.png');
+  background-repeat: repeat-y;
+}
+
+table.tooltip .botleft {
+  height: 6px;
+  width: 6px;
+  background-image: url('../images/tooltip/botleft.png');
+  background-repeat: no-repeat;
+}
+
+table.tooltip .bot {
+  background-image: url('../images/tooltip/bot.png');
+  background-repeat: repeat-x;
+}
+
+table.tooltip .botright {
+  height: 6px;
+  width: 6px;
+  background-image: url('../images/tooltip/botright.png');
+  background-repeat: no-repeat;
+}
+
+
+#maindiv
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+
+#mainpagetext
+{
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#indexdiv
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	margin-top: 150px;
+	opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.categorieslinks
+{
+	font-size: 8px;
+	color: #888;
+	vertical-align: bottom;
+	text-align: left;
+}
+
+.categorieslinks a
+{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #E6C953;
+}
+
+
+#mainsearch
+{
+	margin-top: 0px;
+}
+
+#headersearch
+{
+	margin-top: 0px;
+	background-color: black;
+	width: 300px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #3B8FFF;
+	border: 2px solid #E6C953;
+	height: 30px;
+	background-color: white;
+	margin-left: auto;
+	margin-bottom: 0px;
+}
+
+#headersearch input[type="text"]
+{
+	width: 256px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #3B8FFF;
+	border: 0;
+	height: 28px;
+}
+
+#headersearch input[type="image"]
+{
+	height: 30px;
+	vertical-align: bottom;
+}
+
+#mainsearch #searchdiv
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 390px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #3B8FFF;
+	border: 2px solid #E6C953;
+	height: 34px;
+	background-color: white;
+}
+
+
+#mainsearch input[type="text"]
+{
+	width: 346px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #3B8FFF;
+	border: 0;
+	height: 32px;
+}
+
+#mainsearch input[type="image"]
+{
+	height: 33px;
+	vertical-align: top;
+}
+
+.centerme
+{
+	text-align: center;
+}
+
+
+.typesandflags
+{
+	font-size: 12px;
+}
+
+#mainsearch a
+{
+	color: white;
+	text-decoration: none;
+	color: #E6C953;
+	font-weight: bold;
+}
+
+#searchheader
+{
+	border-bottom: 1px solid white;
+}
+
+
+#searchheader p
+{
+	display: inline;
+	font-size: 20px;
+	vertical-align: bottom;
+}
+
+#credits
+{
+	font-size: 10px;
+	color: white;
+	margin-top: 170px;
+	font-family: Arial;
+}
+
+.quest
+{
+	width: 400px;
+}
+
+#credits a:link {
+  text-decoration: none;
+}
+
+#credits a:visited {
+  text-decoration: none;
+}
+
+#credits a:active {
+  text-decoration: underline;
+}
+
+#credits a:hover {
+  text-decoration: underline;
+}
+
+
+.comments
+{
+	padding-top: 10px;
+}
+
+.comments h1
+{
+	font-size: 14px;
+	color: white;
+	border-bottom: 1px dotted white;
+}
+
+.commentvotes
+{
+	float: left;
+	width: 16px;
+}
+
+.commentcontent .tagline
+{
+	font-size: 10px;
+	margin-bottom: 2px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.commentcontent .tagline a
+{
+	color: #C3C9FF;
+	font-size: 12px;
+}
+
+.commentcontent
+{
+	padding-left: 18px;
+	color: white;
+}

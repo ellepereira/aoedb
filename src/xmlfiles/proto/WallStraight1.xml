@@ -1,0 +1,63 @@
+<Unit id="92" name="WallStraight1">
+		<DBID>189</DBID>
+		<DisplayNameID>24924</DisplayNameID>
+		<EditorNameID>25392</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<ObstructionRadiusX>1.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>1.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGreek\Buildings\Walls\Wall1x1.xml</AnimFile>
+		<ImpactType>Stone</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>wall.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Wall64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarWall_ua</PortraitIcon>
+		<RolloverTextID>55514</RolloverTextID>
+		<ShortRolloverTextID>55513</ShortRolloverTextID>
+		<InitialHitpoints>1500.0000</InitialHitpoints>
+		<MaxHitpoints>1500.0000</MaxHitpoints>
+		<LOS>4.0000</LOS>
+		<BuildPoints>3.0000</BuildPoints>
+		<RepairPoints>30.0000</RepairPoints>
+		<Cost resourcetype="stone">3.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<SoundFile>WallStraight1</SoundFile>
+		<Decay delay="0.0000" duration="0.0000"/>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>AbstractWall</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>UnitTypeBldgWall</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Tech row="1" page="0" column="0">TechArmorWall1</Tech>
+		<Tech row="1" page="0" column="0">TechArmorWall2</Tech>
+		<Tech row="1" page="0" column="0">TechArmorWall3</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>DontFlattenGround</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>NoIdleActions</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>wallBuild</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>NeverShowButton</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>UseAlignedObstructionOnMinimap</Flag>
+		<Flag>ColonyBuilding</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Delete</Command>
+	</Unit>

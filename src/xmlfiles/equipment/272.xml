@@ -1,0 +1,20 @@
+<equipment version="0" id="272">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\egypttechpriestrange1_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700450</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>2</uirow>
+		<uicol>40</uicol>
+		<agerequirement>2</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgyptTechPriestRange1" cost="2" descid="700451"/>
+		</ranks>
+	</equipment>

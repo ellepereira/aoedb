@@ -1,0 +1,18 @@
+<consumable name="ConsumableElixirDamageSlow_R">
+		<icon>UserInterface\Icons\Consumable\ConElixerPower3_C_ua</icon>
+		<rollovertextid>59661</rollovertextid>
+		<displaynameid>59658</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="15">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<power>PowerElixirDamageSlow_R</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

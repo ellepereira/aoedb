@@ -1,0 +1,18 @@
+<advisor name="Tycho_E_IV">
+		<age>3</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorTycho4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52141</displaynameid>
+		<displaydescriptionid>57168</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="450">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Tycho_E</tech>
+		</techs>
+	</advisor>

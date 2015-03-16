@@ -1,0 +1,27 @@
+<trait name="ArmorLgt_E006">
+		<dbid>508</dbid>
+		<traittype>ArmorLgt</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmCavE5_ua</icon>
+		<rollovertextid>53369</rollovertextid>
+		<displaynameid>53370</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0398" scaling="0.0134" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0098" scaling="0.0026" subtype="Armor" visible="true" damagetype="Siege" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="1.0059" scaling="0.0016" subtype="HitPercent" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0059" scaling="0.0016" subtype="HitPercent" visible="false" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

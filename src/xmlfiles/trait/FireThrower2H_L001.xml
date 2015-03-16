@@ -1,0 +1,22 @@
+<trait name="FireThrower2H_L001">
+		<dbid>1844</dbid>
+		<traittype>FireThrowers</traittype>
+		<rarity>legendary</rarity>
+		<icon>\UserInterface\Icons\Equipment\FireThrower2H_L001_ua</icon>
+		<rollovertextid>60793</rollovertextid>
+		<displaynameid>60794</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="3.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0165" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0147" scaling="0.0042" subtype="DamageBonus" visible="true" unittype="Ship" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,21 @@
+<blueprint name="LootStore06">
+		<icon>UserInterface/Icons/Blueprints/BlueprintStore4_ua</icon>
+		<rollovertextid>800079</rollovertextid>
+		<displaynameid>0</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="425">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<cost>
+			<material quantity="30">4ObsidianBlock</material>
+			<material quantity="20">4ArchimedesTool</material>
+			<material quantity="10">4IlluminatedCodex</material>
+		</cost>
+		<protounit>Gn_Cap_LootStore06</protounit>
+	</blueprint>

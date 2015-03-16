@@ -1,0 +1,21 @@
+<equipment version="0" id="119">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\arrowheart_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700312</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>12</uirow>
+		<uicol>19</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivGreek</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GrStar_ArcHp1" cost="3" descid="700313"/>
+		</ranks>
+		<prereq>19</prereq>
+	</equipment>

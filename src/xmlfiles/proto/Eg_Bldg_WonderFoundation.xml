@@ -1,0 +1,70 @@
+<Unit id="457" name="Eg_Bldg_WonderFoundation">
+		<DBID>1976</DBID>
+		<DisplayNameID>56247</DisplayNameID>
+		<EditorNameID>56248</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>GearBldg</Trait4>
+		<ObstructionRadiusX>12.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>12.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivEgyptian\Buildings\Capital\Decoration\LargePyramid\LargePyramid.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>buildinglarge.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\EGWonder64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarEGWonder_ua</PortraitIcon>
+		<RolloverTextID>56246</RolloverTextID>
+		<ShortRolloverTextID>56245</ShortRolloverTextID>
+		<InitialHitpoints>5000.0000</InitialHitpoints>
+		<MaxHitpoints>5000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<BuildPoints>2700.0000</BuildPoints>
+		<BuildLimit>1</BuildLimit>
+		<Bounty>120.0000</Bounty>
+		<Cost resourcetype="Wood">1000.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<Cost resourcetype="stone">1000.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>3</AllowedAge>
+		<SoundFile>Eg_Bldg_Wonder</SoundFile>
+		<BuilderLimit>200</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>UnitTypeBldgWonder</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PlaceAsFoundation</Flag>
+		<Flag>RevealFoundation</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="2">Delete</Command>
+	</Unit>

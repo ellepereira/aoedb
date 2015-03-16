@@ -1,0 +1,89 @@
+<vendor name="RetailStore">
+		<protounit>Gn_Cap_RetailStore01</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">Gear_Bldg_R013</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">Gear_R033</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">ArrowOH_R015</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="100">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">Gear_Vill_R013</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="100">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">Tool1H_R016</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="150">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">Bow1H_R016</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="175">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">ArmorLgt_R018</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="175">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">ArmorMed_R018</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="175">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">Spear2H_R018</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">ArmorBldg_R010</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

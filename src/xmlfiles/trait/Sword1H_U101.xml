@@ -1,0 +1,18 @@
+<trait name="Sword1H_U101">
+		<dbid>1598</dbid>
+		<traittype>Swords1H</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\SWORDSL1_ua</icon>
+		<rollovertextid>59396</rollovertextid>
+		<displaynameid>59397</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0373" scaling="0.0064" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

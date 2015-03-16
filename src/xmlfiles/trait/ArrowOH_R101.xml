@@ -1,0 +1,21 @@
+<trait name="ArrowOH_R101">
+		<dbid>1470</dbid>
+		<traittype>Arrows</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ArrowsR5_ua</icon>
+		<rollovertextid>59140</rollovertextid>
+		<displaynameid>59141</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="3.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0084" scaling="0.0020" subtype="LOS" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0110" scaling="0.0026" subtype="MaximumRange" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

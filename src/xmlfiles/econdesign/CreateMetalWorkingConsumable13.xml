@@ -1,0 +1,30 @@
+<econdesign name="CreateMetalWorkingConsumable13">
+		<icon>UserInterface/Icons/Crafting/CraftingMetalwork1_ua</icon>
+		<rollovertextid>60346</rollovertextid>
+		<displaynameid>800390</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<productionpoints>1</productionpoints>
+		<input>
+			<material quantity="36">2BronzeIngot</material>
+			<material quantity="12">2OakPlank</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableCelticMercs_C</consumable>
+		</output>
+		<outputtraitlevel>10</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>MetalWorking</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

@@ -1,0 +1,31 @@
+<econdesign name="CreateHorseBreedingSpear2H_U007">
+		<icon>UserInterface/Icons/Crafting/CraftingCav2_ua</icon>
+		<rollovertextid>53206</rollovertextid>
+		<displaynameid>53199</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>23</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="50">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="26">CopperIngot</material>
+			<material quantity="16">2OakPlank</material>
+			<material quantity="8">2BronzeIngot</material>
+		</input>
+		<output>
+			<trait quantity="1" level="23">Spear2H_U007</trait>
+		</output>
+		<outputtraitlevel>23</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>HorseBreeding</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

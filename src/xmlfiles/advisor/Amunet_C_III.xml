@@ -1,0 +1,19 @@
+<advisor name="Amunet_C_III">
+		<age>2</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorAmunet1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>57063</displaynameid>
+		<displaydescriptionid>57064</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="125">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeEgyptian</civilization>
+		<techs>
+			<tech>Advisor_Amunet_C</tech>
+		</techs>
+	</advisor>

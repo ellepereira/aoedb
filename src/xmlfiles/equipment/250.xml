@@ -1,0 +1,21 @@
+<equipment version="0" id="250">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\palintonon64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700148</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>3</uirow>
+		<uicol>48</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Eg_Ct_UnitTrebuchet1" cost="3" descid="700149"/>
+		</ranks>
+		<prereq>180</prereq>
+	</equipment>

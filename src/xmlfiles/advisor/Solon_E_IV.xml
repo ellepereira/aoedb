@@ -1,0 +1,19 @@
+<advisor name="Solon_E_IV">
+		<age>3</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorSolon4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52133</displaynameid>
+		<displaydescriptionid>57156</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="450">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeGreek</civilization>
+		<techs>
+			<tech>Advisor_Solon_E</tech>
+		</techs>
+	</advisor>

@@ -1,0 +1,18 @@
+<consumable name="ConsumableGrantStone_C">
+		<icon>UserInterface\Icons\Consumable\ConResStone1_ua</icon>
+		<rollovertextid>55820</rollovertextid>
+		<displaynameid>55819</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="5">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<power>PowerGrantStone_C</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

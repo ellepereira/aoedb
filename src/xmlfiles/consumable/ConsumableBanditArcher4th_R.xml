@@ -1,0 +1,18 @@
+<consumable name="ConsumableBanditArcher4th_R">
+		<icon>UserInterface\Icons\Consumable\ConBandArcherElite3_ua</icon>
+		<rollovertextid>56679</rollovertextid>
+		<displaynameid>56156</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>20</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<power>PowerSpawnBanditArcher4th_R</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

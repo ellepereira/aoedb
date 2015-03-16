@@ -1,0 +1,89 @@
+<vendor name="Materials Store">
+		<protounit>Ce_Cap_BasicStore01</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="2">Spear2H_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="20">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="10">AnimalHide</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="10">CopperIngot</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="10">Grain</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="10">PinePlank</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="10">StoneBlock</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<consumable quantity="1">ConsumableGrantStorehouse_C</consumable>
+						</purchase>
+						<cost>
+							<capitalresource quantity="60">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">CeltBasicStore02</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">CeltWarehouse6Slot</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">CeltWarehouse9Slot</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

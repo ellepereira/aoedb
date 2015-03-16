@@ -1,0 +1,20 @@
+<equipment version="0" id="18">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\greektechtoxotai3_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700206</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>3</uirow>
+		<uicol>19</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GreekTechToxotai3" cost="1" descid="700205"/>
+		</ranks>
+		<prereq>17</prereq>
+	</equipment>

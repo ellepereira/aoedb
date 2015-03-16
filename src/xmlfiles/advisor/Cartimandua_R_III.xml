@@ -1,0 +1,19 @@
+<advisor name="Cartimandua_R_III">
+		<age>2</age>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorCartimandua3_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58799</displaynameid>
+		<displaydescriptionid>58835</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="275">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeCeltic</civilization>
+		<techs>
+			<tech>Advisor_Cartimandua_R</tech>
+		</techs>
+	</advisor>

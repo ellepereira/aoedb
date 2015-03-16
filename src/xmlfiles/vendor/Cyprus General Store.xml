@@ -1,0 +1,73 @@
+<vendor name="Cyprus General Store">
+		<protounit>Cy_Cap_BasicStore02</protounit>
+		<itemsets>
+			<itemset regionid="15">
+				<items>
+					<item>
+						<purchase>
+							<material quantity="5" level="25">3Spice</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="25">3FineLeather</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="25">3EbonyPlank</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="25">3ConcreteBlock</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="25">3IronIngot</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<consumable quantity="1" level="25">ConsumableGrantFruit_R</consumable>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<consumable quantity="1" level="25">ConsumableGrantStone_R</consumable>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<consumable quantity="1" level="25">ConsumableGrantGold_R</consumable>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

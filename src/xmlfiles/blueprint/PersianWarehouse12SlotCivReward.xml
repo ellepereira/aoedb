@@ -1,0 +1,14 @@
+<blueprint name="PersianWarehouse12SlotCivReward">
+		<icon>UserInterface/Icons/Blueprints/BlueprintWarehouse3_ua</icon>
+		<rollovertextid>801169</rollovertextid>
+		<displaynameid>801168</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Pe_Cap_Warehouse03CivReward</protounit>
+	</blueprint>

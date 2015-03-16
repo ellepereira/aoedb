@@ -1,0 +1,20 @@
+<equipment version="0" id="375">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c03techcargoexpansion_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700543</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>4</uirow>
+		<uicol>34</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechCargoUtilityBoat1" cost="2" descid="700544"/>
+		</ranks>
+		<prereq>376</prereq>
+	</equipment>

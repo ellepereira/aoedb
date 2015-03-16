@@ -1,0 +1,20 @@
+<equipment version="0" id="208">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techwheelbarrow1_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700004</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>4</uirow>
+		<uicol>56</uicol>
+		<agerequirement>2</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechWheelbarrow1" cost="2" descid="700005"/>
+		</ranks>
+	</equipment>

@@ -1,0 +1,41 @@
+<vendor name="Craft Store 3">
+		<protounit>Pe_Cap_BasicCraftStore03</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<design quantity="1">CreateWoodscraftBow1H_U006</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateWoodscraftBellyBow1H_U004</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="35">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateWoodscraftBow1H_U011</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="45">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CreateWoodscraftArrowOH_U011</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

@@ -1,0 +1,17 @@
+<consumable name="ConsumableSiegeDamage_E">
+		<rollovertextid>59682</rollovertextid>
+		<displaynameid>59678</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<power>PowerSiegeDamage_E</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

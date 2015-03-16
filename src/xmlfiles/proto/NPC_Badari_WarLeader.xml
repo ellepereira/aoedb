@@ -1,0 +1,87 @@
+<Unit id="405" name="NPC_Badari_WarLeader">
+		<DBID>1922</DBID>
+		<DisplayNameID>56011</DisplayNameID>
+		<EditorNameID>56012</EditorNameID>
+		<UnitLevel>99</UnitLevel>
+		<PopulationCount>0</PopulationCount>
+		<Trait1>Swords1H</Trait1>
+		<Trait3>ArmorMed</Trait3>
+		<Trait4>Gear</Trait4>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>NPC\CivBadari\Units\Infantry\WarLeader\WarLeader.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\BadaariWarLeader64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarBadariWarLeader_ua</PortraitIcon>
+		<RolloverTextID>56010</RolloverTextID>
+		<ShortRolloverTextID>65009</ShortRolloverTextID>
+		<InitialHitpoints>1400.0000</InitialHitpoints>
+		<MaxHitpoints>1400.0000</MaxHitpoints>
+		<LOS>22.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>20.0000</TrainPoints>
+		<BuildLimit>1</BuildLimit>
+		<Bounty>4.0000</Bounty>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Gold">100.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>NPC_Badari_Warleader</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeInfantryBasic1</UnitType>
+		<UnitType>AbstractNPCBoss</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CanAutoHeal</Flag>
+		<Flag>SelfHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>18.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+			<DamageBonus type="AbstractCavalry">2.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Heal</Name>
+			<Rate type="LogicalTypeHealed">50.000000</Rate>
+			<Active>1</Active>
+		</ProtoAction>
+	</Unit>

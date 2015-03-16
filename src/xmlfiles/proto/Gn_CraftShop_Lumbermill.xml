@@ -1,0 +1,77 @@
+<Unit id="237" name="Gn_CraftShop_Lumbermill">
+		<DBID>1705</DBID>
+		<DisplayNameID>52499</DisplayNameID>
+		<EditorNameID>52500</EditorNameID>
+		<ObstructionRadiusX>8.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>6.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGeneric\Buildings\WoodCutter\Woodcutter.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>CapitalBldg.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Factory64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarFactory_ua</PortraitIcon>
+		<RolloverTextID>52498</RolloverTextID>
+		<ShortRolloverTextID>52497</ShortRolloverTextID>
+		<InitialHitpoints>4000.0000</InitialHitpoints>
+		<MaxHitpoints>4000.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<BuildPoints>10.0000</BuildPoints>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<DesignTag>[WoodDesigns1]</DesignTag>
+		<SoundFile>Gn_CraftShop_Lumbermill</SoundFile>
+		<BuilderLimit>14</BuilderLimit>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>RewardDelivery</UnitType>
+		<UnitType>CapitolBldgAll</UnitType>
+		<UnitType>AbstractWorkShopBasic</UnitType>
+		<UnitType>AbstractWorkshop</UnitType>
+		<Armor type="Ranged" value="0.7500"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>StartingColonyBuilding</Flag>
+		<Flag>ColonyPlacementCenter</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>ProductionBuilding</Flag>
+		<Flag>FromBlueprint</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>AutoProduction</Flag>
+		<Flag>ProductionToHopper</Flag>
+		<Flag>BringsUpQuestProTip</Flag>
+		<Flag>Tracked</Flag>
+		<Contain>AbstractVillager</Contain>
+		<Command row="0" page="10" column="2">Eject</Command>
+		<Command row="0" page="10" column="3">TownBell</Command>
+		<Command row="0" page="10" column="3">ReturnToWork</Command>
+		<Command row="0" page="10" column="4">Delete</Command>
+		<Command row="0" page="10" column="0">SetGatherPointEconomy</Command>
+		<Command row="0" page="10" column="1">SetGatherPointMilitary</Command>
+		<Tactics>productionbuilding.tactics</Tactics>
+	</Unit>

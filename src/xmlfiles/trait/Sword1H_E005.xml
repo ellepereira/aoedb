@@ -1,0 +1,24 @@
+<trait name="Sword1H_E005">
+		<dbid>1006</dbid>
+		<traittype>Swords1H</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\SWORDSL6_ua</icon>
+		<rollovertextid>54534</rollovertextid>
+		<displaynameid>54535</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="12.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0185" scaling="0.0055" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="1.0037" scaling="0.0010" subtype="HitPercent" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="0.9780" scaling="-0.0060" subtype="TargetSpeedBoost" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

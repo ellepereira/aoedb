@@ -1,0 +1,17 @@
+<blueprint name="Van_5_Lion">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>801197</rollovertextid>
+		<displaynameid>801196</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferVanity5</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="5">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Van_Cap_5_BushLion</protounit>
+	</blueprint>

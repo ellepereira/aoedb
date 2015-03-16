@@ -1,0 +1,18 @@
+<advisor name="Herakleides_R_II">
+		<age>1</age>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorHerakeides3_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52095</displaynameid>
+		<displaydescriptionid>57028</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="200">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>5</minlevel>
+		<itemlevel>5</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Herakleides_R</tech>
+		</techs>
+	</advisor>

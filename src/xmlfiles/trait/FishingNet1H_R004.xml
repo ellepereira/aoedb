@@ -1,0 +1,21 @@
+<trait name="FishingNet1H_R004">
+		<dbid>693</dbid>
+		<traittype>FishingNet</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\FishNetR4_ua</icon>
+		<rollovertextid>53762</rollovertextid>
+		<displaynameid>53763</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="0.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0197" scaling="0.0049" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="0.9951" scaling="-0.0012" subtype="CostAll" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

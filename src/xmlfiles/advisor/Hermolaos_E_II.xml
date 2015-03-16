@@ -1,0 +1,18 @@
+<advisor name="Hermolaos_E_II">
+		<age>1</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorHermolaos4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52097</displaynameid>
+		<displaydescriptionid>57032</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="250">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>5</minlevel>
+		<itemlevel>5</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Hermolaos_E</tech>
+		</techs>
+	</advisor>

@@ -1,0 +1,95 @@
+<Unit id="211" name="Eg_Spc_PriestAmen">
+		<DBID>1656</DBID>
+		<DisplayNameID>51275</DisplayNameID>
+		<EditorNameID>51276</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait1>Staffs2H</Trait1>
+		<Trait3>ArmorCloth</Trait3>
+		<Trait4>GearPriest</Trait4>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivEgyptian\Units\Civilian\AmenPriest\AmanPriest.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\EPriestAmen64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarEPriestAmen_ua</PortraitIcon>
+		<RolloverTextID>51274</RolloverTextID>
+		<ShortRolloverTextID>51273</ShortRolloverTextID>
+		<InitialHitpoints>180.0000</InitialHitpoints>
+		<MaxHitpoints>180.0000</MaxHitpoints>
+		<LOS>24.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>20.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Gold">150.0000</Cost>
+		<AllowedAge>3</AllowedAge>
+		<VisualScale>1.1000</VisualScale>
+		<SoundFile>Eg_Spc_PriestAmen</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypePriest1</UnitType>
+		<UnitType>AbstractPriest</UnitType>
+		<Armor type="Hand" value="0.0000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CanAutoHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>amenPriest.tactics</Tactics>
+		<ProtoAction>
+			<Name>Heal</Name>
+			<Rate type="LogicalTypeHealed">15.000000</Rate>
+			<MaxRange>15.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="StandardConvertable">10.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="ConvertableCavalry">10.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+			<Rate type="ConvertableInfantry">10.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+			<Rate type="ConvertableSiege">10.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>30.000000</Damage>
+			<Rate type="Huntable">0.720000</Rate>
+			<ROF>0.000000</ROF>
+		</ProtoAction>
+	</Unit>

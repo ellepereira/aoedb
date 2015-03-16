@@ -1,0 +1,19 @@
+<equipment version="0" id="558">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\pvillager64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>true</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700379</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>6</uirow>
+		<uicol>56</uicol>
+		<agerequirement>1</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Pe_Ct_UnitVillager1" cost="0" descid="700380"/>
+		</ranks>
+	</equipment>

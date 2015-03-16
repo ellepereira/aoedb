@@ -1,0 +1,9 @@
+<achievement>
+		<internalname>C_ELITE</internalname>
+		<displaynameid>61911</displaynameid>
+		<type>cATQuestComplete</type>
+		<data>
+			<entry>101002</entry>
+		</data>
+		<liveid>60</liveid>
+	</achievement>

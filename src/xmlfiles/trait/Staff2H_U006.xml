@@ -1,0 +1,21 @@
+<trait name="Staff2H_U006">
+		<dbid>1336</dbid>
+		<traittype>Staffs2H</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\PRIESTSTAFFL1_ua</icon>
+		<rollovertextid>55600</rollovertextid>
+		<displaynameid>55601</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0123" scaling="0.0025" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0373" scaling="0.0080" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

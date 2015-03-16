@@ -1,0 +1,84 @@
+<Unit id="406" name="NPC_Badari_Axeman">
+		<DBID>1923</DBID>
+		<DisplayNameID>56015</DisplayNameID>
+		<EditorNameID>56016</EditorNameID>
+		<UnitLevel>99</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait1>GreatAxe</Trait1>
+		<Trait3>ArmorMed</Trait3>
+		<Trait4>Gear</Trait4>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>NPC\CivBadari\Units\Infantry\Axeman\Axeman.xml</AnimFile>
+		<CorpseDecalTime>0.0000</CorpseDecalTime>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\BadariAxeman64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarBadariAxeman_ua</PortraitIcon>
+		<RolloverTextID>56014</RolloverTextID>
+		<ShortRolloverTextID>65006</ShortRolloverTextID>
+		<InitialHitpoints>157.0000</InitialHitpoints>
+		<MaxHitpoints>157.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>12.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">25.0000</Cost>
+		<Cost resourcetype="Gold">15.0000</Cost>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>0.8500</VisualScale>
+		<SoundFile>NPC_Badari_Axeman</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeInfantryAntiInf1</UnitType>
+		<UnitType>ConvertableInfantry</UnitType>
+		<Armor type="Hand" value="0.3000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>8.200000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+			<ImpactEffect>effects\impacts\sword</ImpactEffect>
+			<DamageBonus type="AbstractInfantry">3.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

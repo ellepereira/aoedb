@@ -1,0 +1,30 @@
+<econdesign name="CreateCraftsmenConsumable6">
+		<icon>UserInterface/Icons/Crafting/CraftingVillagers3_ua</icon>
+		<rollovertextid>55692</rollovertextid>
+		<displaynameid>53203</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="60">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="48">2BronzeIngot</material>
+			<material quantity="12">2WorkTool</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableFireShips_R</consumable>
+		</output>
+		<outputtraitlevel>10</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>Craftsmen</tag>
+		<budgetmodifier>2</budgetmodifier>
+	</econdesign>

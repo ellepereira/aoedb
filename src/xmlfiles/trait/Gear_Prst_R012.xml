@@ -1,0 +1,18 @@
+<trait name="Gear_Prst_R012">
+		<dbid>801</dbid>
+		<traittype>GearPriest</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\PriestGearTalismanR_ua</icon>
+		<rollovertextid>54098</rollovertextid>
+		<displaynameid>54099</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Helmet" factor="5.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.1235" scaling="0.0308" subtype="ConvertResist" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,23 @@
+<school>
+		<tag>MilitaryCollege</tag>
+		<displayname>55709</displayname>
+		<description>55716</description>
+		<startingblueprint>GreekMilitaryCollege</startingblueprint>
+		<icon>Art\UserInterface\Icons\Crafting\SchoolInfantry_ua</icon>
+		<gearicons>
+			<gear stringid="56322">1hSpearSlot_ua</gear>
+			<gear stringid="56349">MedArmorSlot_ua</gear>
+			<gear stringid="56325">SwordSlot_ua</gear>
+			<gear stringid="56340">GearSlot_ua</gear>
+		</gearicons>
+		<items>
+			<consumable>ConsumableBanditHorseHunter_C</consumable>
+			<consumable>ConsumableBanditHorseHunter4th_C</consumable>
+			<advisor>Agathon_C_I</advisor>
+			<advisor>Herakleides_U_II</advisor>
+			<advisor>Pamphilos_R_III</advisor>
+			<advisor>Lionidas_E_IV</advisor>
+		</items>
+		<design>CreateMilitaryCollegeConsumable1</design>
+		<craftingsound>UI_Crafthall_Recipe_Infantry</craftingsound>
+	</school>

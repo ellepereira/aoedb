@@ -1,0 +1,10 @@
+<achievement>
+		<internalname>A_VANITY_02</internalname>
+		<displaynameid>62643</displaynameid>
+		<type>cATUnitListInCapital</type>
+		<data>
+			<entry>Ce_Cap_ThracianHorse</entry>
+		</data>
+		<liveid>79</liveid>
+		<offer>eOfferCivCeltic</offer>
+	</achievement>

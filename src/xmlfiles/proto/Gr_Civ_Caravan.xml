@@ -1,0 +1,85 @@
+<Unit id="132" name="Gr_Civ_Caravan">
+		<DBID>1424</DBID>
+		<DisplayNameID>49774</DisplayNameID>
+		<EditorNameID>49775</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait1>Merchant</Trait1>
+		<Trait3>ArmorCloth</Trait3>
+		<Trait4>GearVill</Trait4>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Civilian\Caravan\Caravan.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Caravan64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarCaravan_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>49773</RolloverTextID>
+		<ShortRolloverTextID>49772</ShortRolloverTextID>
+		<InitialHitpoints>300.0000</InitialHitpoints>
+		<MaxHitpoints>300.0000</MaxHitpoints>
+		<LOS>15.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>15.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">50.0000</Cost>
+		<Cost resourcetype="Wood">50.0000</Cost>
+		<CarryCapacity resourcetype="Gold">150.0000</CarryCapacity>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_Civ_Caravan</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeEasySelectAvoid</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeAffectedByTownBell</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>AbstractVillager</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>ValidIdleVillager</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeCaravan1</UnitType>
+		<UnitType>EquipmentFilterUtility</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Delete</Command>
+		<Tactics>trade.tactics</Tactics>
+		<ProtoAction>
+			<Name>Trade</Name>
+			<Rate type="AbstractAllianceHall">0.800000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Trade</Name>
+			<Rate type="AbstractTownCenter">0.800000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Trade</Name>
+			<Rate type="AbstractMarket">0.100000</Rate>
+		</ProtoAction>
+	</Unit>

@@ -1,0 +1,21 @@
+<trait name="ArmorPlt_R002">
+		<dbid>540</dbid>
+		<traittype>ArmorPlt</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmBoatSiegeR4_ua</icon>
+		<rollovertextid>53433</rollovertextid>
+		<displaynameid>53434</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="2.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0124" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0122" scaling="0.0031" subtype="Armor" visible="true" damagetype="Siege" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

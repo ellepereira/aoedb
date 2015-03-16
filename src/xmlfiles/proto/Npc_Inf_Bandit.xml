@@ -1,0 +1,77 @@
+<Unit id="143" name="Npc_Inf_Bandit">
+		<DBID>1441</DBID>
+		<DisplayNameID>49946</DisplayNameID>
+		<EditorNameID>49947</EditorNameID>
+		<UnitLevel>99</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait1>Clubs2H</Trait1>
+		<Trait3>ArmorMed</Trait3>
+		<Trait4>Gear</Trait4>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Infantry\Clubman\Bandit.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Bandit64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarBandit_ua</PortraitIcon>
+		<InitialHitpoints>150.0000</InitialHitpoints>
+		<MaxHitpoints>150.0000</MaxHitpoints>
+		<LOS>15.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>6.7000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">25.0000</Cost>
+		<Cost resourcetype="Wood">10.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Npc_Inf_Bandit</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeInfantryAntiInf1</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Garrison</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>6.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+		</ProtoAction>
+	</Unit>

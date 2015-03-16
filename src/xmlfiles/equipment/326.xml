@@ -1,0 +1,20 @@
+<equipment version="0" id="326">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\cchampion64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700528</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>3</uirow>
+		<uicol>12</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Ce_Ct_UnitChampion1" cost="2" descid="700636"/>
+		</ranks>
+		<prereq>332</prereq>
+	</equipment>

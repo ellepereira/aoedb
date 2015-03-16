@@ -1,0 +1,17 @@
+<blueprint name="PeCraftStore05">
+		<icon>UserInterface/Icons/Blueprints/BlueprintStore2_ua</icon>
+		<rollovertextid>801137</rollovertextid>
+		<displaynameid>801136</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="125">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<cost/>
+		<protounit>Pe_Cap_BasicCraftStore05</protounit>
+	</blueprint>

@@ -1,0 +1,24 @@
+<trait name="ArrowOH_U003">
+		<dbid>562</dbid>
+		<traittype>Arrows</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\ArrowsU1_ua</icon>
+		<rollovertextid>53481</rollovertextid>
+		<displaynameid>53482</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="1.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0098" scaling="0.0015" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0049" scaling="0.0008" subtype="LOS" visible="false" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0049" scaling="0.0007" subtype="MaximumRange" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,14 @@
+<blueprint name="CeltEmbassy">
+		<icon>UserInterface/Icons/Blueprints/BlueprintGeneral_ua</icon>
+		<rollovertextid>800241</rollovertextid>
+		<displaynameid>800240</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Ce_Cap_Embassy</protounit>
+	</blueprint>

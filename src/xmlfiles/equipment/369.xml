@@ -1,0 +1,20 @@
+<equipment version="0" id="369">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techgatherstone3_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700240</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>5</uirow>
+		<uicol>8</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechGatherStone3" cost="2" descid="700027"/>
+		</ranks>
+		<prereq>368</prereq>
+	</equipment>

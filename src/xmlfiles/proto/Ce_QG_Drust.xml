@@ -1,0 +1,81 @@
+<Unit id="719" name="Ce_QG_Drust">
+		<DBID>2266</DBID>
+		<DisplayNameID>59779</DisplayNameID>
+		<EditorNameID>59780</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivCelt\Units\QuestGivers\DrustQuestGiver\DrustQuestGiver.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Priest64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarPriest_ua</PortraitIcon>
+		<RolloverTextID>59778</RolloverTextID>
+		<ShortRolloverTextID>59777</ShortRolloverTextID>
+		<InitialHitpoints>140.0000</InitialHitpoints>
+		<MaxHitpoints>140.0000</MaxHitpoints>
+		<LOS>27.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>20.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_Spc_Priest</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypePriest2</UnitType>
+		<UnitType>EquipmentFilterUtility</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CanAutoHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>monk.tactics</Tactics>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="StandardConvertable">12.000000</Rate>
+			<MaxRange>27.000000</MaxRange>
+			<Rate type="ConvertableCavalry">12.000000</Rate>
+			<MaxRange>27.000000</MaxRange>
+			<Rate type="ConvertableInfantry">12.000000</Rate>
+			<MaxRange>27.000000</MaxRange>
+			<Rate type="ConvertableSiege">12.000000</Rate>
+			<MaxRange>27.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>50.000000</Damage>
+			<Rate type="Huntable">12.000000</Rate>
+			<ROF>0.000000</ROF>
+		</ProtoAction>
+	</Unit>

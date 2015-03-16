@@ -1,0 +1,27 @@
+<econdesign name="CraftDye">
+		<icon>UserInterface/Icons/Crafting/CraftingMaterials2_ua</icon>
+		<rollovertextid>53189</rollovertextid>
+		<displaynameid>51469</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>13</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="50">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<productionpoints>1800</productionpoints>
+		<input/>
+		<output>
+			<material quantity="1">2Dye</material>
+		</output>
+		<outputtraitlevel>0</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>true</autorepeat>
+		<ignoreschool>true</ignoreschool>
+		<advanced>false</advanced>
+		<tag>[AlchemyDesigns1]</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

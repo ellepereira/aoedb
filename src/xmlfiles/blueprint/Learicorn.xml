@@ -1,0 +1,18 @@
+<blueprint name="Learicorn">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity4_ua</icon>
+		<rollovertextid>800796</rollovertextid>
+		<displaynameid>800795</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityEpic</rarity>
+		<cost>
+			<material quantity="5">3ConcreteBlock</material>
+			<material quantity="4">3BitumenGlue</material>
+			<material quantity="3">!MosiacTile</material>
+		</cost>
+		<protounit>Van_Cap_Statue_Learicorn</protounit>
+	</blueprint>

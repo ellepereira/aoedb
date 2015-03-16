@@ -1,0 +1,65 @@
+<vendor name="CeltArmorStore">
+		<protounit>Ce_Cap_BasicStoreMassalia04</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">Shield1H_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="30">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">ArmorMed_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="30">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">ArmorLgt_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">ArmorClth_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">ArmorBldg_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="30">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="20">ArmorLgt_R101</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="16">ArmorBldg_R101</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="60">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

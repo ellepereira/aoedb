@@ -1,0 +1,21 @@
+<equipment version="0" id="291">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\gearwings_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700479</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>12</uirow>
+		<uicol>48</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivEgyptian</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgStar_SiegeWorkSpeed1" cost="3" descid="700480"/>
+		</ranks>
+		<prereq>251</prereq>
+	</equipment>

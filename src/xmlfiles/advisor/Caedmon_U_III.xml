@@ -1,0 +1,18 @@
+<advisor name="Caedmon_U_III">
+		<age>2</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorTumerok2_ua</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>59976</displaynameid>
+		<displaydescriptionid>59978</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="200">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferCivMatching</offertype>
+		<techs>
+			<tech>AdvisorUniqueUnitRam_U</tech>
+		</techs>
+	</advisor>

@@ -1,0 +1,19 @@
+<advisor name="Vercingetorix_U_IV">
+		<age>3</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorVercingtorix2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58807</displaynameid>
+		<displaydescriptionid>58866</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="250">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeCeltic</civilization>
+		<techs>
+			<tech>Advisor_Vercingetorix_U</tech>
+		</techs>
+	</advisor>

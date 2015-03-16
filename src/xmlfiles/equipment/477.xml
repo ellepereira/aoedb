@@ -1,0 +1,20 @@
+<equipment version="0" id="477">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\psparabara64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>true</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700658</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>6</uirow>
+		<uicol>0</uicol>
+		<agerequirement>1</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Pe_Ct_UnitSparabara1" cost="0" descid="700663"/>
+		</ranks>
+		<prereq>476</prereq>
+	</equipment>

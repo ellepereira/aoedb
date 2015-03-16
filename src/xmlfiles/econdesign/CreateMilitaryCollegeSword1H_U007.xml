@@ -1,0 +1,31 @@
+<econdesign name="CreateMilitaryCollegeSword1H_U007">
+		<icon>UserInterface/Icons/Crafting/CraftingInfantry2_ua</icon>
+		<rollovertextid>53206</rollovertextid>
+		<displaynameid>53199</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>24</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="50">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="26">CopperIngot</material>
+			<material quantity="16">2BronzeIngot</material>
+			<material quantity="4">!DelphiLimeStone</material>
+		</input>
+		<output>
+			<trait quantity="1" level="24">Sword1H_U007</trait>
+		</output>
+		<outputtraitlevel>24</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>MilitaryCollege</tag>
+		<budgetmodifier>0.5</budgetmodifier>
+	</econdesign>

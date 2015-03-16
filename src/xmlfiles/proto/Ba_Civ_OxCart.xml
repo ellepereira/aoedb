@@ -1,0 +1,93 @@
+<Unit id="1182" name="Ba_Civ_OxCart">
+		<DBID>2958</DBID>
+		<DisplayNameID>65952</DisplayNameID>
+		<EditorNameID>65953</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait3>ArmorCloth</Trait3>
+		<Trait4>GearVill</Trait4>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivBabylonian/Units/Civilian/OxCart/OxCart.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\BOxCart64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarBOxCart_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>65951</RolloverTextID>
+		<ShortRolloverTextID>65950</ShortRolloverTextID>
+		<InitialHitpoints>400.0000</InitialHitpoints>
+		<MaxHitpoints>400.0000</MaxHitpoints>
+		<LOS>26.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>10.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">50.0000</Cost>
+		<Cost resourcetype="Wood">50.0000</Cost>
+		<CarryCapacity resourcetype="Food">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="stone">1.0000</CarryCapacity>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<InputContext>GarrisonAccel</InputContext>
+		<SoundFile>Ba_Civ_OxCart</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeEasySelectAvoid</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeAffectedByTownBell</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>AbstractVillager</UnitType>
+		<UnitType>Dropsite</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>EquipmentFilterUtility</UnitType>
+		<UnitType>UnitTypeMobileStorehouse1</UnitType>
+		<Armor type="Ranged" value="0.5000"/>
+		<Tech row="0" page="0" column="0">TechGatherBerry1</Tech>
+		<Tech row="0" page="0" column="1">TechHunting1</Tech>
+		<Tech row="1" page="0" column="0">TechGatherWood1</Tech>
+		<Tech row="1" page="0" column="1">TechGatherGold1</Tech>
+		<Tech row="1" page="0" column="2">TechGatherStone1</Tech>
+		<Tech row="1" page="0" column="1">TechGatherGold2</Tech>
+		<Tech row="1" page="0" column="1">TechGatherGold3</Tech>
+		<Tech row="1" page="0" column="2">TechGatherStone2</Tech>
+		<Tech row="1" page="0" column="2">TechGatherStone3</Tech>
+		<Tech row="1" page="0" column="0">TechGatherWood2</Tech>
+		<Tech row="1" page="0" column="0">TechGatherWood3</Tech>
+		<Tech row="0" page="0" column="2">TechGatherFarm1</Tech>
+		<Tech row="0" page="0" column="2">TechGatherFarm2</Tech>
+		<Tech row="0" page="0" column="2">TechGatherFarm3</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracked</Flag>
+		<Contain>UnitTypeVillager1</Contain>
+		<Command row="0" page="10" column="1">Eject</Command>
+		<Command row="0" page="10" column="0">Delete</Command>
+		<Tactics>mobilestorehouse.tactics</Tactics>
+	</Unit>

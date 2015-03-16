@@ -1,0 +1,85 @@
+<Unit id="356" name="Con_Arc_Archer_C">
+		<DBID>1863</DBID>
+		<DisplayNameID>55106</DisplayNameID>
+		<EditorNameID>55107</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<Trait1>ConCommonArc</Trait1>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>NPC\CivSea\Units\Infantry\Archer\Archer.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\SPArcher64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarSPArcher_ua</PortraitIcon>
+		<RolloverTextID>55105</RolloverTextID>
+		<ShortRolloverTextID>55104</ShortRolloverTextID>
+		<InitialHitpoints>120.0000</InitialHitpoints>
+		<MaxHitpoints>120.0000</MaxHitpoints>
+		<LOS>30.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>0.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Con_Arc_Archer</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitUpgradeAge2</UnitType>
+		<UnitType>UnitUpgradeLevel13</UnitType>
+		<Armor type="Hand" value="0.0000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>ranged.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="AbstractVillager">0.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>10.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>27.000000</MaxRange>
+			<DamageType>Ranged</DamageType>
+			<ImpactEffect>effects\impacts\arrow</ImpactEffect>
+		</ProtoAction>
+	</Unit>

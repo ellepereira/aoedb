@@ -1,0 +1,87 @@
+<Unit id="303" name="Eg_Bldg_StoreHouse">
+		<DBID>1796</DBID>
+		<DisplayNameID>53988</DisplayNameID>
+		<EditorNameID>53989</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>GearBldg</Trait4>
+		<ObstructionRadiusX>2.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>2.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivEgyptian\Buildings\Storehouse\Storehouse.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>buildinglarge.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\StorageHouse64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarStoreHouse_ua</PortraitIcon>
+		<RolloverTextID>53987</RolloverTextID>
+		<ShortRolloverTextID>53986</ShortRolloverTextID>
+		<InitialHitpoints>500.0000</InitialHitpoints>
+		<MaxHitpoints>500.0000</MaxHitpoints>
+		<LOS>26.0000</LOS>
+		<BuildPoints>30.0000</BuildPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Wood">50.0000</Cost>
+		<CarryCapacity resourcetype="Food">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="stone">1.0000</CarryCapacity>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<InputContext>StorehouseAccel</InputContext>
+		<SoundFile>Eg_Bldg_StoreHouse</SoundFile>
+		<BuilderLimit>10</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>Dropsite</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>ConvertableBuilding</UnitType>
+		<UnitType>UnitTypeBldgStorehouse</UnitType>
+		<UnitType>EquipmentFilterEconomy</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Tech row="0" page="0" column="0">TechGatherBerry1</Tech>
+		<Tech row="0" page="0" column="1">TechHunting1</Tech>
+		<Tech row="1" page="0" column="0">TechGatherWood1</Tech>
+		<Tech row="1" page="0" column="1">TechGatherGold1</Tech>
+		<Tech row="1" page="0" column="2">TechGatherStone1</Tech>
+		<Tech row="1" page="0" column="1">TechGatherGold2</Tech>
+		<Tech row="1" page="0" column="1">TechGatherGold3</Tech>
+		<Tech row="1" page="0" column="2">TechGatherStone2</Tech>
+		<Tech row="1" page="0" column="2">TechGatherStone3</Tech>
+		<Tech row="1" page="0" column="0">TechGatherWood2</Tech>
+		<Tech row="1" page="0" column="0">TechGatherWood3</Tech>
+		<Tech row="0" page="0" column="2">TechGatherFarm1</Tech>
+		<Tech row="0" page="0" column="2">TechGatherFarm2</Tech>
+		<Tech row="0" page="0" column="2">TechGatherFarm3</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="2">Delete</Command>
+	</Unit>

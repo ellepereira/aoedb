@@ -1,0 +1,20 @@
+<advisor name="Arash_R_IV">
+		<age>3</age>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorArash3_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>62063</displaynameid>
+		<displaydescriptionid>62082</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="350">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypePersian</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitRoyalArcher_R</tech>
+		</techs>
+	</advisor>

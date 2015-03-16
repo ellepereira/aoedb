@@ -1,0 +1,73 @@
+<vendor name="Spartan Armor Store">
+		<protounit>Pv_Cap_BasicStoreSparta02</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="9">ArmorClth_R002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="20">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="14">ArmorLgt_R002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="70">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="19">ArmorMed_R004</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="100">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="24">Shield1H_R003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="140">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="29">ArmorClth_E010</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="340">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="34">ArmorLgt_E010</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="455">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="39">ArmorMed_E013</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="710">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Shield1H_E009</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="970">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

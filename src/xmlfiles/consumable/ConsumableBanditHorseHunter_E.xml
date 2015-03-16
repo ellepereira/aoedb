@@ -1,0 +1,18 @@
+<consumable name="ConsumableBanditHorseHunter_E">
+		<icon>UserInterface\Icons\Consumable\ConBandSpear4_ua</icon>
+		<rollovertextid>56683</rollovertextid>
+		<displaynameid>55376</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<power>PowerSpawnBanditHorseHunter_E</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

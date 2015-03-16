@@ -1,0 +1,20 @@
+<equipment version="0" id="238">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techinfantryarm3_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700275</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>5</uirow>
+		<uicol>16</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechInfantry Arm3" cost="1" descid="700288"/>
+		</ranks>
+		<prereq>237</prereq>
+	</equipment>

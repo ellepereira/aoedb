@@ -1,0 +1,20 @@
+<equipment version="0" id="551">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\pramship64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700699</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>2</uirow>
+		<uicol>48</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Pe_Ct_UnitRamship1" cost="2" descid="700037"/>
+		</ranks>
+		<prereq>541</prereq>
+	</equipment>

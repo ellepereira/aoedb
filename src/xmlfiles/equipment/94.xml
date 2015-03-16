@@ -1,0 +1,20 @@
+<equipment version="0" id="94">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techarchattack2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700281</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>4</uirow>
+		<uicol>3</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechArchAttack2" cost="1" descid="700283"/>
+		</ranks>
+		<prereq>93</prereq>
+	</equipment>

@@ -1,0 +1,20 @@
+<equipment version="0" id="481">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c04techsparabaras_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700662</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>7</uirow>
+		<uicol>0</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="PersiaTechSparabaraS" cost="2" descid="700656"/>
+		</ranks>
+		<prereq>480</prereq>
+	</equipment>

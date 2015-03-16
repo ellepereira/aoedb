@@ -1,0 +1,128 @@
+<Unit id="160" name="Gr_Civ_Specialist">
+		<DBID>1514</DBID>
+		<DisplayNameID>50213</DisplayNameID>
+		<EditorNameID>50214</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Civilian\Villager\Villager.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Villager64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarVillagers_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>50212</RolloverTextID>
+		<ShortRolloverTextID>50211</ShortRolloverTextID>
+		<InitialHitpoints>100.0000</InitialHitpoints>
+		<MaxHitpoints>100.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<ProjectileProtoUnit>Proj_SpearVillager</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>15.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">50.0000</Cost>
+		<CarryCapacity resourcetype="Food">10.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">10.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">10.0000</CarryCapacity>
+		<CarryCapacity resourcetype="stone">10.0000</CarryCapacity>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_Civ_Specialist</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeEasySelectAvoid</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeAffectedByTownBell</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>AbstractVillager</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>ValidIdleVillager</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AffectedByTownBell</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Garrison</Command>
+		<Command row="0" page="11" column="0">Repair</Command>
+		<Command page="10" column="3">AutoGather</Command>
+		<Tactics>villager.tactics</Tactics>
+		<ProtoAction>
+			<Name>Gather</Name>
+			<Rate type="Con_Res_BerryBush_C">0.500000</Rate>
+			<Rate type="Stone">0.500000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>5.000000</Damage>
+			<Rate type="Huntable">0.500000</Rate>
+			<ROF>1.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Repair</Name>
+			<Rate type="BuildingClass">2.000000</Rate>
+			<Type>Repair</Type>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Gather</Name>
+			<Rate type="AbstractFarm">0.500000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Gather</Name>
+			<Rate type="Economic">0.500000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Hunting</Name>
+			<Rate type="Huntable">0.500000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Gather</Name>
+			<Rate type="AbstractFish">0.500000</Rate>
+			<Rate type="Tree">2.000000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Build</Name>
+			<Rate type="Building">2.000000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Gather</Name>
+			<Rate type="Huntable">0.500000</Rate>
+			<Rate type="Gold">0.500000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>5.000000</Damage>
+			<ROF>1.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>ChopAttack</Name>
+			<Damage>5.000000</Damage>
+			<DamageType>Hand</DamageType>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Gather</Name>
+			<Rate type="BerryBush">0.500000</Rate>
+		</ProtoAction>
+	</Unit>

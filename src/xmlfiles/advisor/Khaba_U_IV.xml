@@ -1,0 +1,21 @@
+<advisor name="Khaba_U_IV">
+		<age>3</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorKhaba2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>56269</displaynameid>
+		<displaydescriptionid>57220</displaydescriptionid>
+		<shortdescriptionid>58071</shortdescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="250">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeEgyptian</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitKhopesh_U</tech>
+		</techs>
+	</advisor>

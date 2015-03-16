@@ -1,0 +1,21 @@
+<blueprint name="PersianWarehouse16Slot">
+		<icon>UserInterface/Icons/Blueprints/BlueprintWarehouse4_ua</icon>
+		<rollovertextid>801171</rollovertextid>
+		<displaynameid>801170</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="200">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<cost>
+			<material quantity="30">2BronzeIngot</material>
+			<material quantity="20">2WorkTool</material>
+			<material quantity="10">3EbonyPlank</material>
+		</cost>
+		<protounit>Pe_Cap_Warehouse04</protounit>
+	</blueprint>

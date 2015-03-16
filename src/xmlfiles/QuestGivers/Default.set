@@ -1,0 +1,5 @@
+<artset>
+   <newquest textureCoords="0 0 1 1">UserInterface\Quest\QuestGivers\DefaultQGNewQuest_db</newquest>
+   <inprogress textureCoords="0 0 1 1">UserInterface\Quest\QuestGivers\DefaultQGInProgress_db</inprogress>
+   <complete textureCoords="0 0 1 1">UserInterface\Quest\QuestGivers\DefaultQGCompleted_db</complete>
+</artset>

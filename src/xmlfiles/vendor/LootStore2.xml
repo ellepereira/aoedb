@@ -1,0 +1,81 @@
+<vendor name="LootStore2">
+		<protounit>gn_Cap_LootStore02</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">Javalin2H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">Bow1H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="225">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">ArrowOH_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="150">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">Spear1H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="325">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">Spear2H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="275">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">Axe2H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">Sword1H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="275">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">RamHead2H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="30">FireThrower2H_U003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

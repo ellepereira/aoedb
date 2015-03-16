@@ -1,0 +1,21 @@
+<trait name="Sword1H_E007">
+		<dbid>1008</dbid>
+		<traittype>Swords1H</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\SWORDSL14_ua</icon>
+		<rollovertextid>54538</rollovertextid>
+		<displaynameid>54539</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="11.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0028" scaling="0.0008" subtype="MaximumVelocity" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0276" scaling="0.0078" subtype="Armor" visible="true" damagetype="Hand" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

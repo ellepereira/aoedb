@@ -1,0 +1,27 @@
+<school>
+		<tag>Metalworking</tag>
+		<displayname>59109</displayname>
+		<description>59110</description>
+		<startingblueprint>GeneralMetalworking</startingblueprint>
+		<icon>Art\UserInterface\Icons\Crafting\SchoolMetalworking_ua</icon>
+		<gearicons>
+			<gear stringid="58937">TorcSlot_ua</gear>
+			<gear stringid="58938">HornSlot_ua</gear>
+			<gear stringid="59129">WarPaintSlot_ua</gear>
+		</gearicons>
+		<items>
+			<consumable>ConsumableElixirDamage_C</consumable>
+			<consumable>ConsumableElixirHP_C</consumable>
+			<consumable>ConsumableElixirSpeed_C</consumable>
+			<consumable>ConsumableElixirHpDamageSpeed_C</consumable>
+			<consumable>ConsumableCelticMercs_C</consumable>
+			<consumable>ConsumableGaesatae_C</consumable>
+			<consumable>ConsumableHeadHunter_C</consumable>
+			<consumable>ConsumableWoadRaider_C</consumable>
+		</items>
+		<allowedcapitals>
+			<capital>Celtic</capital>
+		</allowedcapitals>
+		<design>CreateReligionConsumable1</design>
+		<craftingsound>UI_Crafthall_Recipe_Mystic`</craftingsound>
+	</school>

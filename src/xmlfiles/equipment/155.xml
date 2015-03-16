@@ -1,0 +1,20 @@
+<equipment version="0" id="155">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\espearman64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>true</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700185</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>6</uirow>
+		<uicol>4</uicol>
+		<agerequirement>1</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Eg_Ct_UnitSpearman1" cost="0" descid="700186"/>
+		</ranks>
+		<prereq>154</prereq>
+	</equipment>

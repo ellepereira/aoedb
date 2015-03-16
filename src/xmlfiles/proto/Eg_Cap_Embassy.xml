@@ -1,0 +1,66 @@
+<Unit id="337" name="Eg_Cap_Embassy">
+		<DBID>1833</DBID>
+		<DisplayNameID>54786</DisplayNameID>
+		<EditorNameID>54787</EditorNameID>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<ObstructionRadiusX>5.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>5.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivEgyptian\Buildings\Capital\Embassy\Embassy.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>QuestGiverBldg.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Embassy_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarEmbassy_ua</PortraitIcon>
+		<RolloverTextID>54785</RolloverTextID>
+		<ShortRolloverTextID>54784</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<BuildPoints>10.0000</BuildPoints>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<SoundFile>Eg_Cap_Embassy</SoundFile>
+		<BuilderLimit>14</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>CapitolBldgEgypt</UnitType>
+		<UnitType>AbstractEmbassy</UnitType>
+		<Armor type="Ranged" value="0.7500"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>BringsUpMailDialog</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="2">Eject</Command>
+		<Command row="0" page="10" column="3">TownBell</Command>
+		<Command row="0" page="10" column="3">ReturnToWork</Command>
+		<Command row="0" page="10" column="4">Delete</Command>
+		<Command row="0" page="10" column="0">SetGatherPointEconomy</Command>
+		<Command row="0" page="10" column="1">SetGatherPointMilitary</Command>
+	</Unit>

@@ -1,0 +1,23 @@
+<school>
+		<tag>Woodscraft</tag>
+		<displayname>55707</displayname>
+		<description>55714</description>
+		<startingblueprint>GeneralHuntingLodge</startingblueprint>
+		<icon>Art\UserInterface\Icons\Crafting\SchoolArchery_ua</icon>
+		<gearicons>
+			<gear stringid="56345">BellyBowSlot_ua</gear>
+			<gear stringid="56344">BowSlot_ua</gear>
+			<gear stringid="56348">ArrowSlot_ua</gear>
+			<gear stringid="56327">SlingsSlot_ua</gear>
+		</gearicons>
+		<items>
+			<consumable>ConsumableBanditArcher_C</consumable>
+			<consumable>ConsumableBanditArcher4th_C</consumable>
+			<advisor>Thutmose_C_I</advisor>
+			<advisor>Timon_U_II</advisor>
+			<advisor>Kosmas_R_III</advisor>
+			<advisor>Seth_E_IV</advisor>
+		</items>
+		<design>CreateWoodscraftConsumable1</design>
+		<craftingsound>UI_Crafthall_Recipe_Archery</craftingsound>
+	</school>

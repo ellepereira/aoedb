@@ -1,0 +1,84 @@
+<Unit id="573" name="Con_Shp_FireShip_C">
+		<DBID>2104</DBID>
+		<DisplayNameID>57234</DisplayNameID>
+		<EditorNameID>57235</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<Trait1>ConCommonShip</Trait1>
+		<ObstructionRadiusX>2.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>2.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>12.0000</MaxVelocity>
+		<MaxRunVelocity>18.0000</MaxRunVelocity>
+		<MovementType>water</MovementType>
+		<TurnRate>3.0000</TurnRate>
+		<TurnRadius>0.0000</TurnRadius>
+		<AnimFile>CivGreek\Units\Ships\Fireship\Fireship.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Ships\fireship64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarFireship_ua</PortraitIcon>
+		<RolloverTextID>57233</RolloverTextID>
+		<ShortRolloverTextID>57232</ShortRolloverTextID>
+		<InitialHitpoints>525.0000</InitialHitpoints>
+		<MaxHitpoints>525.0000</MaxHitpoints>
+		<LOS>30.0000</LOS>
+		<ProjectileProtoUnit>Proj_Firepot</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>0.0000</TrainPoints>
+		<RepairPoints>10.0000</RepairPoints>
+		<Bounty>3.0000</Bounty>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Con_Shp_FireShip</SoundFile>
+		<HeightBob period="2.0000" magnitude="1.0000"/>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Ship</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractWarShip</UnitType>
+		<UnitType>UnitUpgradeAge3</UnitType>
+		<UnitType>UnitUpgradeLevel13</UnitType>
+		<Armor type="Ranged" value="0.5000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>combatShip.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>41.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>10.000000</MaxRange>
+			<DamageType>Siege</DamageType>
+			<Projectile>Proj_Firepot</Projectile>
+			<MaxHeight>9.000000</MaxHeight>
+			<ImpactEffect>effects\impacts\fireship</ImpactEffect>
+			<Accuracy>1.000000</Accuracy>
+			<TrackRating>16.000000</TrackRating>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="Ship">3.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

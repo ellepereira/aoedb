@@ -1,0 +1,65 @@
+<vendor name="Gr Store Store">
+		<protounit>Gr_Cap_StoreStore01</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GrCraftStore01</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GrCraftStore02</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GrCraftStore03</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GrCraftStore04</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GrCraftStore05</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GrCraftStore06</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GrCraftStore07</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

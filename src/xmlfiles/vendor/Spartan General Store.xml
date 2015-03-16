@@ -1,0 +1,73 @@
+<vendor name="Spartan General Store">
+		<protounit>Pv_Cap_BasicStoreSparta03</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<material quantity="5" level="15">2Garnet</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="15">2Resin</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="15">2LoreScroll</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="15">2Wool</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<material quantity="5" level="15">2WorkTool</material>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<consumable quantity="1" level="15">ConsumableGrantFruit_U</consumable>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<consumable quantity="1" level="15">ConsumableGrantStone_U</consumable>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<consumable quantity="1" level="15">ConsumableGrantGold_U</consumable>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResFactionPoints4</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

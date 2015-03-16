@@ -1,0 +1,23 @@
+<equipment version="0" id="302">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\goldfigure_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700654</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>12</uirow>
+		<uicol>30</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivEgyptian</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgStar_TempleBonus1" cost="3" descid="700652"/>
+		</ranks>
+		<prereq>271</prereq>
+		<prereq>273</prereq>
+		<prereq>275</prereq>
+	</equipment>

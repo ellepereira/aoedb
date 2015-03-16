@@ -1,0 +1,46 @@
+<Unit id="98" name="BerryBush">
+		<DBID>599</DBID>
+		<DisplayNameID>30221</DisplayNameID>
+		<EditorNameID>49978</EditorNameID>
+		<ObstructionRadiusX>1.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>1.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>World\resources\berrybush\berrybush.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<Icon>UserInterface\Icons\Units\Gaia\BerryBush64_ua</Icon>
+		<MinimapIcon>UserInterface\Icons\MiniMap\BerryBushMinimapIcon_ua</MinimapIcon>
+		<PortraitIcon>UserInterface\Icons\Units\Gaia\AvatarBerries_ua</PortraitIcon>
+		<RolloverTextID>30220</RolloverTextID>
+		<ShortRolloverTextID>30219</ShortRolloverTextID>
+		<InitialResource resourcetype="Food">300.0000</InitialResource>
+		<ResourceSubType>forage</ResourceSubType>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<SoundFile>BerryBush</SoundFile>
+		<MinimapColor red="1.0000" blue="1.0000" green="1.0000"/>
+		<UnitType>LogicalTypePriestUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>Resource</UnitType>
+		<UnitType>Food</UnitType>
+		<UnitType>NatureClass</UnitType>
+		<UnitType>Nature</UnitType>
+		<UnitType>AbstractFruit</UnitType>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>DieAtZeroResources</Flag>
+		<Flag>DoNotValidateResourceInventory</Flag>
+		<Flag>NoIdleActions</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>ForceToGaia</Flag>
+		<Flag>StartOnNoUpdate</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Delete</Command>
+	</Unit>

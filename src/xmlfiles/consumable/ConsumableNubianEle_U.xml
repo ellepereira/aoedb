@@ -1,0 +1,18 @@
+<consumable name="ConsumableNubianEle_U">
+		<icon>UserInterface\Icons\Consumable\ConNubElephant2_ua</icon>
+		<rollovertextid>56807</rollovertextid>
+		<displaynameid>56805</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="10">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<power>PowerSpawnNubianWarEle_U</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

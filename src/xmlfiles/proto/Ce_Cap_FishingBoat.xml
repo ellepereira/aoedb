@@ -1,0 +1,51 @@
+<Unit id="689" name="Ce_Cap_FishingBoat">
+		<DBID>2232</DBID>
+		<DisplayNameID>58705</DisplayNameID>
+		<EditorNameID>58706</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>1.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>1.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>8.0000</MaxVelocity>
+		<MaxRunVelocity>12.0000</MaxRunVelocity>
+		<MovementType>water</MovementType>
+		<TurnRate>3.0000</TurnRate>
+		<AnimFile>CivCelt\Units\Ships\FishingBoat\FishingBoat.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\CFishingBoat64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarCFishingBoat_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>58704</RolloverTextID>
+		<ShortRolloverTextID>58703</ShortRolloverTextID>
+		<InitialHitpoints>300.0000</InitialHitpoints>
+		<MaxHitpoints>300.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>30.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Wood">100.0000</Cost>
+		<CarryCapacity resourcetype="Food">30.0000</CarryCapacity>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Ce_Civ_FishingBoat</SoundFile>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Ship</UnitType>
+		<Armor type="Ranged" value="0.5000"/>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>NotSelectable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Repair</Command>
+		<Command page="10" column="3">AutoGather</Command>
+	</Unit>

@@ -1,0 +1,21 @@
+<trait name="ArmorBldg_U013">
+		<dbid>1490</dbid>
+		<traittype>ArmorBuilding</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmBuildU1_ua</icon>
+		<rollovertextid>59180</rollovertextid>
+		<displaynameid>59181</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Body" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>0</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="0.9776" scaling="-0.0040" subtype="CostAll" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0245" scaling="0.0043" subtype="DamageBonusReduction" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

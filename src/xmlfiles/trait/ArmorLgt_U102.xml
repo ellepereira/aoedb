@@ -1,0 +1,18 @@
+<trait name="ArmorLgt_U102">
+		<dbid>1530</dbid>
+		<traittype>ArmorLgt</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmCavU1_ua</icon>
+		<rollovertextid>59260</rollovertextid>
+		<displaynameid>59261</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Body" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0080" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

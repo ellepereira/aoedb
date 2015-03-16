@@ -1,0 +1,21 @@
+<trait name="Scepter2H_R005">
+		<dbid>1349</dbid>
+		<traittype>Scepter</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\SCEPTERL3_ua</icon>
+		<rollovertextid>55637</rollovertextid>
+		<displaynameid>55638</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" action="Empower" amount="1.0049" scaling="0.0012" subtype="WorkRate" visible="true" unittype="ActionBuild" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.1122" scaling="0.0309" subtype="Armor" visible="false" damagetype="Hand" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

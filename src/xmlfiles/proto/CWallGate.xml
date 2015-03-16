@@ -1,0 +1,57 @@
+<Unit id="97" name="CWallGate">
+		<DBID>523</DBID>
+		<DisplayNameID>29634</DisplayNameID>
+		<EditorNameID>62728</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<ObstructionRadiusX>5.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>1.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGreek\Buildings\Walls\WallGate.xml</AnimFile>
+		<AllowedHeightVariance>4.0000</AllowedHeightVariance>
+		<ImpactType>Stone</ImpactType>
+		<Icon>UserInterface\Icons\Buildings\Gate64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarGate_ua</PortraitIcon>
+		<RolloverTextID>55527</RolloverTextID>
+		<ShortRolloverTextID>55530</ShortRolloverTextID>
+		<InitialHitpoints>1500.0000</InitialHitpoints>
+		<MaxHitpoints>1500.0000</MaxHitpoints>
+		<LOS>7.0000</LOS>
+		<BuildPoints>15.0000</BuildPoints>
+		<RepairPoints>30.0000</RepairPoints>
+		<Cost resourcetype="Wood">50.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<SoundFile>CWallGate</SoundFile>
+		<Decay delay="0.0000" duration="0.0000"/>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>AbstractWall</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Tech row="0" page="0" column="0">TechArmorWall1</Tech>
+		<Tech row="0" page="0" column="0">TechArmorWall2</Tech>
+		<Tech row="0" page="0" column="0">TechArmorWall3</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>DontFlattenGround</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>wallBuild</Flag>
+		<Flag>PlayerOwnsObstruction</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>UseAlignedObstructionOnMinimap</Flag>
+		<Flag>ColonyBuilding</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="1">Delete</Command>
+	</Unit>

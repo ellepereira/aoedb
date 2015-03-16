@@ -1,0 +1,21 @@
+<trait name="BellyBow1H_R101">
+		<dbid>1479</dbid>
+		<traittype>BellyBows</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\GASTRAPHETESBOWL4_ua</icon>
+		<rollovertextid>59158</rollovertextid>
+		<displaynameid>59159</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0316" scaling="0.0081" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0165" scaling="0.0037" subtype="DamageBonus" visible="true" unittype="Building" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

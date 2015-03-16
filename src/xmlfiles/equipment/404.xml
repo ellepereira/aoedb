@@ -1,0 +1,20 @@
+<equipment version="0" id="404">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c03techcarpentomchampion_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700575</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>7</uirow>
+		<uicol>36</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeltTechCarpentomS" cost="2" descid="700576"/>
+		</ranks>
+		<prereq>330</prereq>
+	</equipment>

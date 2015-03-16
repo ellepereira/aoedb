@@ -1,0 +1,18 @@
+<advisor name="Combutis_U_II">
+		<age>1</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorCombutis2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58795</displaynameid>
+		<displaydescriptionid>58818</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>5</minlevel>
+		<itemlevel>5</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Combutis_U</tech>
+		</techs>
+	</advisor>

@@ -1,0 +1,21 @@
+<trait name="Sword1H_U010">
+		<dbid>1235</dbid>
+		<traittype>Swords1H</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\SWORDSL7_ua</icon>
+		<rollovertextid>55296</rollovertextid>
+		<displaynameid>55297</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="4.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0346" scaling="0.0073" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="0.9846" scaling="-0.0029" subtype="TargetSpeedBoost" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

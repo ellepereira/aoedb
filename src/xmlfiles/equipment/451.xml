@@ -1,0 +1,21 @@
+<equipment version="0" id="451">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\watchtowercoin_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700362</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>12</uirow>
+		<uicol>28</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivCeltic</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeStar_WatchTowerBonus1" cost="3" descid="700363"/>
+		</ranks>
+		<prereq>343</prereq>
+	</equipment>

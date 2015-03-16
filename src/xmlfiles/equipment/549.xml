@@ -1,0 +1,20 @@
+<equipment version="0" id="549">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c04techgalley3_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700697</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>3</uirow>
+		<uicol>44</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="PersiaTechGalley3" cost="1" descid="700700"/>
+		</ranks>
+		<prereq>548</prereq>
+	</equipment>

@@ -1,0 +1,20 @@
+<advisor name="Bahadur_E_IV">
+		<age>3</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorBahadur4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>62061</displaynameid>
+		<displaydescriptionid>62075</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="450">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypePersian</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitScythedChariot_E</tech>
+		</techs>
+	</advisor>

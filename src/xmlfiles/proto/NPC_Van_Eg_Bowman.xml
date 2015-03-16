@@ -1,0 +1,65 @@
+<Unit id="1128" name="NPC_Van_Eg_Bowman">
+		<DBID>2896</DBID>
+		<DisplayNameID>65554</DisplayNameID>
+		<EditorNameID>65555</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<ObstructionRadiusX>0.3300</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.3300</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>7.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>CivGeneric/Units/Vanity/EgyptIsland/VanityBowman.xml</AnimFile>
+		<CorpseDecalTime>0.0000</CorpseDecalTime>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\PBowman64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarVillagers_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>65553</RolloverTextID>
+		<ShortRolloverTextID>65552</ShortRolloverTextID>
+		<InitialHitpoints>80.0000</InitialHitpoints>
+		<MaxHitpoints>80.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<ProjectileProtoUnit>Proj_SpearVillager</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>15.0000</TrainPoints>
+		<Cost resourcetype="Food">0.0000</Cost>
+		<CarryCapacity resourcetype="Food">10.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">10.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">10.0000</CarryCapacity>
+		<CarryCapacity resourcetype="stone">10.0000</CarryCapacity>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.1500</VisualScale>
+		<SoundFile>Qst_Refugee_Villager</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>12.000000</Damage>
+			<Rate type="Building">1.000000</Rate>
+			<ROF>2.400000</ROF>
+			<DamageBonus type="Building">4.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

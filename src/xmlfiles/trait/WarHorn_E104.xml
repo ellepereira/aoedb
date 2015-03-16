@@ -1,0 +1,17 @@
+<trait name="WarHorn_E104">
+		<dbid>1708</dbid>
+		<traittype>War Horn</traittype>
+		<rarity>epic</rarity>
+		<icon>\UserInterface\Icons\Equipment\Celt\Horn2_E60_ua</icon>
+		<rollovertextid>59616</rollovertextid>
+		<displaynameid>59617</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0247" scaling="0.0076" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

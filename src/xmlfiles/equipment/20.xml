@@ -1,0 +1,21 @@
+<equipment version="0" id="20">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\peltast64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700080</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>2</uirow>
+		<uicol>15</uicol>
+		<agerequirement>3</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GrE_GreekUnitPeltast1" cost="2" descid="700081"/>
+		</ranks>
+		<prereq>15</prereq>
+	</equipment>

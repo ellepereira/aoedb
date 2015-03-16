@@ -1,0 +1,9 @@
+<achievement>
+		<internalname>A_SPHINXED</internalname>
+		<displaynameid>57766</displaynameid>
+		<type>cATUnitListInCapital</type>
+		<data>
+			<entry>Eg_Van_Sphinx</entry>
+		</data>
+		<liveid>6</liveid>
+	</achievement>

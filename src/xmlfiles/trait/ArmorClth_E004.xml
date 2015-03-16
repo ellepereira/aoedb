@@ -1,0 +1,18 @@
+<trait name="ArmorClth_E004">
+		<dbid>481</dbid>
+		<traittype>ArmorCloth</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmClothE5_ua</icon>
+		<rollovertextid>53315</rollovertextid>
+		<displaynameid>53316</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0098" scaling="0.0029" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

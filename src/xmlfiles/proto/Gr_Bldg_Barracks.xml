@@ -1,0 +1,92 @@
+<Unit id="119" name="Gr_Bldg_Barracks">
+		<DBID>1409</DBID>
+		<DisplayNameID>49711</DisplayNameID>
+		<EditorNameID>49712</EditorNameID>
+		<UnitLevel>2</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>GearBldg</Trait4>
+		<ObstructionRadiusX>4.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>4.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGreek\Buildings\Barracks\Barracks.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>buildinglarge.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Barracks64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarBarracks_ua</PortraitIcon>
+		<RolloverTextID>49713</RolloverTextID>
+		<ShortRolloverTextID>49714</ShortRolloverTextID>
+		<InitialHitpoints>2250.0000</InitialHitpoints>
+		<MaxHitpoints>2250.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<BuildPoints>50.0000</BuildPoints>
+		<Bounty>4.0000</Bounty>
+		<Cost resourcetype="Wood">200.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<InputContext>Gr_BarracksAccel</InputContext>
+		<SoundFile>Gr_Bldg_Barracks</SoundFile>
+		<BuilderLimit>20</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>ConvertableBuilding</UnitType>
+		<UnitType>UnitTypeBldgBarracks</UnitType>
+		<UnitType>UnitTypeBldgEmpowerable</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Train row="0" page="0" column="0">UnitTypeInfantryAntiCav1</Train>
+		<Train row="0" page="0" column="2">UnitTypeInfantryBasic1</Train>
+		<Train row="0" page="0" column="1">UnitTypeInfantryAntiInf1</Train>
+		<Train row="0" page="0" column="3">UnitTypeInfantryHeavy1</Train>
+		<Tech row="1" page="0" column="0">GreekTechSpearman1</Tech>
+		<Tech row="1" page="0" column="0">GreekTechSpearman2</Tech>
+		<Tech row="1" page="0" column="0">GreekTechSpearman3</Tech>
+		<Tech>GreekTechHoplite1_Shadow</Tech>
+		<Tech>GreekTechHoplite2_Shadow</Tech>
+		<Tech row="1" page="0" column="2">GreekTechHoplite3</Tech>
+		<Tech row="1" page="0" column="1">GreekTechHypaspist2</Tech>
+		<Tech row="1" page="0" column="1">GreekTechHypaspist3</Tech>
+		<Tech row="1" page="0" column="2">GreekTechHopliteS</Tech>
+		<Tech row="1" page="0" column="1">GreekTechHypaspistS</Tech>
+		<Tech row="1" page="0" column="0">GreekTechSpearmanS</Tech>
+		<Tech row="1" page="0" column="2">GreekTechHoplite_Upgrade1</Tech>
+		<Tech row="1" page="0" column="1">GreekTechHypaspist_Upgrade1</Tech>
+		<Tech row="1" page="0" column="0">GreekTechSpearman_Upgrade1</Tech>
+		<Tech row="1" page="0" column="3">GreekTechBarracksUpgrade1</Tech>
+		<Tech row="1" page="0" column="3">GreekTechBarracksUpgrade2</Tech>
+		<Tech row="1" page="0" column="3">GreekTechBarracksUpgrade3</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="2">Delete</Command>
+	</Unit>

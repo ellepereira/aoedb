@@ -1,0 +1,89 @@
+<vendor name="VanityStore1">
+		<protounit>gn_Cap_VanityStore01</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Flagpole</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Vase3</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="15">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue11</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue12</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue2</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue13</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue14</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="100">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue15</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue4</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Statue5</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25000">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

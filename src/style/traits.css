@@ -1,0 +1,117 @@
+@CHARSET "ISO-8859-1";
+
+.trait
+{
+  width: 300px;
+	text-shadow: black 1px 1px 1px;
+	font-size: 12px;
+}
+
+.itemsheader
+{
+	font-size: 22px;
+	border: 1px solid #ddd;
+	background-color: #000;
+	text-align: center;
+}
+
+.item
+{
+	font-size: 16px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+.item img
+{
+	vertical-align: middle;
+	width: 40px;
+}
+
+.traitheader
+{
+	font-size: 14px;
+}
+
+.description
+{
+	font-size: 14px;
+}
+
+.traitheader .type
+{
+	float: left;
+	color: #E6C953;
+}
+
+.itempic {
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.itemnameandpic .itemname
+{
+
+	font-size: 18px;
+	margin-top: 0px;
+	vertical-align: top;
+	
+}
+
+.traitheader .rarity
+{
+	float: right;
+	text-transform:capitalize;
+	padding-right: 0px;
+}
+
+.commonrarity
+{
+  color: white;
+}
+
+.epicrarity
+{
+	color: #b04bdf;
+}
+
+.uncommonrarity
+{
+	color: #45ff5e;
+}
+
+.rarerarity
+{
+	color: #3b8fff;
+}
+
+.legendaryrarity
+{
+	color: orange;
+}
+
+.iteminfo {
+  clear: both;
+}
+
+
+.itembonuses
+{
+	list-style-position: inside;
+	list-style-image: url('../images/bullet.png');
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+.itembonuses .bonustrue
+{
+	color: #0F0;
+}
+
+
+.itembonuses .bonusfalse
+{
+	color: #F00;
+}

@@ -1,0 +1,73 @@
+<vendor name="CeltWeaponStore">
+		<protounit>Ce_Cap_BasicStoreMassalia03</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">Axe2H_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">Spear1H_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="30">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">Bow1H_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">ArrowOH_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="20">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="16">Sword1H_R103</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="20">Torc_R102</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="60">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="20">Warhorn_R103</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="70">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="20">Warhorn_R104</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="70">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

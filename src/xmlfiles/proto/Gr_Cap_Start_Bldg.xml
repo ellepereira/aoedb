@@ -1,0 +1,90 @@
+<Unit id="117" name="Gr_Cap_Start_Bldg">
+		<DBID>1407</DBID>
+		<DisplayNameID>49702</DisplayNameID>
+		<EditorNameID>49703</EditorNameID>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<ObstructionRadiusX>8.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>8.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGreek\Buildings\Capital\Palace\Palace.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>QuestGiverBldg.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Palace_ua</Icon>
+		<MinimapIcon>ui\minimap\towncenter</MinimapIcon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarPalace_ua</PortraitIcon>
+		<RolloverTextID>57806</RolloverTextID>
+		<ShortRolloverTextID>49700</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>30.0000</LOS>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<BuildPoints>10.0000</BuildPoints>
+		<CarryCapacity resourcetype="Food">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="stone">1.0000</CarryCapacity>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>0</AllowedAge>
+		<InputContext>TownCenterAccel</InputContext>
+		<SoundFile>Gr_Cap_Start_Bldg</SoundFile>
+		<BuilderLimit>14</BuilderLimit>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>TradeableTo</UnitType>
+		<UnitType>RewardDelivery</UnitType>
+		<UnitType>CapitolBldgGreek</UnitType>
+		<UnitType>AbstractPalace</UnitType>
+		<Armor type="Ranged" value="0.7500"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>StartingColonyBuilding</Flag>
+		<Flag>ColonyPlacementCenter</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>BringsUpEquipmentUI</Flag>
+		<Flag>BringsUpQuestProTip</Flag>
+		<Flag>Tracked</Flag>
+		<Contain>AbstractVillager</Contain>
+		<Tactics>towncenter.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>2.000000</Damage>
+			<ROF>1.000000</ROF>
+			<MaxRange>26.000000</MaxRange>
+			<DamageBonus type="AbstractCavalry">1.500000</DamageBonus>
+			<DamageType>Ranged</DamageType>
+			<Accuracy>0.800000</Accuracy>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="AbstractArtillery">0.500000</DamageBonus>
+			<Accuracy>0.800000</Accuracy>
+		</ProtoAction>
+	</Unit>

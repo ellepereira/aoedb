@@ -1,0 +1,20 @@
+<equipment version="0" id="97">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techcavattack2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700285</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>4</uirow>
+		<uicol>6</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechCavAttack2" cost="1" descid="700287"/>
+		</ranks>
+		<prereq>96</prereq>
+	</equipment>

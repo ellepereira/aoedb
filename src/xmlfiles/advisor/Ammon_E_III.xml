@@ -1,0 +1,18 @@
+<advisor name="Ammon_E_III">
+		<age>2</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorAmmon4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52117</displaynameid>
+		<displaydescriptionid>57104</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="350">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Ammon_E</tech>
+		</techs>
+	</advisor>

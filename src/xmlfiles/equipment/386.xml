@@ -1,0 +1,20 @@
+<equipment version="0" id="386">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techwheelbarrow2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700006</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>4</uirow>
+		<uicol>56</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechWheelbarrow2" cost="2" descid="700655"/>
+		</ranks>
+		<prereq>385</prereq>
+	</equipment>

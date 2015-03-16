@@ -1,0 +1,18 @@
+<advisor name="Vercassivellaunos_U_III">
+		<age>2</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorVercassivellaunos2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58802</displaynameid>
+		<displaydescriptionid>58846</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="200">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Vercassivellaunos_U</tech>
+		</techs>
+	</advisor>

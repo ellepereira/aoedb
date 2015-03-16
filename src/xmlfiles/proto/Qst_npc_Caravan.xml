@@ -1,0 +1,60 @@
+<Unit id="384" name="Qst_npc_Caravan">
+		<DBID>1894</DBID>
+		<DisplayNameID>55845</DisplayNameID>
+		<EditorNameID>55846</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>0</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MaxRunVelocity>0.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>0.0000</TurnRate>
+		<AnimFile>CivEgyptian\Units\Civilian\Caravan\Caravan.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\ECaravan64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarECaravan_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>55844</RolloverTextID>
+		<ShortRolloverTextID>55843</ShortRolloverTextID>
+		<InitialHitpoints>500.0000</InitialHitpoints>
+		<MaxHitpoints>500.0000</MaxHitpoints>
+		<LOS>15.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>0.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">50.0000</Cost>
+		<Cost resourcetype="Wood">50.0000</Cost>
+		<CarryCapacity resourcetype="Gold">150.0000</CarryCapacity>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Eg_Civ_Caravan</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Garrison</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Command page="10" column="3">AutoGather</Command>
+		<Tactics>trade.tactics</Tactics>
+	</Unit>

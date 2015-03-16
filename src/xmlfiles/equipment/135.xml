@@ -1,0 +1,23 @@
+<equipment version="0" id="135">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\stackedgoldplus_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700344</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>12</uirow>
+		<uicol>53</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivGreek</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GrStar_MarketTrickleBonus1" cost="3" descid="700345"/>
+		</ranks>
+		<prereq>85</prereq>
+		<prereq>86</prereq>
+		<prereq>88</prereq>
+	</equipment>

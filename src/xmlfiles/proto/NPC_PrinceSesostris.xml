@@ -1,0 +1,75 @@
+<Unit id="460" name="NPC_PrinceSesostris">
+		<DBID>1979</DBID>
+		<DisplayNameID>56296</DisplayNameID>
+		<EditorNameID>56297</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>3.0000</MaxVelocity>
+		<MaxRunVelocity>5.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>NPC\CivEgyptian\Units\QuestGivers\SesostrisQG\SesostrisSleepy.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\PrinceSestoris64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarPrinceSestoris_ua</PortraitIcon>
+		<RolloverTextID>56295</RolloverTextID>
+		<ShortRolloverTextID>56294</ShortRolloverTextID>
+		<InitialHitpoints>250.0000</InitialHitpoints>
+		<MaxHitpoints>250.0000</MaxHitpoints>
+		<LOS>27.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>0.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<AllowedAge>3</AllowedAge>
+		<VisualScale>1.5000</VisualScale>
+		<SoundFile>NPC_PrinceSesostris</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypePriest2</UnitType>
+		<Armor type="Hand" value="0.0000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CanAutoHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>PrinceSesostris.tactics</Tactics>
+		<ProtoAction>
+			<Name>Heal</Name>
+			<Rate type="LogicalTypeHealed">20.000000</Rate>
+			<MaxRange>12.000000</MaxRange>
+		</ProtoAction>
+	</Unit>

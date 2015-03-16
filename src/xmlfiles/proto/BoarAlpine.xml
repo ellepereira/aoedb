@@ -1,0 +1,74 @@
+<Unit id="746" name="BoarAlpine">
+		<DBID>2324</DBID>
+		<DisplayNameID>60168</DisplayNameID>
+		<EditorNameID>60169</EditorNameID>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>10.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<WanderDistance>6</WanderDistance>
+		<AnimFile>World\Animals\Boar\BoarAlpine.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Gaia\Boar64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\Gaia\AvatarBoar_ua</PortraitIcon>
+		<SelectionPriority>10</SelectionPriority>
+		<RolloverTextID>60167</RolloverTextID>
+		<ShortRolloverTextID>60166</ShortRolloverTextID>
+		<InitialHitpoints>240.0000</InitialHitpoints>
+		<MaxHitpoints>240.0000</MaxHitpoints>
+		<LOS>18.0000</LOS>
+		<UnitAIType>Passive</UnitAIType>
+		<InitialUnitAIStance>Defensive</InitialUnitAIStance>
+		<InitialResource resourcetype="Food">500.0000</InitialResource>
+		<ResourceSubType>meat</ResourceSubType>
+		<SoundFile>Boar</SoundFile>
+		<MinimapColor red="0.5000" blue="0.2500" green="0.2000"/>
+		<GathererLimit>8</GathererLimit>
+		<UnitType>LogicalTypePriestUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Huntable</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Resource</UnitType>
+		<UnitType>HuntedResource</UnitType>
+		<UnitType>AnimalPrey</UnitType>
+		<UnitType>Food</UnitType>
+		<UnitType>NatureClass</UnitType>
+		<UnitType>AbstractBoar</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>DieAtZeroResources</Flag>
+		<Flag>DoNotValidateResourceInventory</Flag>
+		<Flag>DoNotDieAtZeroHitpoints</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>ForceToGaia</Flag>
+		<Flag>Wanders</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>RMCanRotate</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Garrison</Command>
+		<Command row="0" page="10" column="1">Stop</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Command page="10" column="3">AutoGather</Command>
+		<Tactics>nugget_melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>25.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+		</ProtoAction>
+	</Unit>

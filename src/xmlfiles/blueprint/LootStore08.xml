@@ -1,0 +1,14 @@
+<blueprint name="LootStore08">
+		<icon>UserInterface/Icons/Blueprints/BlueprintStore4_ua</icon>
+		<rollovertextid>800082</rollovertextid>
+		<displaynameid>0</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityEpic</rarity>
+		<cost/>
+		<protounit>Gn_Cap_LootStore08</protounit>
+	</blueprint>

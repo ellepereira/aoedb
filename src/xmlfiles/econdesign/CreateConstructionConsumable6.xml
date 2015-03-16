@@ -1,0 +1,30 @@
+<econdesign name="CreateConstructionConsumable6">
+		<icon>UserInterface/Icons/Crafting/CraftingBuildings3_ua</icon>
+		<rollovertextid>55693</rollovertextid>
+		<displaynameid>53202</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="60">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="48">2GraniteBlock</material>
+			<material quantity="12">2Resin</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableGrantFort_R</consumable>
+		</output>
+		<outputtraitlevel>10</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>Construction</tag>
+		<budgetmodifier>2</budgetmodifier>
+	</econdesign>

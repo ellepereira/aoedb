@@ -1,0 +1,14 @@
+<blueprint name="CeltSkillBldg">
+		<icon>UserInterface/Icons/Blueprints/BlueprintGeneral_ua</icon>
+		<rollovertextid>800237</rollovertextid>
+		<displaynameid>800236</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Ce_Cap_SkillBuilding</protounit>
+	</blueprint>

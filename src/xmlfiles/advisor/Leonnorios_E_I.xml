@@ -1,0 +1,18 @@
+<advisor name="Leonnorios_E_I">
+		<age>0</age>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorLeonnorios4_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58793</displaynameid>
+		<displaydescriptionid>58812</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>5</minlevel>
+		<itemlevel>5</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Leonnorios_E</tech>
+		</techs>
+	</advisor>

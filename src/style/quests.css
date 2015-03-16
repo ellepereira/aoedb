@@ -1,0 +1,26 @@
+
+.quest
+{
+  	width: 780px;
+	text-shadow: black 1px 1px 1px;
+	font-size: 12px;
+}
+
+.quest h1, h2
+{
+	color: #E6C953;
+}
+
+.questleft
+{
+	float: left;
+	width: 200px;
+	height: 400px;
+}
+
+.questright
+{
+	width: 490px;
+	float: right;
+}
+

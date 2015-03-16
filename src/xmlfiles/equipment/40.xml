@@ -1,0 +1,21 @@
+<equipment version="0" id="40">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\greektechbalista1_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700230</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>7</uirow>
+		<uicol>49</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GreekTechBallistaS" cost="2" descid="700231"/>
+		</ranks>
+		<prereq>39</prereq>
+	</equipment>

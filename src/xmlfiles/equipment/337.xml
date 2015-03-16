@@ -1,0 +1,20 @@
+<equipment version="0" id="337">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\cvillagers64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>true</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700379</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>6</uirow>
+		<uicol>56</uicol>
+		<agerequirement>1</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Ce_Ct_UnitVillager1" cost="0" descid="700380"/>
+		</ranks>
+		<prereq>345</prereq>
+	</equipment>

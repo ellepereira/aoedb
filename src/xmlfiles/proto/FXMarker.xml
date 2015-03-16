@@ -1,0 +1,34 @@
+<Unit id="894" name="FXMarker">
+		<DBID>2489</DBID>
+		<DisplayNameID>62188</DisplayNameID>
+		<EditorNameID>62189</EditorNameID>
+		<ObstructionRadiusX>3.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>3.0000</ObstructionRadiusZ>
+		<MovementType>land</MovementType>
+		<AnimFile>effects\FXMarker.xml</AnimFile>
+		<Icon>terrain\trees\tree_icon_64</Icon>
+		<PortraitIcon>buildings\gold_mine\gold_mine_icon_64x64</PortraitIcon>
+		<SoundFile>FXObject</SoundFile>
+		<MinimapColor red="0.1900" blue="0.1800" green="0.2500"/>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>NoIdleActions</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>DoNotShowOnMiniMap</Flag>
+		<Flag>NotSearchable</Flag>
+		<Flag>NotSelectable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoFadeOnDeath</Flag>
+		<Flag>OnlyInEditor</Flag>
+		<Flag>NoUnitAI</Flag>
+		<Flag>PlaceAnywhere</Flag>
+		<Flag>StartOnNoUpdate</Flag>
+		<Flag>InvulnerableIfGaia</Flag>
+		<Flag>RMCanRotate</Flag>
+		<Flag>VariationLocked</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Tracked</Flag>
+	</Unit>

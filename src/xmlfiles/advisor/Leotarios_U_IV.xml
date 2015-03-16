@@ -1,0 +1,20 @@
+<advisor name="Leotarios_U_IV">
+		<age>3</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorLeotarios2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>59991</displaynameid>
+		<displaydescriptionid>59993</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="250">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeCeltic</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitWarChariot_U</tech>
+		</techs>
+	</advisor>

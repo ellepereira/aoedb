@@ -1,0 +1,5 @@
+<artset>
+   <newquest textureCoords="0 0 1 1">UserInterface\Quest\QuestGivers\WarriorAgememnonQGNewQuest_ua</newquest>
+   <inprogress textureCoords="0 0 1 1">UserInterface\Quest\QuestGivers\WarriorAgememnonQGInProgress_ua</inprogress>
+   <complete textureCoords="0 0 1 1">UserInterface\Quest\QuestGivers\WarriorAgememnonQGCompleted_ua</complete>
+</artset>

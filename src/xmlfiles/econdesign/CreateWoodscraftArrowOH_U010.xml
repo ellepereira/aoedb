@@ -1,0 +1,31 @@
+<econdesign name="CreateWoodscraftArrowOH_U010">
+		<icon>UserInterface/Icons/Crafting/CraftingArchery2_ua</icon>
+		<rollovertextid>53205</rollovertextid>
+		<displaynameid>53198</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>39</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="80">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="26">2OakPlank</material>
+			<material quantity="16">2Wool</material>
+			<material quantity="8">3Spice</material>
+		</input>
+		<output>
+			<trait quantity="1" level="39">ArrowOH_U010</trait>
+		</output>
+		<outputtraitlevel>39</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>Woodscraft</tag>
+		<budgetmodifier>0.25</budgetmodifier>
+	</econdesign>

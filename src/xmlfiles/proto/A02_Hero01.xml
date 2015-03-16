@@ -1,0 +1,109 @@
+<Unit id="992" name="A02_Hero01">
+		<DBID>2731</DBID>
+		<DisplayNameID>64056</DisplayNameID>
+		<EditorNameID>64057</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>7.5000</MaxVelocity>
+		<MaxRunVelocity>11.2500</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivAlliance\CouncilofImhotep\Units\Hero\Imhotep\ImhotepHero.xml</AnimFile>
+		<CorpseDecalTime>0.0000</CorpseDecalTime>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\Imhotep64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarImhotep_ua</PortraitIcon>
+		<RolloverTextID>64055</RolloverTextID>
+		<ShortRolloverTextID>64054</ShortRolloverTextID>
+		<InitialHitpoints>900.0000</InitialHitpoints>
+		<MaxHitpoints>900.0000</MaxHitpoints>
+		<LOS>24.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.2500</VisualScale>
+		<SoundFile>A02_Hero01</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypePriest3</UnitType>
+		<UnitType>UnitTypeInfantryHeavy1</UnitType>
+		<UnitType>AbstractPriest</UnitType>
+		<Armor type="Ranged" value="0.2500"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CanAutoHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>heroCouncil.tactics</Tactics>
+		<ProtoAction>
+			<Name>Empower</Name>
+			<Rate type="UnitTypeBldgEmpowerable">1.000000</Rate>
+			<Active>1</Active>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="ConvertableCavalry">15.000000</Rate>
+			<MaxRange>24.000000</MaxRange>
+			<Rate type="ConvertableInfantry">15.000000</Rate>
+			<MaxRange>24.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>25.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Heal</Name>
+			<Rate type="LogicalTypeHealed">36.000000</Rate>
+			<Active>1</Active>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>SelfHeal</Name>
+			<Rate type="LogicalTypeHealed">4.000000</Rate>
+			<Active>1</Active>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="StandardConvertable">15.000000</Rate>
+			<MaxRange>24.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="ConvertableSiege">15.000000</Rate>
+			<MaxRange>24.000000</MaxRange>
+		</ProtoAction>
+	</Unit>

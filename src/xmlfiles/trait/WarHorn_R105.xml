@@ -1,0 +1,23 @@
+<trait name="WarHorn_R105">
+		<dbid>1700</dbid>
+		<traittype>War Horn</traittype>
+		<rarity>rare</rarity>
+		<icon>\UserInterface\Icons\Equipment\Celt\Horn_R30_ua</icon>
+		<rollovertextid>59600</rollovertextid>
+		<displaynameid>59601</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0210" scaling="0.0054" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="1.0037" scaling="0.0009" subtype="HitPercent" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0037" scaling="0.0009" subtype="HitPercent" visible="false" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

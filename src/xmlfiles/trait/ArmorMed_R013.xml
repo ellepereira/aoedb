@@ -1,0 +1,21 @@
+<trait name="ArmorMed_R013">
+		<dbid>527</dbid>
+		<traittype>ArmorMed</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmInfR3_ua</icon>
+		<rollovertextid>53407</rollovertextid>
+		<displaynameid>53408</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="2.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0122" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="0.9976" scaling="-0.0005" subtype="CostAll" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

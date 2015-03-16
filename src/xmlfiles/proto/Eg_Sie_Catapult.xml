@@ -1,0 +1,90 @@
+<Unit id="317" name="Eg_Sie_Catapult">
+		<DBID>1811</DBID>
+		<DisplayNameID>54152</DisplayNameID>
+		<EditorNameID>54153</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>5</PopulationCount>
+		<Trait1>BallistaArms</Trait1>
+		<Trait3>ArmorPlt</Trait3>
+		<Trait4>GearSiege</Trait4>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>4.5000</MaxVelocity>
+		<MaxRunVelocity>7.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>3.0000</TurnRate>
+		<AnimFile>CivEgyptian\Units\Siege\Catapult\Catapult.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Ships\ECatapult64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarECatapult_ua</PortraitIcon>
+		<RolloverTextID>54151</RolloverTextID>
+		<ShortRolloverTextID>54150</ShortRolloverTextID>
+		<InitialHitpoints>320.0000</InitialHitpoints>
+		<MaxHitpoints>320.0000</MaxHitpoints>
+		<LOS>39.0000</LOS>
+		<ProjectileProtoUnit>Proj_CatRock</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>36.0000</TrainPoints>
+		<RepairPoints>10.0000</RepairPoints>
+		<Bounty>6.0000</Bounty>
+		<Cost resourcetype="Wood">350.0000</Cost>
+		<Cost resourcetype="Gold">200.0000</Cost>
+		<AllowedAge>3</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Eg_Sie_Catapult</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractArtillery</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeSiegeCatapult1</UnitType>
+		<UnitType>ConvertableSiege</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.8500"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>siege.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="Building">4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>32.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MinRange>13.000000</MinRange>
+			<MaxRange>37.000000</MaxRange>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GaiaEnemy</DamageFlags>
+			<DamageType>Siege</DamageType>
+			<ImpactEffect>effects\impacts\siege2</ImpactEffect>
+		</ProtoAction>
+	</Unit>

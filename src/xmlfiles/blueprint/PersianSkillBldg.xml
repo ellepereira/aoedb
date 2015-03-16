@@ -1,0 +1,14 @@
+<blueprint name="PersianSkillBldg">
+		<icon>UserInterface/Icons/Blueprints/BlueprintGeneral_ua</icon>
+		<rollovertextid>801157</rollovertextid>
+		<displaynameid>801156</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Pe_Cap_SkillBuilding</protounit>
+	</blueprint>

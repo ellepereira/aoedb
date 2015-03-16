@@ -1,0 +1,24 @@
+<trait name="Bow1H_R001">
+		<dbid>629</dbid>
+		<traittype>Bows</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\BOWL3_ua</icon>
+		<rollovertextid>53616</rollovertextid>
+		<displaynameid>53617</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0222" scaling="0.0059" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0295" scaling="0.0077" subtype="MaximumRange" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0295" scaling="0.0077" subtype="LOS" visible="false" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

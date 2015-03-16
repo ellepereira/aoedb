@@ -1,0 +1,21 @@
+<equipment version="0" id="133">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\twoanchors_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700340</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>12</uirow>
+		<uicol>40</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivGreek</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GrStar_DockBonus1" cost="3" descid="700341"/>
+		</ranks>
+		<prereq>73</prereq>
+	</equipment>

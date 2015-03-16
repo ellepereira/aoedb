@@ -1,0 +1,21 @@
+<equipment version="0" id="126">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\crops_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700326</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>12</uirow>
+		<uicol>0</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivGreek</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GrStar_FarmBonus1" cost="3" descid="700327"/>
+		</ranks>
+		<prereq>55</prereq>
+	</equipment>

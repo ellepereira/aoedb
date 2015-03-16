@@ -1,0 +1,21 @@
+<equipment version="0" id="187">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techhunting1_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700003</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>6</uirow>
+		<uicol>8</uicol>
+		<agerequirement>1</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechHunting1" cost="2" descid="700002"/>
+		</ranks>
+		<prereq>186</prereq>
+	</equipment>

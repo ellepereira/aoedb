@@ -1,0 +1,22 @@
+<trait name="FireThrower2H_E004">
+		<dbid>1381</dbid>
+		<traittype>FireThrowers</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\FirePotE7_ua</icon>
+		<rollovertextid>55805</rollovertextid>
+		<displaynameid>55806</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>0</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="3.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0322" scaling="0.0104" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0123" scaling="0.0035" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

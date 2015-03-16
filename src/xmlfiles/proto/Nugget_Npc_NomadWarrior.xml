@@ -1,0 +1,76 @@
+<Unit id="513" name="Nugget_Npc_NomadWarrior">
+		<DBID>2037</DBID>
+		<DisplayNameID>56757</DisplayNameID>
+		<EditorNameID>56758</EditorNameID>
+		<Trait1>ConRareInf</Trait1>
+		<ObstructionRadiusX>0.5900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.5900</ObstructionRadiusZ>
+		<IdleTimeout>5.0000</IdleTimeout>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivEgyptian\Units\Infantry\NomadSwordsman\NomadSwordsman.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\EDesertNomadSwordsmen64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarEDesertNomadSwordsmen_ua</PortraitIcon>
+		<RolloverTextID>56756</RolloverTextID>
+		<ShortRolloverTextID>56755</ShortRolloverTextID>
+		<InitialHitpoints>313.0000</InitialHitpoints>
+		<MaxHitpoints>313.0000</MaxHitpoints>
+		<LOS>22.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<Bounty>0.5000</Bounty>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Nugget_Npc_Hoplite</SoundFile>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeVillagersRespondToAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>NatureClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractNuggetGuard</UnitType>
+		<Armor type="Ranged" value="0.3000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>DoNotShowOnMiniMap</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>SelfHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>nugget_melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>12.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="AbstractCavalry">1.500000</DamageBonus>
+		</ProtoAction>
+	</Unit>

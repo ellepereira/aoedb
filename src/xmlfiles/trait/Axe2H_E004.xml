@@ -1,0 +1,24 @@
+<trait name="Axe2H_E004">
+		<dbid>1280</dbid>
+		<traittype>GreatAxe</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\AXEMANAXL6_ua</icon>
+		<rollovertextid>55465</rollovertextid>
+		<displaynameid>55466</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="6.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0398" scaling="0.0136" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0117" scaling="0.0033" subtype="DamageBonus" visible="true" unittype="AbstractInfantry" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0059" scaling="0.0017" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

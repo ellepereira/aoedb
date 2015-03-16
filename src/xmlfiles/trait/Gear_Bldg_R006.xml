@@ -1,0 +1,18 @@
+<trait name="Gear_Bldg_R006">
+		<dbid>741</dbid>
+		<traittype>GearBldg</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\BuildGearTrainingManualR_ua</icon>
+		<rollovertextid>53902</rollovertextid>
+		<displaynameid>53903</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Helmet" factor="5.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0062" scaling="0.0015" subtype="BuildingWorkRate" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

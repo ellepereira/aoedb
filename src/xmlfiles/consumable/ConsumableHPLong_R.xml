@@ -1,0 +1,18 @@
+<consumable name="ConsumableHPLong_R">
+		<icon>UserInterface\Icons\Consumable\ConHPExtend3_ua</icon>
+		<rollovertextid>60140</rollovertextid>
+		<displaynameid>60137</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="15">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<power>PowerHPLong_R</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

@@ -1,0 +1,30 @@
+<econdesign name="CreateMetalWorkingConsumable44">
+		<icon>UserInterface/Icons/Crafting/CraftingMetalwork3_ua</icon>
+		<rollovertextid>60346</rollovertextid>
+		<displaynameid>800452</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivCeltic</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="50">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<productionpoints>1</productionpoints>
+		<input>
+			<material quantity="72">PinePlank</material>
+			<material quantity="24">2GraniteBlock</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableGrantStorehouse_R</consumable>
+		</output>
+		<outputtraitlevel>5</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>MetalWorking</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

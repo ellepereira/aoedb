@@ -1,0 +1,21 @@
+<trait name="Spear2H_E101">
+		<dbid>1513</dbid>
+		<traittype>Spears2H</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\SPEAR2H_E012_ua</icon>
+		<rollovertextid>59226</rollovertextid>
+		<displaynameid>59227</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="12.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0347" scaling="0.0116" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0184" scaling="0.0056" subtype="LOS" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

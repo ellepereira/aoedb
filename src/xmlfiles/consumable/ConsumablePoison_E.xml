@@ -1,0 +1,18 @@
+<consumable name="ConsumablePoison_E">
+		<icon>UserInterface\Icons\Consumable\ConEnfeeblingPoison4_C_ua</icon>
+		<rollovertextid>59677</rollovertextid>
+		<displaynameid>59673</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<power>PowerPoison_E</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

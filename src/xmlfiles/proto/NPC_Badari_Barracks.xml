@@ -1,0 +1,86 @@
+<Unit id="334" name="NPC_Badari_Barracks">
+		<DBID>1829</DBID>
+		<DisplayNameID>54728</DisplayNameID>
+		<EditorNameID>54729</EditorNameID>
+		<UnitLevel>2</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>Gear</Trait4>
+		<ObstructionRadiusX>4.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>4.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>NPC\CivBadari\Buildings\Barracks\Barracks.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>buildinglarge.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Barracks64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarBarracks_ua</PortraitIcon>
+		<RolloverTextID>54727</RolloverTextID>
+		<ShortRolloverTextID>54726</ShortRolloverTextID>
+		<InitialHitpoints>1000.0000</InitialHitpoints>
+		<MaxHitpoints>1000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<BuildPoints>50.0000</BuildPoints>
+		<Bounty>4.0000</Bounty>
+		<Cost resourcetype="Wood">200.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<MaxContained>10</MaxContained>
+		<AllowedAge>0</AllowedAge>
+		<InputContext>BarracksAccel</InputContext>
+		<SoundFile>NPC_Badari_Barracks</SoundFile>
+		<BuilderLimit>20</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>ConvertableBuilding</UnitType>
+		<UnitType>UnitTypeBldgBarracks</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Train row="0" page="0" column="0">UnitTypeInfantryAntiCav1</Train>
+		<Train row="0" page="0" column="3">UnitTypeInfantryBasic1</Train>
+		<Train row="0" page="0" column="1">UnitTypeInfantryAntiInf1</Train>
+		<Train row="0" page="0" column="2">UnitTypeArcherAntiArc1</Train>
+		<Tech row="1" page="0" column="0">GreekTechSpearman1</Tech>
+		<Tech row="1" page="0" column="0">GreekTechSpearman2</Tech>
+		<Tech row="1" page="0" column="0">GreekTechSpearman3</Tech>
+		<Tech>GreekTechHoplite1_Shadow</Tech>
+		<Tech>GreekTechHoplite2_Shadow</Tech>
+		<Tech row="1" page="0" column="2">GreekTechHoplite3</Tech>
+		<Tech row="1" page="0" column="1">GreekTechHypaspist2</Tech>
+		<Tech row="1" page="0" column="1">GreekTechHypaspist3</Tech>
+		<Tech row="1" page="0" column="2">GreekTechHopliteS</Tech>
+		<Tech row="1" page="0" column="1">GreekTechHypaspistS</Tech>
+		<Tech row="1" page="0" column="0">GreekTechSpearmanS</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>AllowAutoGarrison</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="1">Delete</Command>
+	</Unit>

@@ -1,0 +1,21 @@
+<advisor name="Nekbet_U_III">
+		<age>2</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorNekhbet2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>56265</displaynameid>
+		<displaydescriptionid>57214</displaydescriptionid>
+		<shortdescriptionid>58061</shortdescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="200">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeEgyptian</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitNomadSwordmen_U</tech>
+		</techs>
+	</advisor>

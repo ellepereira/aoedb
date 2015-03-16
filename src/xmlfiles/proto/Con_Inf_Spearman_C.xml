@@ -1,0 +1,84 @@
+<Unit id="359" name="Con_Inf_Spearman_C">
+		<DBID>1866</DBID>
+		<DisplayNameID>55120</DisplayNameID>
+		<EditorNameID>55121</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<Trait1>ConCommonInf</Trait1>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>NPC\CivBadari\Units\Infantry\Spearman\Spearman.xml</AnimFile>
+		<CorpseDecalTime>0.0000</CorpseDecalTime>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\BadariSpearman64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarBadariSpearman_ua</PortraitIcon>
+		<RolloverTextID>55119</RolloverTextID>
+		<ShortRolloverTextID>55118</ShortRolloverTextID>
+		<InitialHitpoints>213.0000</InitialHitpoints>
+		<MaxHitpoints>213.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>0.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Con_Inf_Spearman</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>ConvertableInfantry</UnitType>
+		<UnitType>UnitUpgradeAge2</UnitType>
+		<UnitType>UnitUpgradeLevel13</UnitType>
+		<Armor type="Cavalry" value="0.3000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>spearman.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="AbstractVillager">0.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>10.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+			<DamageBonus type="AbstractCavalry">2.500000</DamageBonus>
+		</ProtoAction>
+	</Unit>

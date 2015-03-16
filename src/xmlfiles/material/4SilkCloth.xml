@@ -1,0 +1,17 @@
+<material name="4SilkCloth">
+		<icon>UserInterface\Icons\Materials\MatIconsSilkCloth_ua</icon>
+		<rollovertextid>53132</rollovertextid>
+		<displaynameid>800829</displaynameid>
+		<stackable/>
+		<stacksize>100</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="3.6">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<budgetcost>5</budgetcost>
+	</material>

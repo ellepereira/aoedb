@@ -1,0 +1,31 @@
+<econdesign name="CreateMilitaryCollegeSpear1H_U006">
+		<icon>UserInterface/Icons/Crafting/CraftingInfantry2_ua</icon>
+		<rollovertextid>53207</rollovertextid>
+		<displaynameid>53200</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>22</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="50">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="26">CopperIngot</material>
+			<material quantity="16">2OakPlank</material>
+			<material quantity="8">2BronzeIngot</material>
+		</input>
+		<output>
+			<trait quantity="1" level="22">Spear1H_U006</trait>
+		</output>
+		<outputtraitlevel>22</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>MilitaryCollege</tag>
+		<budgetmodifier>0.5</budgetmodifier>
+	</econdesign>

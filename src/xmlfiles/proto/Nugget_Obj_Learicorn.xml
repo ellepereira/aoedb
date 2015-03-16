@@ -1,0 +1,42 @@
+<Unit id="616" name="Nugget_Obj_Learicorn">
+		<DBID>2149</DBID>
+		<DisplayNameID>58168</DisplayNameID>
+		<EditorNameID>58169</EditorNameID>
+		<ObstructionRadiusX>1.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>1.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>World/Nugget\Learicorn\Learicorn.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<Icon>UserInterface\Icons\Treasure\Chest64_ua</Icon>
+		<MinimapIcon>UserInterface\Icons\MiniMap\NuggetMinimapIcon_ua</MinimapIcon>
+		<PortraitIcon>UserInterface\Icons\Treasure\AvatarChest_ua</PortraitIcon>
+		<RolloverTextID>58170</RolloverTextID>
+		<ShortRolloverTextID>58171</ShortRolloverTextID>
+		<InitialHitpoints>50.0000</InitialHitpoints>
+		<MaxHitpoints>50.0000</MaxHitpoints>
+		<LOS>16.0000</LOS>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Nugget_Obj_WoodHut</SoundFile>
+		<MinimapColor red="1.0000" blue="1.0000" green="1.0000"/>
+		<UnitType>LogicalTypeVillagersRespondToAttack</UnitType>
+		<UnitType>NatureClass</UnitType>
+		<UnitType>AbstractNugget</UnitType>
+		<Armor type="Ranged" value="0.0000"/>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>ForceToGaia</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>NotRotateable</Flag>
+		<Flag>Nugget</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Tracked</Flag>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>15.000000</Damage>
+			<ROF>1.000000</ROF>
+			<DamageType>Hand</DamageType>
+		</ProtoAction>
+	</Unit>

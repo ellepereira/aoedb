@@ -1,0 +1,18 @@
+<consumable name="ConsumablePriestAmen_C">
+		<icon>UserInterface\Icons\Consumable\ConRoguePriest1_ua</icon>
+		<rollovertextid>56256</rollovertextid>
+		<displaynameid>56255</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="5">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<power>PowerSpawnAmenPriests_C</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

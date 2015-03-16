@@ -1,0 +1,20 @@
+<equipment version="0" id="253">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\ecaravan64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700138</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>6</uirow>
+		<uicol>53</uicol>
+		<agerequirement>2</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Eg_Ct_UnitCaravan1" cost="1" descid="700139"/>
+		</ranks>
+		<prereq>252</prereq>
+	</equipment>

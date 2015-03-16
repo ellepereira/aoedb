@@ -1,0 +1,22 @@
+<equipment version="0" id="304">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\buildingcoin_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700360</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>12</uirow>
+		<uicol>16</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivEgyptian</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgStar_StorehouseBonus1" cost="3" descid="700361"/>
+		</ranks>
+		<prereq>187</prereq>
+		<prereq>188</prereq>
+	</equipment>

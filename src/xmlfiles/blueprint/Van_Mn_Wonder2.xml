@@ -1,0 +1,18 @@
+<blueprint name="Van_Mn_Wonder2">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity4_ua</icon>
+		<rollovertextid>800787</rollovertextid>
+		<displaynameid>800786</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityEpic</rarity>
+		<cost>
+			<material quantity="100">!MinoanTools</material>
+			<material quantity="100">!KnossosMarble</material>
+			<material quantity="100">!CypressWood</material>
+		</cost>
+		<protounit>Mn_Bldg_Wonder2</protounit>
+	</blueprint>

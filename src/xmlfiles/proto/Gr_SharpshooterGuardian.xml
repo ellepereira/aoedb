@@ -1,0 +1,41 @@
+<Unit id="332" name="Gr_SharpshooterGuardian">
+		<DBID>1827</DBID>
+		<DisplayNameID>54674</DisplayNameID>
+		<EditorNameID>54675</EditorNameID>
+		<UnitLevel>99</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait1>Bows</Trait1>
+		<Trait2>Arrows</Trait2>
+		<Trait3>ArmorCloth</Trait3>
+		<Trait4>Gear</Trait4>
+		<ObstructionRadiusX>0.5900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.5900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Infantry\Archer\Archer.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Toxotai64_ua</Icon>
+		<PortraitIcon>UserInterface/Icons/TraitCards/AntiArcher3C__ua</PortraitIcon>
+		<SelectionPriority>0</SelectionPriority>
+		<RolloverTextID>54676</RolloverTextID>
+		<ShortRolloverTextID>54677</ShortRolloverTextID>
+		<InitialHitpoints>200000.0000</InitialHitpoints>
+		<MaxHitpoints>200000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<ProjectileProtoUnit>Proj_Arrow</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>6.0000</TrainPoints>
+		<Cost resourcetype="Wood">1000000.0000</Cost>
+		<Cost resourcetype="Gold">1000000.0000</Cost>
+		<Cost resourcetype="stone">1000000.0000</Cost>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_SharpshooterGuardian</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<Flag>Tracked</Flag>
+		<Tactics>ranged.tactics</Tactics>
+	</Unit>

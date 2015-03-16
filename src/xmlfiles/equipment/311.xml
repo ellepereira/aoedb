@@ -1,0 +1,19 @@
+<equipment version="0" id="311">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>userinterface\capitaltech\ageupicon3active_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700489</displaynameid>
+		<uipanel>0</uipanel>
+		<uirow>0</uirow>
+		<uicol>0</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>true</grantedatlevel>
+		<grantinglevel>10</grantinglevel>
+		<ranks>
+			<rank cost="0" descid="700490"/>
+		</ranks>
+	</equipment>

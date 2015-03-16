@@ -1,0 +1,18 @@
+<consumable name="ConsumableGrantFruit_C">
+		<icon>UserInterface\Icons\Consumable\ConResBerry1_ua</icon>
+		<rollovertextid>55822</rollovertextid>
+		<displaynameid>55821</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="5">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<power>PowerGrantFruit_C</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

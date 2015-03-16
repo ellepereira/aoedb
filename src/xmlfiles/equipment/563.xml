@@ -1,0 +1,20 @@
+<equipment version="0" id="563">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c04techpaidlabor_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700707</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>4</uirow>
+		<uicol>43</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="PersiaTechVillagerUnlock1" cost="2" descid="700759"/>
+		</ranks>
+		<prereq>592</prereq>
+	</equipment>

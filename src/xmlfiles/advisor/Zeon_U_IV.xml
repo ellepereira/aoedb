@@ -1,0 +1,18 @@
+<advisor name="Zeon_U_IV">
+		<age>3</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorZeno2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52149</displaynameid>
+		<displaydescriptionid>57182</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="250">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Zeon_U</tech>
+		</techs>
+	</advisor>

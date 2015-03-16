@@ -1,0 +1,19 @@
+<equipment version="0" id="226">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\buildings\blacksmith64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700114</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>2</uirow>
+		<uicol>8</uicol>
+		<agerequirement>2</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Eg_Ct_BldgArmory1" cost="3" descid="700115"/>
+		</ranks>
+	</equipment>

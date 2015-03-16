@@ -1,0 +1,18 @@
+<consumable name="ConsumableElixirHPNegDamage_U">
+		<icon>UserInterface\Icons\Consumable\ConElixerFortitude2_C_ua</icon>
+		<rollovertextid>59655</rollovertextid>
+		<displaynameid>59653</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="10">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<power>PowerElixirHPNegDamage_U</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

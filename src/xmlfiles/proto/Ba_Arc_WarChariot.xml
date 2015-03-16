@@ -1,0 +1,93 @@
+<Unit id="1212" name="Ba_Arc_WarChariot">
+		<DBID>2991</DBID>
+		<DisplayNameID>66084</DisplayNameID>
+		<EditorNameID>66085</EditorNameID>
+		<UnitLevel>2</UnitLevel>
+		<PopulationCount>4</PopulationCount>
+		<Trait1>Javalins</Trait1>
+		<Trait3>ArmorLgt</Trait3>
+		<Trait4>Gear</Trait4>
+		<VanTrait1>VanityWeapon</VanTrait1>
+		<VanTrait3>VanityHelm</VanTrait3>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>8.0000</MaxVelocity>
+		<MaxRunVelocity>12.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivBabylonian\Units\Mounted\WarChariot\Warchariot.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\BWarChariot64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarBWarChariot_ua</PortraitIcon>
+		<RolloverTextID>66083</RolloverTextID>
+		<ShortRolloverTextID>66082</ShortRolloverTextID>
+		<InitialHitpoints>800.0000</InitialHitpoints>
+		<MaxHitpoints>800.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<ProjectileProtoUnit>Proj_SpearPeltast</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>28.0000</TrainPoints>
+		<Bounty>3.0000</Bounty>
+		<Cost resourcetype="Wood">150.0000</Cost>
+		<Cost resourcetype="Gold">120.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>3</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Ba_Arc_WarChariot</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedCavalry</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeCavalryAntiArc1</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>ranged.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="AbstractArcher">4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>20.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>18.000000</MaxRange>
+			<DamageType>Ranged</DamageType>
+			<MaxHeight>2.000000</MaxHeight>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+		</ProtoAction>
+	</Unit>

@@ -1,0 +1,7 @@
+<achievement>
+		<internalname>A_FEARTHEGEAR</internalname>
+		<displaynameid>57760</displaynameid>
+		<type>cATAnyGearEquipped</type>
+		<data/>
+		<liveid>43</liveid>
+	</achievement>

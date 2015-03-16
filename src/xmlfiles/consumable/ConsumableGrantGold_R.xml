@@ -1,0 +1,18 @@
+<consumable name="ConsumableGrantGold_R">
+		<icon>UserInterface\Icons\Consumable\ConResGold3_ua</icon>
+		<rollovertextid>55375</rollovertextid>
+		<displaynameid>55374</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="15">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<power>PowerGrantGold_R</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

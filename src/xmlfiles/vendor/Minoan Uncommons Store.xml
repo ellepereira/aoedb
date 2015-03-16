@@ -1,0 +1,57 @@
+<vendor name="Minoan Uncommons Store">
+		<protounit>Mn_Cap_BasicStore01</protounit>
+		<itemsets>
+			<itemset regionid="14">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">Spear2H_UA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="8">ArmorClth_UA02</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">Tool1H_UA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="13">ArmorLgt_UA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="18">ArmorBldg_UA02</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">ArmorPlt_UA01</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

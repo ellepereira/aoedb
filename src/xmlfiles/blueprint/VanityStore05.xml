@@ -1,0 +1,14 @@
+<blueprint name="VanityStore05">
+		<icon>UserInterface/Icons/Blueprints/BlueprintStore_ua</icon>
+		<rollovertextid>801203</rollovertextid>
+		<displaynameid>801202</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Gn_Cap_VanityStore05</protounit>
+	</blueprint>

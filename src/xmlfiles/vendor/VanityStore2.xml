@@ -1,0 +1,89 @@
+<vendor name="VanityStore2">
+		<protounit>gn_Cap_VanityStore02</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Bushes1</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Bushes2</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Gazebo1</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="100">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Gazebo2</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_CyprusTree1</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_CyprusTree2</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_CyprusTree3</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_CyprusTree4</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Fountain1</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="500">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_Fountain2</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="750">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

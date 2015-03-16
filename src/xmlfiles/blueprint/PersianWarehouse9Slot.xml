@@ -1,0 +1,21 @@
+<blueprint name="PersianWarehouse9Slot">
+		<icon>UserInterface/Icons/Blueprints/BlueprintWarehouse2_ua</icon>
+		<rollovertextid>801165</rollovertextid>
+		<displaynameid>801164</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="100">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<cost>
+			<material quantity="40">PinePlank</material>
+			<material quantity="20">CopperIngot</material>
+			<material quantity="10">StoneBlock</material>
+		</cost>
+		<protounit>Pe_Cap_Warehouse02</protounit>
+	</blueprint>

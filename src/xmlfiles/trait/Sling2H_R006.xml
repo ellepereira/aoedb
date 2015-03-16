@@ -1,0 +1,22 @@
+<trait name="Sling2H_R006">
+		<dbid>1294</dbid>
+		<traittype>Sling</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\SlingR5_ua</icon>
+		<rollovertextid>55493</rollovertextid>
+		<displaynameid>55494</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="5.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="5.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0124" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0147" scaling="0.0036" subtype="DamageBonus" visible="true" unittype="AbstractArcher" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

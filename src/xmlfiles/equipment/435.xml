@@ -1,0 +1,20 @@
+<equipment version="0" id="435">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c03techcallofthestag_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700597</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>6</uirow>
+		<uicol>41</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeltTechBardHall1" cost="0" descid="700648"/>
+		</ranks>
+		<prereq>353</prereq>
+	</equipment>

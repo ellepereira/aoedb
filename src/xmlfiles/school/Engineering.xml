@@ -1,0 +1,23 @@
+<school>
+		<tag>Engineering</tag>
+		<displayname>55710</displayname>
+		<description>55717</description>
+		<startingblueprint>GeneralEngineeringCollege</startingblueprint>
+		<icon>Art\UserInterface\Icons\Crafting\SchoolEngineering_ua</icon>
+		<gearicons>
+			<gear stringid="56347">ArmorPlatingSlot_ua</gear>
+			<gear stringid="56331">RamSlot_ua</gear>
+			<gear stringid="56346">BallistaArmSlot_ua</gear>
+			<gear stringid="56336">SiegeGearSlot_ua</gear>
+		</gearicons>
+		<items>
+			<consumable>ConsumableSiegeMachines_C</consumable>
+			<consumable>ConsumableGrantStone_C</consumable>
+			<advisor>Kleon_C_I</advisor>
+			<advisor>Horus_U_II</advisor>
+			<advisor>Ligeia_R_III</advisor>
+			<advisor>Seleucus_E_IV</advisor>
+		</items>
+		<design>CreateEngineeringConsumable1</design>
+		<craftingsound>UI_Crafthall_Recipe_Siege</craftingsound>
+	</school>

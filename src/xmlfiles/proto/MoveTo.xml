@@ -1,0 +1,25 @@
+<Unit id="17" name="MoveTo">
+		<DBID>1464</DBID>
+		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>air</MovementType>
+		<AnimFile>Gameplay\MoveTo\MoveTo.xml</AnimFile>
+		<LOS>0.0000</LOS>
+		<SoundFile>MoveTo</SoundFile>
+		<UnitType>EmbellishmentClass</UnitType>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>NotPlayerPlaceable</Flag>
+		<Flag>NotSearchable</Flag>
+		<Flag>NotSelectable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>AlwaysFullColorAsCursor</Flag>
+		<Flag>NoUnitAI</Flag>
+	</Unit>

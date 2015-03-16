@@ -1,0 +1,17 @@
+<blueprint name="Van_Gazebo1">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800105</rollovertextid>
+		<displaynameid>800104</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferGreekVanity1</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="15">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Van_Cap_Gazebo1</protounit>
+	</blueprint>

@@ -1,0 +1,19 @@
+<advisor name="Tawaret_C_IV">
+		<age>3</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorTawaret1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>56632</displaynameid>
+		<displaydescriptionid>56633</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeEgyptian</civilization>
+		<techs>
+			<tech>Advisor_Tawaret_C</tech>
+		</techs>
+	</advisor>

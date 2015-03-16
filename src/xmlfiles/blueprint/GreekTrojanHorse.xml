@@ -1,0 +1,14 @@
+<blueprint name="GreekTrojanHorse">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800097</rollovertextid>
+		<displaynameid>800096</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Gr_Cap_TrojanHorse</protounit>
+	</blueprint>

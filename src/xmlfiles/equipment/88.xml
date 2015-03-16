@@ -1,0 +1,21 @@
+<equipment version="0" id="88">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techmarkettribute2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700264</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>5</uirow>
+		<uicol>56</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechMarketTribute2" cost="1" descid="700143"/>
+		</ranks>
+		<prereq>87</prereq>
+	</equipment>

@@ -1,0 +1,20 @@
+<advisor name="Arsham_C_III">
+		<age>2</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorArsham1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>62059</displaynameid>
+		<displaydescriptionid>62064</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="125">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypePersian</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitKardaka_C</tech>
+		</techs>
+	</advisor>

@@ -1,0 +1,17 @@
+<blueprint name="VanityGarden01">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800138</rollovertextid>
+		<displaynameid>800137</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="15">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Van_Cap_Garden01</protounit>
+	</blueprint>

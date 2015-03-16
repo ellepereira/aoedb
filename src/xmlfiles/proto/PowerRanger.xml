@@ -1,0 +1,23 @@
+<Unit id="34" name="PowerRanger">
+		<DBID>1755</DBID>
+		<EditorNameID>52885</EditorNameID>
+		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>air</MovementType>
+		<AnimFile>ui\abilities\powerranger\powerranger.xml</AnimFile>
+		<LOS>0.0000</LOS>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>PowerRanger</SoundFile>
+		<UnitType>EmbellishmentClass</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>NoIdleActions</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>NotPlayerPlaceable</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>FlattenGround</Flag>
+	</Unit>

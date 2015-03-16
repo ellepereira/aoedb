@@ -1,0 +1,99 @@
+<Unit id="214" name="Gr_Cav_Sarissophoroi">
+		<DBID>1661</DBID>
+		<DisplayNameID>51442</DisplayNameID>
+		<EditorNameID>51443</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>2</PopulationCount>
+		<Trait1>Javalins</Trait1>
+		<Trait2>Shields</Trait2>
+		<Trait3>ArmorLgt</Trait3>
+		<Trait4>Gear</Trait4>
+		<VanTrait1>VanityWeapon</VanTrait1>
+		<VanTrait2>VanityShield</VanTrait2>
+		<VanTrait3>VanityHelm</VanTrait3>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>9.0000</MaxVelocity>
+		<MaxRunVelocity>13.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Mounted\Sarissophoroi\Sarissophoroi.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\sarissophoroi_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarSarissophoroi_ua</PortraitIcon>
+		<RolloverTextID>51441</RolloverTextID>
+		<ShortRolloverTextID>51440</ShortRolloverTextID>
+		<InitialHitpoints>420.0000</InitialHitpoints>
+		<MaxHitpoints>420.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<ProjectileProtoUnit>Proj_SpearPeltast</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>15.2000</TrainPoints>
+		<Bounty>2.0000</Bounty>
+		<Cost resourcetype="Food">55.0000</Cost>
+		<Cost resourcetype="Gold">40.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_Cav_Sarissophoroi</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeCavalryAntiArc1</UnitType>
+		<UnitType>ConvertableCavalry</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.5000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>DoesNotAutoAttack</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>ranged.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="AbstractArcher">3.000000</DamageBonus>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+			<Damage>12.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>5.000000</MaxRange>
+			<DamageType>Ranged</DamageType>
+			<MaxHeight>0.200000</MaxHeight>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="Gr_Cav_Sarissophoroi">2.500000</DamageBonus>
+		</ProtoAction>
+	</Unit>

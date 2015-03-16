@@ -1,0 +1,20 @@
+<equipment version="0" id="81">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\ships\travelship64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700044</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>2</uirow>
+		<uicol>37</uicol>
+		<agerequirement>2</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GrE_GreekUnitUtilityBoat1" cost="1" descid="700045"/>
+		</ranks>
+		<prereq>69</prereq>
+	</equipment>

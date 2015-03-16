@@ -1,0 +1,20 @@
+<equipment version="0" id="597">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c04blotoutthesun_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700713</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>5</uirow>
+		<uicol>35</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="PersiaTechArcRange1" cost="2" descid="700772"/>
+		</ranks>
+		<prereq>596</prereq>
+	</equipment>

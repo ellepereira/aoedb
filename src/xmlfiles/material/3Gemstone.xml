@@ -1,0 +1,17 @@
+<material name="3Gemstone">
+		<icon>UserInterface\Icons\Materials\MatIconsGemstones_ua</icon>
+		<rollovertextid>53132</rollovertextid>
+		<displaynameid>800813</displaynameid>
+		<stackable/>
+		<stacksize>250</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="1.2">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<budgetcost>4</budgetcost>
+	</material>

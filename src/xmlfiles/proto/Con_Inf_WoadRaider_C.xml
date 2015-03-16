@@ -1,0 +1,90 @@
+<Unit id="927" name="Con_Inf_WoadRaider_C">
+		<DBID>2524</DBID>
+		<DisplayNameID>62530</DisplayNameID>
+		<EditorNameID>62531</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<Trait1>ConCommonInf</Trait1>
+		<ObstructionRadiusX>0.7500</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7500</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>9.0000</MaxVelocity>
+		<MaxRunVelocity>13.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivCelt\Units\Infantry\WoadRaider\WoadRaider.xml</AnimFile>
+		<CorpseDecalTime>0.0000</CorpseDecalTime>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\CWoadRaider64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarCWoadRaider_ua</PortraitIcon>
+		<RolloverTextID>62529</RolloverTextID>
+		<ShortRolloverTextID>62528</ShortRolloverTextID>
+		<InitialHitpoints>200.0000</InitialHitpoints>
+		<MaxHitpoints>200.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>0.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<VisualScale>1.0400</VisualScale>
+		<SoundFile>Ce_Inf_WoadRaider</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeInfantryBasic1</UnitType>
+		<UnitType>ConvertableInfantry</UnitType>
+		<UnitType>UnitUpgradeAge3</UnitType>
+		<UnitType>UnitUpgradeLevel13</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.3000"/>
+		<Armor type="Siege" value="0.5000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="AbstractArtillery">2.000000</DamageBonus>
+			<DamageBonus type="AbstractArcher">2.500000</DamageBonus>
+			<Damage>16.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+			<DamageBonus type="AbstractPriest">1.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Charge</Name>
+			<Active>1</Active>
+		</ProtoAction>
+	</Unit>

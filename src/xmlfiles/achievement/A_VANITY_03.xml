@@ -1,0 +1,10 @@
+<achievement>
+		<internalname>A_VANITY_03</internalname>
+		<displaynameid>62644</displaynameid>
+		<type>cATUnitListInCapital</type>
+		<data>
+			<entry>Ce_Cap_Wickerman</entry>
+		</data>
+		<liveid>80</liveid>
+		<offer>eOfferCivCeltic</offer>
+	</achievement>

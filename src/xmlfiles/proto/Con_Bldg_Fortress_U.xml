@@ -1,0 +1,89 @@
+<Unit id="451" name="Con_Bldg_Fortress_U">
+		<DBID>1970</DBID>
+		<DisplayNameID>56223</DisplayNameID>
+		<EditorNameID>56224</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait1>ConUncommonBldg</Trait1>
+		<ObstructionRadiusX>6.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>6.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGreek\Buildings\Capital\BanditFortress\BanditFortress.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>watchtower.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Fortress64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarFort_ua</PortraitIcon>
+		<RolloverTextID>56222</RolloverTextID>
+		<ShortRolloverTextID>56221</ShortRolloverTextID>
+		<InitialHitpoints>4050.0000</InitialHitpoints>
+		<MaxHitpoints>4050.0000</MaxHitpoints>
+		<LOS>40.0000</LOS>
+		<ProjectileProtoUnit>Proj_BoltCluster</ProjectileProtoUnit>
+		<BuildPoints>200.0000</BuildPoints>
+		<Bounty>15.0000</Bounty>
+		<Cost resourcetype="Wood">300.0000</Cost>
+		<Cost resourcetype="stone">700.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<MaxContained>20</MaxContained>
+		<AllowedAge>2</AllowedAge>
+		<SoundFile>Gr_Bldg_Fortress</SoundFile>
+		<BuilderLimit>14</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>MilitaryBuilding</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>UnitUpgradeAge3</UnitType>
+		<UnitType>UnitUpgradeLevel23</UnitType>
+		<UnitType>UnitUpgrade1CraftedUncommon</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Train row="0" page="0" column="0">UnitTypeUniqueUnit1</Train>
+		<Train row="0" page="0" column="1">UnitTypeUniqueUnit2</Train>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PlaceAsFoundation</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Contain>UnitTypeVillager1</Contain>
+		<Command row="0" page="10" column="2">Eject</Command>
+		<Command row="0" page="10" column="0">Delete</Command>
+		<Tactics>combatBuilding.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>50.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>36.000000</MaxRange>
+			<DamageArea>1.000000</DamageArea>
+			<DamageFlags>Gaia Enemy</DamageFlags>
+			<DamageType>Ranged</DamageType>
+			<Projectile>Proj_BoltCluster</Projectile>
+			<MaxHeight>2.000000</MaxHeight>
+		</ProtoAction>
+	</Unit>

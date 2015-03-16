@@ -1,0 +1,14 @@
+<blueprint name="CeltArena">
+		<icon>UserInterface/Icons/Blueprints/BlueprintGeneral3_ua</icon>
+		<rollovertextid>800243</rollovertextid>
+		<displaynameid>800242</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Ce_Cap_Arena</protounit>
+	</blueprint>

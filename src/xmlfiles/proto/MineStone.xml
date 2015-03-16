@@ -1,0 +1,50 @@
+<Unit id="148" name="MineStone">
+		<DBID>1450</DBID>
+		<DisplayNameID>49994</DisplayNameID>
+		<EditorNameID>49995</EditorNameID>
+		<ObstructionRadiusX>3.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>3.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>World\Resources\StoneMine\StoneMine.xml</AnimFile>
+		<ImpactType>Stone</ImpactType>
+		<Icon>UserInterface\Icons\Units\Gaia\StonePile64_ua</Icon>
+		<MinimapIcon>UserInterface\Icons\MiniMap\StoneMinimapIcon_ua</MinimapIcon>
+		<PortraitIcon>UserInterface\Icons\Units\Gaia\AvatarStone_ua</PortraitIcon>
+		<RolloverTextID>49993</RolloverTextID>
+		<ShortRolloverTextID>49992</ShortRolloverTextID>
+		<LOS>18.0000</LOS>
+		<InitialResource resourcetype="stone">1000.0000</InitialResource>
+		<ResourceSubType>Stone</ResourceSubType>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<SoundFile>MineStone</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<MinimapColor red="1.0000" blue="1.0000" green="1.0000"/>
+		<GathererLimit>20</GathererLimit>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>Resource</UnitType>
+		<UnitType>NatureClass</UnitType>
+		<UnitType>MinedResource</UnitType>
+		<UnitType>AbstractMine</UnitType>
+		<UnitType>Stone</UnitType>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>DieAtZeroResources</Flag>
+		<Flag>DoNotValidateResourceInventory</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>DoNotDieAtZeroHitpoints</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>ForceToGaia</Flag>
+		<Flag>StartOnNoUpdate</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>RMCanRotate</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="2">Delete</Command>
+	</Unit>

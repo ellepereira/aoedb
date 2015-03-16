@@ -1,0 +1,18 @@
+<blueprint name="Van_Obelisk1">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800194</rollovertextid>
+		<displaynameid>0</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivEgyptian</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityRare</rarity>
+		<cost>
+			<material quantity="6">2GraniteBlock</material>
+			<material quantity="5">2LoreScroll</material>
+			<material quantity="3">!GizaLimestone</material>
+		</cost>
+		<protounit>Eg_Van_Obelisk1</protounit>
+	</blueprint>

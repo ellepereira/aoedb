@@ -1,0 +1,19 @@
+<equipment version="0" id="334">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\buildings\stable64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700096</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>2</uirow>
+		<uicol>32</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Ce_Ct_BldgStable1" cost="2" descid="700097"/>
+		</ranks>
+	</equipment>

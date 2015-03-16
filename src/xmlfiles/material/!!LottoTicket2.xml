@@ -1,0 +1,17 @@
+<material name="!!LottoTicket2">
+		<icon>UserInterface\Icons\Materials\MatIconsSackGold_ua</icon>
+		<rollovertextid>60293</rollovertextid>
+		<displaynameid>60291</displaynameid>
+		<stackable/>
+		<stacksize>1</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="10">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<budgetcost>1</budgetcost>
+	</material>

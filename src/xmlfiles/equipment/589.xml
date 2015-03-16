@@ -1,0 +1,19 @@
+<equipment version="0" id="589">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\buildings\fortress64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700146</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>2</uirow>
+		<uicol>28</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Pe_Ct_BldgFortress1" cost="3" descid="700147"/>
+		</ranks>
+	</equipment>

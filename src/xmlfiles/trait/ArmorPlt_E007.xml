@@ -1,0 +1,18 @@
+<trait name="ArmorPlt_E007">
+		<dbid>558</dbid>
+		<traittype>ArmorPlt</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmBoatSiegeE5_ua</icon>
+		<rollovertextid>53473</rollovertextid>
+		<displaynameid>53474</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0495" scaling="0.0178" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

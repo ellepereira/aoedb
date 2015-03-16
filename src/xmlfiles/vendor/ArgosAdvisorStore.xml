@@ -1,0 +1,89 @@
+<vendor name="ArgosAdvisorStore">
+		<protounit>Gr_Cap_BasicStoreArgos03</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<advisor quantity="1">Pamphilos_U_III</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Ammon_U_III</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Onesiphoros_U_III</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Sophia_U_III</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Sostrate_U_III</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Ptolemais_U_IV</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Tawaret_U_IV</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Timo_U_IV</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Namor_U_IV</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<advisor quantity="1">Medias_U_IV</advisor>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

@@ -1,0 +1,24 @@
+<econdesign name="CraftStoneBlock">
+		<icon>UserInterface/Icons/Crafting/CraftingMaterials_ua</icon>
+		<rollovertextid>53191</rollovertextid>
+		<displaynameid>51467</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>3</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<productionpoints>900</productionpoints>
+		<input/>
+		<output>
+			<material quantity="1">StoneBlock</material>
+		</output>
+		<outputtraitlevel>0</outputtraitlevel>
+		<autolearn>true</autolearn>
+		<autorepeat>true</autorepeat>
+		<ignoreschool>true</ignoreschool>
+		<advanced>false</advanced>
+		<tag>[StoneDesigns1]</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

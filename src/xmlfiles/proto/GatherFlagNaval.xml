@@ -1,0 +1,27 @@
+<Unit id="38" name="GatherFlagNaval">
+		<DBID>1764</DBID>
+		<DisplayNameID>52992</DisplayNameID>
+		<EditorNameID>62733</EditorNameID>
+		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>air</MovementType>
+		<AnimFile>GamePlay\GatherPoint\GatherPointWater.xml</AnimFile>
+		<LOS>0.0000</LOS>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>GatherFlagNaval</SoundFile>
+		<UnitType>EmbellishmentClass</UnitType>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>NotSearchable</Flag>
+		<Flag>NotSelectable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>AlwaysFullColorAsCursor</Flag>
+		<Flag>NoUnitAI</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+	</Unit>

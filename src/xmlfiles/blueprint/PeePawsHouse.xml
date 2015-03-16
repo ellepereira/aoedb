@@ -1,0 +1,21 @@
+<blueprint name="PeePawsHouse">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity4_ua</icon>
+		<rollovertextid>800205</rollovertextid>
+		<displaynameid>800204</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="250">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<cost>
+			<material quantity="40">3FineLeather</material>
+			<material quantity="30">3EbonyPlank</material>
+			<material quantity="10">3PrecisionTool</material>
+		</cost>
+		<protounit>Gn_Cap_PeePawsHouse</protounit>
+	</blueprint>

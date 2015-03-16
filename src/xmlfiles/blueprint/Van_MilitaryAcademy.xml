@@ -1,0 +1,21 @@
+<blueprint name="Van_MilitaryAcademy">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity2_ua</icon>
+		<rollovertextid>800225</rollovertextid>
+		<displaynameid>800224</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="50">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<cost>
+			<material quantity="5">3EbonyPlank</material>
+			<material quantity="4">3PrecisionTool</material>
+			<material quantity="3">!MosiacTile</material>
+		</cost>
+		<protounit>Van_Cap_MilitaryCollege</protounit>
+	</blueprint>

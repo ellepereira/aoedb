@@ -1,0 +1,89 @@
+<vendor name="Cyprus Equipment Store">
+		<protounit>Cy_Cap_BasicStore03</protounit>
+		<itemsets>
+			<itemset regionid="15">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="37">Gear_Vill_U005</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="650">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="37">ArmorClth_U016</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="850">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="37">Tool1H_U021</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="750">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="40">Gear_R034</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="2250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="40">Spear1H_R018</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="2750">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="40">ArmorLgt_R019</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="2500">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">ArrowOH_E016</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="3000">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Bow1H_E010</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="3500">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Spear2H_E015</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="4000">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">ArmorMed_E014</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="3500">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

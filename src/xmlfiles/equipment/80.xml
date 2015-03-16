@@ -1,0 +1,21 @@
+<equipment version="0" id="80">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\greektechfireships_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700262</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>7</uirow>
+		<uicol>48</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GreekTechFireShipS" cost="2" descid="700515"/>
+		</ranks>
+		<prereq>79</prereq>
+	</equipment>

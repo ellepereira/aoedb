@@ -1,0 +1,21 @@
+<trait name="Javelin2H_R015">
+		<dbid>1796</dbid>
+		<traittype>Javalins</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\SPEAR1H_E008_ua</icon>
+		<rollovertextid>60253</rollovertextid>
+		<displaynameid>60254</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="6.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0335" scaling="0.0091" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0162" scaling="0.0042" subtype="MaximumRange" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

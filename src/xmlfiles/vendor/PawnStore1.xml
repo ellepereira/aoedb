@@ -1,0 +1,73 @@
+<vendor name="PawnStore1">
+		<protounit>Gn_Cap_PawnShop_01</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level5Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level10Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="100">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level15Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="150">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level20Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level25Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level30Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="350">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level35Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="550">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<lootroll quantity="1">Level40Chest</lootroll>
+						</purchase>
+						<cost>
+							<capitalresource quantity="750">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

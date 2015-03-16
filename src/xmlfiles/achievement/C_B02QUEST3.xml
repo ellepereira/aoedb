@@ -1,0 +1,10 @@
+<achievement>
+		<internalname>C_B02QUEST3</internalname>
+		<displaynameid>62626</displaynameid>
+		<type>cATQuestComplete</type>
+		<data>
+			<entry>102018</entry>
+		</data>
+		<liveid>68</liveid>
+		<offer>eOfferBooster2</offer>
+	</achievement>

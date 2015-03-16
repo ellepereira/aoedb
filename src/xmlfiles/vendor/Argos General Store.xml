@@ -1,0 +1,73 @@
+<vendor name="Argos General Store">
+		<protounit>Gr_Cap_BasicStoreArgos07</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Spear1H_E001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="150">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">ArmorMed_E009</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="150">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="28">Sword1H_E001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="28">ArmorMed_E010</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="33">Bow1H_E003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="33">ArmorLgt_E003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="250">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="38">Spear2H_E012</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="38">Shield1H_E003</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

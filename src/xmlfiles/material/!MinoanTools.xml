@@ -1,0 +1,17 @@
+<material name="!MinoanTools">
+		<icon>UserInterface/Icons/Materials/MatIconsTools2_ua</icon>
+		<rollovertextid>62028</rollovertextid>
+		<displaynameid>800750</displaynameid>
+		<stackable/>
+		<stacksize>100</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="1">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<budgetcost>5</budgetcost>
+	</material>

@@ -1,0 +1,17 @@
+<material name="2Leather">
+		<icon>UserInterface\Icons\Materials\MatIconsLeather_ua</icon>
+		<rollovertextid>53132</rollovertextid>
+		<displaynameid>800012</displaynameid>
+		<stackable/>
+		<stacksize>500</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="0.2">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<budgetcost>2</budgetcost>
+	</material>

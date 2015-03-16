@@ -1,0 +1,31 @@
+<econdesign name="CreateWoodscraftBellyBow1H_U102">
+		<icon>UserInterface/Icons/Crafting/CraftingArchery2_ua</icon>
+		<rollovertextid>53205</rollovertextid>
+		<displaynameid>800496</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>30</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="60">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="26">PinePlank</material>
+			<material quantity="16">2OakPlank</material>
+			<material quantity="5">!DelphiLimeStone</material>
+		</input>
+		<output>
+			<trait quantity="1" level="30">BellyBow1H_U102</trait>
+		</output>
+		<outputtraitlevel>30</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>Woodscraft</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

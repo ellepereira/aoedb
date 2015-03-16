@@ -1,0 +1,30 @@
+<econdesign name="CreateMilitaryCollegeConsumable6">
+		<icon>UserInterface/Icons/Crafting/CraftingInfantry3_ua</icon>
+		<rollovertextid>55695</rollovertextid>
+		<displaynameid>53200</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>20</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="60">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="12">3EbonyPlank</material>
+			<material quantity="2">3Gemstone</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableBanditHorseHunter4th_R</consumable>
+		</output>
+		<outputtraitlevel>20</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>MilitaryCollege</tag>
+		<budgetmodifier>2</budgetmodifier>
+	</econdesign>

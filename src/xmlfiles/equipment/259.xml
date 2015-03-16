@@ -1,0 +1,21 @@
+<equipment version="0" id="259">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\egypttechcamelrider2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700429</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>4</uirow>
+		<uicol>16</uicol>
+		<agerequirement>3</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgyptTechCamelRider2" cost="1" descid="700402"/>
+		</ranks>
+		<prereq>168</prereq>
+	</equipment>

@@ -1,0 +1,18 @@
+<trait name="ArmorClth_R016">
+		<dbid>1810</dbid>
+		<traittype>ArmorCloth</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmClothR4_ua</icon>
+		<rollovertextid>60384</rollovertextid>
+		<displaynameid>60385</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="2.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0702" scaling="0.0198" subtype="LOS" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,17 @@
+<blueprint name="CeltTradeDock">
+		<icon>UserInterface/Icons/Blueprints/BlueprintGeneral_ua</icon>
+		<rollovertextid>800765</rollovertextid>
+		<displaynameid>800764</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Ce_Cap_TradeDock</protounit>
+	</blueprint>

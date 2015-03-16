@@ -1,0 +1,89 @@
+<vendor name="Capital Crafting Store">
+		<protounit>Pe_Cap_BasicStorePersia05</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<design quantity="1">CraftOakPlank</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CraftOliveOil</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CraftGraniteBlock</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CraftBronzeIngot</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<design quantity="1">CraftLeather</design>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GeneralGemCutter</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GeneralToolMaker</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GeneralAlchemist</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GeneralWeaver</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">GeneralScrivener</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

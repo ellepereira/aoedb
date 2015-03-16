@@ -1,0 +1,17 @@
+<blueprint name="MinoanStore01">
+		<icon>UserInterface/Icons/Blueprints/BlueprintGeneral_ua</icon>
+		<rollovertextid>800737</rollovertextid>
+		<displaynameid>800736</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="25">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<cost/>
+		<protounit>Cy_Cap_BasicStore01</protounit>
+	</blueprint>

@@ -1,0 +1,21 @@
+<equipment version="0" id="150">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\ivycrownwreathwings_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700374</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>12</uirow>
+		<uicol>34</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivGreek</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GrStar_PriestSpeed1" cost="3" descid="700375"/>
+		</ranks>
+		<prereq>146</prereq>
+	</equipment>

@@ -1,0 +1,22 @@
+<trait name="Ballista2H_L001">
+		<dbid>1873</dbid>
+		<traittype>BallistaArms</traittype>
+		<rarity>legendary</rarity>
+		<icon>\UserInterface\Icons\Equipment\Ballista2H_L001_ua</icon>
+		<rollovertextid>60854</rollovertextid>
+		<displaynameid>60855</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="6.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="3.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0335" scaling="0.0109" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0110" scaling="0.0030" subtype="DamageBonus" visible="true" unittype="Building" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

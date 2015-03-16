@@ -1,0 +1,87 @@
+<civ>
+		<name>Celtic</name>
+		<main>1</main>
+		<contentpack>5</contentpack>
+		<statsid>SP</statsid>
+		<portrait>objects\flags\spanish</portrait>
+		<culture>Mediterranean</culture>
+		<displaynameid>58404</displaynameid>
+		<rollovernameid>26061</rollovernameid>
+		<alliedid>26446</alliedid>
+		<alliedotherid>26445</alliedotherid>
+		<unalliedid>26444</unalliedid>
+		<wall type="Straight2">Ce_WallStraight2</wall>
+		<wall type="Straight5">Ce_WallStraight5</wall>
+		<wall type="Gate">Ce_WallGate</wall>
+		<wall type="Connector">Ce_WallConnector</wall>
+		<agetech>
+			<age>Age0</age>
+			<tech>CeltCapStartCiv</tech>
+		</agetech>
+		<agetech>
+			<age>Age1</age>
+			<tech>CeltCapAge2</tech>
+		</agetech>
+		<agetech>
+			<age>Age2</age>
+			<tech>CeltCapAge3</tech>
+		</agetech>
+		<agetech>
+			<age>Age3</age>
+			<tech>CeltCapAge4</tech>
+		</agetech>
+		<postindustrialtech>CivCeltic</postindustrialtech>
+		<postimperialtech>CivCeltic</postimperialtech>
+		<buildingefficiency>0.3</buildingefficiency>
+		<gold>100</gold>
+		<food>200</food>
+		<wood>150</wood>
+		<stone>0</stone>
+		<towncenter>Ce_Bldg_TownCenter</towncenter>
+		<townstartingunit>Ce_Cav_Scout</townstartingunit>
+		<townstartingunit>Ce_Civ_Villager</townstartingunit>
+		<townstartingunit>Ce_Civ_Villager</townstartingunit>
+		<townstartingunit>Ce_Civ_Villager</townstartingunit>
+		<townstartingunit>Ce_Inf_Spearman</townstartingunit>
+		<homecityflagtexture>GamePlay\Flags\flag_db</homecityflagtexture>
+		<homecityflagbuttonset>spanishFlagBtn</homecityflagbuttonset>
+		<homecityflagbuttonsetlarge>spanishFlagBtnLarge</homecityflagbuttonsetlarge>
+		<postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_spanish</postgameflagtexture>
+		<matchmakingtextures>
+			<bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+			<bannertexturecoords>0 0 0.78125 0.125</bannertexturecoords>
+			<portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+			<portraittexturecoords>0.4375 0.4296875 0.830078125 0.814453125</portraittexturecoords>
+			<smallportraittexture>ui\singleplayer\cpai_avatar_spanish</smallportraittexture>
+			<smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+		</matchmakingtextures>
+		<unitregen>
+			<unittype>Hero</unittype>
+			<rate>0.25</rate>
+			<idletimeout>3.5</idletimeout>
+		</unitregen>
+		<civcardinfo>
+			<civstatus>Offline</civstatus>
+			<civcardtext>25513</civcardtext>
+			<civcardinfotext>60522</civcardinfotext>
+			<civcardbackground>art\UserInterface\PreGame\CivCards\C03_CardBackground_F_Unselected</civcardbackground>
+			<civcardbackgroundp>art\UserInterface\PreGame\CivCards\C03_CardBackground_P_Unselected</civcardbackgroundp>
+			<civinfobackground>art\UserInterface\PreGame\CivCards\C03_InfoBackground_F</civinfobackground>
+			<civinfobackgroundp>art\UserInterface\PreGame\CivCards\C03_InfoBackground_P</civinfobackgroundp>
+			<civshield>art\UserInterface\PreGame\CivShields\DefaultShield</civshield>
+		</civcardinfo>
+		<mappage>C03_Celtica</mappage>
+		<objectivecompletesound>UI_QuestObjective_Complete_Greek</objectivecompletesound>
+		<levelupsound>UI_Greek_LevelUp</levelupsound>
+		<courierprotoname>Gr_Cap_TravelShip</courierprotoname>
+		<startingcities>
+			<startingcity>Capitals/CAPITAL_C03_01</startingcity>
+			<startingcity>Capitals/CAPITAL_C03_02</startingcity>
+			<startingcity>Capitals/CAPITAL_C03_03</startingcity>
+			<startingcity>Capitals/CAPITAL_C03_04</startingcity>
+			<startingcity>Capitals/CAPITAL_C03_05</startingcity>
+			<startingcity>Capitals/CAPITAL_C03_06</startingcity>
+		</startingcities>
+		<pregencharacter>empires\civilization\C03_Default.character</pregencharacter>
+		<allowedcharactertype>NormalAndPreGen</allowedcharactertype>
+	</civ>

@@ -1,0 +1,19 @@
+<equipment version="0" id="486">
+		<civ>Persian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\buildings\pimmortalcamp_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700664</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>2</uirow>
+		<uicol>11</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Pe_Ct_BldgImmortalCamp1" cost="2" descid="700665"/>
+		</ranks>
+	</equipment>

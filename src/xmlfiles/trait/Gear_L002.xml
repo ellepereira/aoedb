@@ -1,0 +1,18 @@
+<trait name="Gear_L002">
+		<dbid>1875</dbid>
+		<traittype>Gear</traittype>
+		<rarity>legendary</rarity>
+		<icon>\UserInterface\Icons\Equipment\Gear_Inf_L002_ua</icon>
+		<rollovertextid>60858</rollovertextid>
+		<displaynameid>60859</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Helmet" factor="6.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.1235" scaling="0.0397" subtype="ConvertResist" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

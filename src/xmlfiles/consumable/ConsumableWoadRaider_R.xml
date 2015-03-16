@@ -1,0 +1,18 @@
+<consumable name="ConsumableWoadRaider_R">
+		<icon>UserInterface\Icons\Consumable\ConRaidingParty3_C_ua</icon>
+		<rollovertextid>59696</rollovertextid>
+		<displaynameid>59693</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>20</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<power>PowerSpawnWoadRaider_R</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

@@ -1,0 +1,18 @@
+<advisor name="Boudicca_C_IV">
+		<age>3</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorBoudiccia1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58806</displaynameid>
+		<displaydescriptionid>58861</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Boudicca_C</tech>
+		</techs>
+	</advisor>

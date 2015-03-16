@@ -1,0 +1,19 @@
+<advisor name="Lionidas_C_IV">
+		<age>3</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorLionidas1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52131</displaynameid>
+		<displaydescriptionid>52132</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeGreek</civilization>
+		<techs>
+			<tech>Advisor_Lionidas_C</tech>
+		</techs>
+	</advisor>

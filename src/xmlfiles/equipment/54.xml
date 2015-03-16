@@ -1,0 +1,20 @@
+<equipment version="0" id="54">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\techgatherfarm2_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700242</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>4</uirow>
+		<uicol>0</uicol>
+		<agerequirement>3</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechGatherFarm2" cost="2" descid="700023"/>
+		</ranks>
+		<prereq>53</prereq>
+	</equipment>

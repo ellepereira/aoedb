@@ -1,0 +1,21 @@
+<blueprint name="CeltResident02">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800753</rollovertextid>
+		<displaynameid>800752</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<cost>
+			<material quantity="6">2OakPlank</material>
+			<material quantity="5">2GraniteBlock</material>
+			<material quantity="1">!Charcoal</material>
+		</cost>
+		<protounit>Ce_Cap_Resident02</protounit>
+	</blueprint>

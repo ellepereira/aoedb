@@ -1,0 +1,20 @@
+<equipment version="0" id="433">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\c03techriteofrudiobus_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700593</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>5</uirow>
+		<uicol>32</uicol>
+		<agerequirement>4</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeltTechDruidSacrifice3" cost="2" descid="700594"/>
+		</ranks>
+		<prereq>431</prereq>
+	</equipment>

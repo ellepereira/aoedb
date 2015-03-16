@@ -1,0 +1,22 @@
+<trait name="FireThrower2H_U006">
+		<dbid>1077</dbid>
+		<traittype>FireThrowers</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\FirePotU2_ua</icon>
+		<rollovertextid>54934</rollovertextid>
+		<displaynameid>54935</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="1.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0098" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0147" scaling="0.0029" subtype="DamageBonus" visible="true" unittype="Ship" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

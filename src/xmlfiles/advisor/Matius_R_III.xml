@@ -1,0 +1,21 @@
+<advisor name="Matius_R_III">
+		<age>2</age>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorMatius3_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>52391</displaynameid>
+		<displaydescriptionid>57201</displaydescriptionid>
+		<shortdescriptionid>58034</shortdescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="275">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<civilization>eCivMatchingTypeGreek</civilization>
+		<techs>
+			<tech>AdvisorUniqueUnitSomatophylaz_R</tech>
+		</techs>
+	</advisor>

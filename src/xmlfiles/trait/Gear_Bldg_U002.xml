@@ -1,0 +1,18 @@
+<trait name="Gear_Bldg_U002">
+		<dbid>1072</dbid>
+		<traittype>GearBldg</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\BuildGearTrainingManualU_ua</icon>
+		<rollovertextid>54920</rollovertextid>
+		<displaynameid>54921</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Helmet" factor="1.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0062" scaling="0.0013" subtype="BuildingWorkRate" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,21 @@
+<equipment version="0" id="169">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\echariotarchers64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700393</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>5</uirow>
+		<uicol>20</uicol>
+		<agerequirement>3</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Eg_Ct_UnitChariotArcher1" cost="2" descid="700394"/>
+		</ranks>
+		<prereq>168</prereq>
+	</equipment>

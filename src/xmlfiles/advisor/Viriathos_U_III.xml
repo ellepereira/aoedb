@@ -1,0 +1,18 @@
+<advisor name="Viriathos_U_III">
+		<age>2</age>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorVritrius2_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>58803</displaynameid>
+		<displaydescriptionid>58850</displaydescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="200">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>10</minlevel>
+		<itemlevel>10</itemlevel>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>Advisor_Viriathos_U</tech>
+		</techs>
+	</advisor>

@@ -1,0 +1,93 @@
+<Unit id="1220" name="Con_Spc_ConversionPriest">
+		<DBID>3000</DBID>
+		<DisplayNameID>66348</DisplayNameID>
+		<EditorNameID>66349</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<Trait1>ConCommonPriest</Trait1>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivEgyptian\Units\Civilian\AmenPriest\AmanPriest.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\EPriestAmen64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarEPriestAmen_ua</PortraitIcon>
+		<RolloverTextID>66347</RolloverTextID>
+		<ShortRolloverTextID>66346</ShortRolloverTextID>
+		<InitialHitpoints>250.0000</InitialHitpoints>
+		<MaxHitpoints>250.0000</MaxHitpoints>
+		<LOS>24.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>0.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<AllowedAge>3</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Eg_Spc_PriestAmen</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>StandardConvertable</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypePriest5</UnitType>
+		<UnitType>UnitUpgradeAge3</UnitType>
+		<UnitType>UnitUpgradeLevel43</UnitType>
+		<UnitType>UnitUpgrade3Epic</UnitType>
+		<UnitType>AbstractPriest</UnitType>
+		<Armor type="Hand" value="0.0000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CanAutoHeal</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>monk.tactics</Tactics>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="StandardConvertable">1.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+			<Rate type="ConvertableInfantry">1.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>60.000000</Damage>
+			<Rate type="Huntable">0.800000</Rate>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Heal</Name>
+			<Rate type="LogicalTypeHealed">21.000000</Rate>
+			<MaxRange>8.000000</MaxRange>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>Convert</Name>
+			<Rate type="ConvertableCavalry">1.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+			<Rate type="ConvertableSiege">1.000000</Rate>
+			<MaxRange>22.000000</MaxRange>
+		</ProtoAction>
+	</Unit>

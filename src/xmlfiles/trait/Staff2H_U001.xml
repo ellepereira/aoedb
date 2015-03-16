@@ -1,0 +1,27 @@
+<trait name="Staff2H_U001">
+		<dbid>936</dbid>
+		<traittype>Staffs2H</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\STAFFL0_ua</icon>
+		<rollovertextid>54384</rollovertextid>
+		<displaynameid>54385</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" action="Convert" amount="1.0147" scaling="0.0025" subtype="MaximumRange" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Heal" amount="1.0245" scaling="0.0041" subtype="WorkRate" visible="true" unittype="LogicalTypeHealed" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0147" scaling="0.0025" subtype="LOS" visible="false" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0080" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

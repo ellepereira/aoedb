@@ -1,0 +1,24 @@
+<trait name="Gear_E006">
+		<dbid>726</dbid>
+		<traittype>Gear</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\InfGearGlovesE_ua</icon>
+		<rollovertextid>53840</rollovertextid>
+		<displaynameid>53841</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Helmet" factor="6.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="false" amount="1.0148" scaling="0.0045" subtype="CostAll" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0086" scaling="0.0024" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0160" scaling="0.0046" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

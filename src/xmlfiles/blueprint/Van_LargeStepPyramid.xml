@@ -1,0 +1,14 @@
+<blueprint name="Van_LargeStepPyramid">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800190</rollovertextid>
+		<displaynameid>0</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivEgyptian</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>false</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>false</destroyable>
+		<rarity>cRarityRare</rarity>
+		<cost/>
+		<protounit>Eg_Van_Pyramid1</protounit>
+	</blueprint>

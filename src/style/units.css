@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+.unit
+{
+  	width: 300px;
+	text-shadow: black 1px 1px 1px;
+	font-size: 12px;
+	
+}
+
+.unitheader
+{
+	font-size: 14px;
+}
+
+.unitdescription
+{
+	font-size: 16px;
+}
+
+.bonusvs
+{
+	font-size: 10px;
+}
+
+.equipmentslot
+{
+	width: 40px;
+  padding: 2px;
+}
+
+.unitheader .unitrealname
+{
+	float: left;
+	color: #E6C953;
+}
+
+.unit .pic {
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.unit .name
+{
+	font-size: 22px;
+	margin-top: 0px;
+	vertical-align: top;
+	
+}
+
+.unitheader .age
+{
+	float: right;
+	text-transform:capitalize;
+	padding-right: 0px;
+}
+
+
+.unit li
+{
+	list-style-position: inside;
+	list-style-image: url('../images/bullet.png');
+	padding-left: 5px;
+	font-size: 14px;
+}

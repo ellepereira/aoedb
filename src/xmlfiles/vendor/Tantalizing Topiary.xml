@@ -1,0 +1,89 @@
+<vendor name="Tantalizing Topiary">
+		<protounit>Gn_Cap_VanityStore05</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Wolf</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Cow</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="25">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Bear</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="35">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Sheep</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="40">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Boar</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="50">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Crocodile</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Lion</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="75">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Horse</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="125">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Camel</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="200">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<blueprint quantity="1">Van_5_Elephant</blueprint>
+						</purchase>
+						<cost>
+							<capitalresource quantity="300">cCapResCoin</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

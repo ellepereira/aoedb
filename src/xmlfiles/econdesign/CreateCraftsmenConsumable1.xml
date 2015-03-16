@@ -1,0 +1,27 @@
+<econdesign name="CreateCraftsmenConsumable1">
+		<icon>UserInterface/Icons/Crafting/CraftingVillagers_ua</icon>
+		<rollovertextid>55692</rollovertextid>
+		<displaynameid>53203</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="54">CopperIngot</material>
+			<material quantity="27">PinePlank</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableGrantCow_C</consumable>
+		</output>
+		<outputtraitlevel>5</outputtraitlevel>
+		<autolearn>true</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>Craftsmen</tag>
+		<budgetmodifier>2</budgetmodifier>
+	</econdesign>

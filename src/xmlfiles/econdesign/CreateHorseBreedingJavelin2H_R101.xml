@@ -1,0 +1,31 @@
+<econdesign name="CreateHorseBreedingJavelin2H_R101">
+		<icon>UserInterface/Icons/Crafting/CraftingCav3_ua</icon>
+		<rollovertextid>53206</rollovertextid>
+		<displaynameid>800550</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>31</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="120">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="22">2WorkTool</material>
+			<material quantity="12">3EbonyPlank</material>
+			<material quantity="6">3BitumenGlue</material>
+		</input>
+		<output>
+			<trait quantity="1" level="31">Javelin2H_R101</trait>
+		</output>
+		<outputtraitlevel>31</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>HorseBreeding</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

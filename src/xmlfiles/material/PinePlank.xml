@@ -1,0 +1,17 @@
+<material name="PinePlank">
+		<icon>UserInterface\Icons\Materials\MatIconsPinePlanks_ua</icon>
+		<rollovertextid>53132</rollovertextid>
+		<displaynameid>800019</displaynameid>
+		<stackable/>
+		<stacksize>1000</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="0.1">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<budgetcost>1</budgetcost>
+	</material>

@@ -1,0 +1,21 @@
+<trait name="ArmorLgt_R020">
+		<dbid>1931</dbid>
+		<traittype>ArmorLgt</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmCavR3_ua</icon>
+		<rollovertextid>62448</rollovertextid>
+		<displaynameid>62449</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="2.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0297" scaling="0.0078" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0197" scaling="0.0050" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

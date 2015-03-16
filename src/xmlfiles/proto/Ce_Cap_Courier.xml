@@ -1,0 +1,58 @@
+<Unit id="687" name="Ce_Cap_Courier">
+		<DBID>2230</DBID>
+		<DisplayNameID>58697</DisplayNameID>
+		<EditorNameID>58698</EditorNameID>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>12.0000</MaxVelocity>
+		<MaxRunVelocity>18.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Mounted\CapCourier\CapCourier.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\CapCourier64_ua</Icon>
+		<MinimapIcon>ui\minimap\minimap_gold</MinimapIcon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarCapCourier_ua</PortraitIcon>
+		<RolloverTextID>58696</RolloverTextID>
+		<ShortRolloverTextID>58695</ShortRolloverTextID>
+		<InitialHitpoints>2000.0000</InitialHitpoints>
+		<MaxHitpoints>2000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>1.5000</VisualScale>
+		<SoundFile>Ce_Cap_Courier</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<Armor type="Cavalry" value="0.3000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Garrison</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>18.240000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Cavalry</DamageType>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+			<DamageBonus type="AbstractCavalry">2.500000</DamageBonus>
+		</ProtoAction>
+	</Unit>

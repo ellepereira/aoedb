@@ -1,0 +1,18 @@
+<trait name="ArmorMed_E004">
+		<dbid>531</dbid>
+		<traittype>ArmorMed</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmInfE5_ua</icon>
+		<rollovertextid>53415</rollovertextid>
+		<displaynameid>53416</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Body" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0062" scaling="0.0019" subtype="MaximumVelocity" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

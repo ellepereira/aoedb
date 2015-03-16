@@ -1,0 +1,88 @@
+<Unit id="189" name="Gr_Inf_Phalanx_C">
+		<DBID>1618</DBID>
+		<DisplayNameID>51108</DisplayNameID>
+		<EditorNameID>51109</EditorNameID>
+		<UnitLevel>3</UnitLevel>
+		<PopulationCount>1</PopulationCount>
+		<Trait1>ConCommonInf</Trait1>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>4.5000</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>30.0000</TurnRate>
+		<AnimFile>CivGreek\Units\Infantry\Phalanx\Phalanx.xml</AnimFile>
+		<CorpseDecalTime>0.0000</CorpseDecalTime>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\Phalanx64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarPhalanx_ua</PortraitIcon>
+		<RolloverTextID>51107</RolloverTextID>
+		<ShortRolloverTextID>51106</ShortRolloverTextID>
+		<InitialHitpoints>220.0000</InitialHitpoints>
+		<MaxHitpoints>220.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>5.0000</TrainPoints>
+		<Bounty>1.0000</Bounty>
+		<Cost resourcetype="Food">40.0000</Cost>
+		<Cost resourcetype="Gold">35.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Gr_Inf_Phalanx</SoundFile>
+		<Decay delay="0.2500" duration="0.1500"/>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>ConvertableInfantry</UnitType>
+		<UnitType>UnitTypeUniqueUnit1</UnitType>
+		<UnitType>UnitUpgradeAge3</UnitType>
+		<UnitType>UnitUpgradeLevel13</UnitType>
+		<UnitType>UnitUpgrade2Rare</UnitType>
+		<Armor type="Ranged" value="0.3000"/>
+		<Armor type="Siege" value="0.3000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>spearman.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>14.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>4.000000</MaxRange>
+			<DamageType>Hand</DamageType>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+			<DamageBonus type="AbstractCavalry">3.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

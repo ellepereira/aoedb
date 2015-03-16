@@ -1,0 +1,18 @@
+<consumable name="ConsumableHeadHunter_R">
+		<icon>UserInterface\Icons\Consumable\ConEliteScout3_C_ua</icon>
+		<rollovertextid>59686</rollovertextid>
+		<displaynameid>59683</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="15">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<power>PowerSpawnHeadHunter_R</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

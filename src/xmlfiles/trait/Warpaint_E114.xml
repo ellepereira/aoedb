@@ -1,0 +1,23 @@
+<trait name="Warpaint_E114">
+		<dbid>1689</dbid>
+		<traittype>Warpaint</traittype>
+		<rarity>epic</rarity>
+		<icon>\UserInterface\Icons\Equipment\Celt\WarPaint3_E60_ua</icon>
+		<rollovertextid>59578</rollovertextid>
+		<displaynameid>59579</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="0.9912" scaling="-0.0023" subtype="TargetSpeedBoost" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0086" scaling="0.0024" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0265" scaling="0.0074" subtype="DamageBonus" visible="true" unittype="AbstractArtillery" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

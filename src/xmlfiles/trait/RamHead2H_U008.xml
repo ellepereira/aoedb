@@ -1,0 +1,21 @@
+<trait name="RamHead2H_U008">
+		<dbid>1217</dbid>
+		<traittype>RamHeads</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\BatteringRamTipL8_ua</icon>
+		<rollovertextid>55260</rollovertextid>
+		<displaynameid>55261</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="4.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0097" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0147" scaling="0.0028" subtype="DamageBonus" visible="true" unittype="Building" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

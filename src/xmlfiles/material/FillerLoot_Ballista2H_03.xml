@@ -1,0 +1,17 @@
+<material name="FillerLoot_Ballista2H_03">
+		<icon>UserInterface\Icons\Equipment\Ballista2H_C003_ua</icon>
+		<rollovertextid>60580</rollovertextid>
+		<displaynameid>801011</displaynameid>
+		<stackable/>
+		<stacksize>1</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="7">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityJunk</rarity>
+		<budgetcost>1</budgetcost>
+	</material>

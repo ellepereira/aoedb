@@ -1,0 +1,94 @@
+<Unit id="439" name="NPC_Nubian_Elephant">
+		<DBID>1958</DBID>
+		<DisplayNameID>56172</DisplayNameID>
+		<EditorNameID>56173</EditorNameID>
+		<UnitLevel>99</UnitLevel>
+		<PopulationCount>5</PopulationCount>
+		<Trait1>Spears1H</Trait1>
+		<Trait2>Shields</Trait2>
+		<Trait3>ArmorLgt</Trait3>
+		<Trait4>Gear</Trait4>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>9.0000</MaxVelocity>
+		<MaxRunVelocity>13.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>NPC\CivNubian\Units\Mounted\ElephantWar\ElephantWar.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\NubianElephantRider64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarNubianElephantRider_ua</PortraitIcon>
+		<RolloverTextID>56171</RolloverTextID>
+		<ShortRolloverTextID>65014</ShortRolloverTextID>
+		<InitialHitpoints>1000.0000</InitialHitpoints>
+		<MaxHitpoints>1000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>30.0000</TrainPoints>
+		<Bounty>2.0000</Bounty>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Gold">66.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>NPC_Nubian_WarElephant</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerChoice</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>UnitTypeCavalryBasic1</UnitType>
+		<UnitType>ConvertableCavalry</UnitType>
+		<UnitType>NubianUnit</UnitType>
+		<Armor type="Ranged" value="0.3000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>15.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GaiaEnemy</DamageFlags>
+			<DamageBonus type="Building">3.000000</DamageBonus>
+			<DamageType>Cavalry</DamageType>
+			<ImpactEffect>effects\impacts\sword</ImpactEffect>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="AbstractArtillery">3.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

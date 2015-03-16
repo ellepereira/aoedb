@@ -1,0 +1,86 @@
+<Unit id="125" name="Gr_Bldg_SiegeWorkshop">
+		<DBID>1416</DBID>
+		<DisplayNameID>49741</DisplayNameID>
+		<EditorNameID>49742</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>GearBldg</Trait4>
+		<ObstructionRadiusX>4.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>4.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivGreek\Buildings\SiegeWorkshop\SiegeWorkshop.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>buildinglarge.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\SiegeWorkshop64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarSiege_ua</PortraitIcon>
+		<RolloverTextID>49740</RolloverTextID>
+		<ShortRolloverTextID>49739</ShortRolloverTextID>
+		<InitialHitpoints>2250.0000</InitialHitpoints>
+		<MaxHitpoints>2250.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<BuildPoints>50.0000</BuildPoints>
+		<Bounty>4.0000</Bounty>
+		<Cost resourcetype="Wood">300.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>2</AllowedAge>
+		<InputContext>Gr_SeigeWorkshopAccel</InputContext>
+		<SoundFile>Gr_Bldg_SiegeWorkshop</SoundFile>
+		<BuilderLimit>20</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>ConvertableBuilding</UnitType>
+		<UnitType>UnitTypeBldgSiegeWorkshop</UnitType>
+		<UnitType>UnitTypeBldgEmpowerable</UnitType>
+		<UnitType>EquipmentFilterMilitary</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Train row="0" page="0" column="1">UnitTypeSiegeBallista1</Train>
+		<Train row="0" page="0" column="2">UnitTypeSiegeCatapult1</Train>
+		<Train row="0" page="0" column="0">UnitTypeSiegeRam1</Train>
+		<Tech row="1" page="0" column="0">GreekTechBallista1_Shadow</Tech>
+		<Tech row="1" page="0" column="0">GreekTechRam1_Shadow</Tech>
+		<Tech row="1" page="0" column="0">GreekTechBallista2_Shadow</Tech>
+		<Tech row="1" page="0" column="0">GreekTechBallista3_Shadow</Tech>
+		<Tech row="1" page="0" column="0">GreekTechRam2_Shadow</Tech>
+		<Tech row="1" page="0" column="1">GreekTechBallistaS</Tech>
+		<Tech row="1" page="0" column="0">GreekTechRam3</Tech>
+		<Tech row="1" page="0" column="0">GreekTechRamS</Tech>
+		<Tech row="1" page="0" column="1">GreekTechBallista_Upgrade1</Tech>
+		<Tech row="1" page="0" column="0">GreekTechRam_Upgrade1</Tech>
+		<Tech row="1" page="0" column="2">TechSiegeUpgrade1</Tech>
+		<Tech row="1" page="0" column="2">TechSiegeUpgrade2</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="2">Delete</Command>
+	</Unit>

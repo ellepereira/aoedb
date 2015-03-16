@@ -1,0 +1,17 @@
+<blueprint name="PersianBasicStorePersia01">
+		<icon>UserInterface/Icons/Blueprints/BlueprintStore2_ua</icon>
+		<rollovertextid>801177</rollovertextid>
+		<displaynameid>801176</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>false</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityUncommon</rarity>
+		<cost/>
+		<protounit>Pe_Cap_BasicStorePersia01</protounit>
+	</blueprint>

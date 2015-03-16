@@ -1,0 +1,18 @@
+<trait name="ArmorMed_R201">
+		<dbid>1897</dbid>
+		<traittype>ArmorMed</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ArmInfR4_ua</icon>
+		<rollovertextid>62015</rollovertextid>
+		<displaynameid>62016</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Body" factor="2.0000"/>
+		<sellable>0</sellable>
+		<tradeable>0</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0500" scaling="0.0140" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

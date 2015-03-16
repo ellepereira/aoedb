@@ -1,0 +1,21 @@
+<equipment version="0" id="10">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\greektechhoplites_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700197</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>7</uirow>
+		<uicol>0</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="GreekTechHopliteS" cost="2" descid="700506"/>
+		</ranks>
+		<prereq>9</prereq>
+	</equipment>

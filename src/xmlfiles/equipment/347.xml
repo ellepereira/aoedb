@@ -1,0 +1,20 @@
+<equipment version="0" id="347">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\units\cdruid64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>true</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700536</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>6</uirow>
+		<uicol>32</uicol>
+		<agerequirement>2</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Ce_Ct_UnitDruid1" cost="0" descid="700641"/>
+		</ranks>
+		<prereq>352</prereq>
+	</equipment>

@@ -1,0 +1,23 @@
+<equipment version="0" id="303">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\eg_star_prieshpbonus1_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700483</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>12</uirow>
+		<uicol>42</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivEgyptian</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgStar_PriestHpBonus1" cost="3" descid="700484"/>
+		</ranks>
+		<prereq>272</prereq>
+		<prereq>274</prereq>
+		<prereq>276</prereq>
+	</equipment>

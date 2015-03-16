@@ -1,0 +1,30 @@
+<econdesign name="CreateWoodscraftConsumable2">
+		<icon>UserInterface/Icons/Crafting/CraftingArchery_ua</icon>
+		<rollovertextid>55697</rollovertextid>
+		<displaynameid>53198</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>20</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<productionpoints>3</productionpoints>
+		<input>
+			<material quantity="9">3EbonyPlank</material>
+			<material quantity="3">3Spice</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableBanditArcher4th_C</consumable>
+		</output>
+		<outputtraitlevel>20</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>Woodscraft</tag>
+		<budgetmodifier>2</budgetmodifier>
+	</econdesign>

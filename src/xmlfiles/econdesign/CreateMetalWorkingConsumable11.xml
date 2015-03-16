@@ -1,0 +1,30 @@
+<econdesign name="CreateMetalWorkingConsumable11">
+		<icon>UserInterface/Icons/Crafting/CraftingMetalwork1_ua</icon>
+		<rollovertextid>60346</rollovertextid>
+		<displaynameid>800386</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>5</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityCommon</rarity>
+		<productionpoints>1</productionpoints>
+		<input>
+			<material quantity="54">Grain</material>
+			<material quantity="27">AnimalHide</material>
+		</input>
+		<output>
+			<consumable quantity="1">ConsumableGaesatae_C</consumable>
+		</output>
+		<outputtraitlevel>5</outputtraitlevel>
+		<autolearn>false</autolearn>
+		<autorepeat>false</autorepeat>
+		<ignoreschool>false</ignoreschool>
+		<advanced>false</advanced>
+		<tag>MetalWorking</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

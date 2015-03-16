@@ -1,0 +1,23 @@
+<school>
+		<tag>Craftsmen</tag>
+		<displayname>55712</displayname>
+		<description>55719</description>
+		<startingblueprint>GeneralCraftsmenHall</startingblueprint>
+		<icon>Art\UserInterface\Icons\Crafting\SchoolCraftsmen_ua</icon>
+		<gearicons>
+			<gear stringid="56335">CivGearSlot_ua</gear>
+			<gear stringid="56341">NetSlot_ua</gear>
+			<gear stringid="56326">ToolSlot_ua</gear>
+			<gear stringid="56333">MerchLogSlot_ua</gear>
+		</gearicons>
+		<items>
+			<consumable>ConsumableFireShips_C</consumable>
+			<consumable>ConsumableGrantCow_C</consumable>
+			<advisor>Irene_C_I</advisor>
+			<advisor>Agape_U_II</advisor>
+			<advisor>Stephanos_R_III</advisor>
+			<advisor>Zephyros_E_IV</advisor>
+		</items>
+		<design>CreateCraftsmenConsumable1</design>
+		<craftingsound>UI_Crafthall_Recipe_Civ</craftingsound>
+	</school>

@@ -1,0 +1,54 @@
+<vendor name="PDLC Store">
+		<protounit>Gn_Cap_PDLC_Store</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<quest quantity="1">PersianCiv</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">HordeMode</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">GreekCiv</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">EgyptianCiv</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">VanityPack5</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">VanityPack1</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">VanityPack2</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">VanityPack3</quest>
+						</purchase>
+					</item>
+					<item>
+						<purchase>
+							<quest quantity="1">VanityPack4</quest>
+						</purchase>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

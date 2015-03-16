@@ -1,0 +1,89 @@
+<vendor name="LootStore6">
+		<protounit>gn_Cap_LootStore06</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Spear2H_E008</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="210">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Javalin2H_E007</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="190">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">ArrowOH_E008</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="175">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Bow1H_E007</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="190">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Axe2H_E007</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="210">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Tool1H_E007</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="225">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Sword1H_E006</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="220">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">Ballista2H_E005</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="210">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">RamHead2H_E004</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="210">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="43">FireThrower2H_E004</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="175">cCapResEmpirePoints</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

@@ -1,0 +1,21 @@
+<equipment version="0" id="456">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\c03startechmorrigansblessing_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700608</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>12</uirow>
+		<uicol>4</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivCeltic</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeStar_InfHp1" cost="3" descid="700609"/>
+		</ranks>
+		<prereq>391</prereq>
+	</equipment>

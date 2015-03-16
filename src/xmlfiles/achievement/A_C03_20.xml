@@ -1,0 +1,11 @@
+<achievement>
+		<internalname>A_C03_20</internalname>
+		<displaynameid>62636</displaynameid>
+		<type>cATLevel</type>
+		<data>
+			<entry>Celtic</entry>
+			<entry>20</entry>
+		</data>
+		<liveid>72</liveid>
+		<offer>eOfferCivCeltic</offer>
+	</achievement>

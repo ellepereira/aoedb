@@ -1,0 +1,21 @@
+<trait name="Gear_Siege_R009">
+		<dbid>813</dbid>
+		<traittype>GearSiege</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\SiegeGearLightBeamsR_ua</icon>
+		<rollovertextid>54122</rollovertextid>
+		<displaynameid>54123</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Helmet" factor="5.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="0.9877" scaling="-0.0031" subtype="CostAll" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="false" amount="1.0289" scaling="0.0074" subtype="TrainPoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

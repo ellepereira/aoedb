@@ -1,0 +1,51 @@
+<trait name="Tool1H_U019">
+		<dbid>1254</dbid>
+		<traittype>Tools</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\VillagerToolsU2_ua</icon>
+		<rollovertextid>55334</rollovertextid>
+		<displaynameid>55335</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="0.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0119" scaling="0.0026" subtype="CarryCapacity" visible="false" resource="Food" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0119" scaling="0.0026" subtype="CarryCapacity" visible="false" resource="Stone" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0119" scaling="0.0026" subtype="CarryCapacity" visible="false" resource="Wood" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0119" scaling="0.0026" subtype="CarryCapacity" visible="false" resource="Gold" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="AbstractFarm" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="Huntable" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="Tree" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="Gold" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="AbstractFruit" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="FishGather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="AbstractFish" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="Herdable" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0119" scaling="0.0026" subtype="WorkRate" visible="true" unittype="Stone" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

@@ -1,0 +1,18 @@
+<trait name="Scout1H_R002">
+		<dbid>1409</dbid>
+		<traittype>ScoutSpecial1H</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\ScoutGearRLoS_ua</icon>
+		<rollovertextid>56436</rollovertextid>
+		<displaynameid>56437</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="1.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0539" scaling="0.0148" subtype="LOS" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

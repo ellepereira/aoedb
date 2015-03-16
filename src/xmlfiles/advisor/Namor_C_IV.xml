@@ -1,0 +1,21 @@
+<advisor name="Namor_C_IV">
+		<age>3</age>
+		<rarity>common</rarity>
+		<icon>UserInterface\Icons\Advisors\AdvisorNamer1_db</icon>
+		<icontexturecoords>0 0 1 1.0</icontexturecoords>
+		<rollovertextid/>
+		<displaynameid>56261</displaynameid>
+		<displaydescriptionid>56262</displaydescriptionid>
+		<shortdescriptionid>58052</shortdescriptionid>
+		<sellcostoverride>
+			<capitalresource quantity="150">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<minlevel>20</minlevel>
+		<itemlevel>20</itemlevel>
+		<civilization>eCivMatchingTypeEgyptian</civilization>
+		<specialborder>true</specialborder>
+		<offertype>eOfferNone</offertype>
+		<techs>
+			<tech>AdvisorUniqueUnitEliteEle_C</tech>
+		</techs>
+	</advisor>

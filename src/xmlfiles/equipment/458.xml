@@ -1,0 +1,21 @@
+<equipment version="0" id="458">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\star\c03startechmorrigansvengeance_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700612</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>12</uirow>
+		<uicol>8</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferCivCeltic</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="CeStar_InfAttack1" cost="3" descid="700613"/>
+		</ranks>
+		<prereq>394</prereq>
+	</equipment>

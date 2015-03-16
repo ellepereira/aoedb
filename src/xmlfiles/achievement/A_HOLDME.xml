@@ -1,0 +1,9 @@
+<achievement>
+		<internalname>A_HOLDME</internalname>
+		<displaynameid>57756</displaynameid>
+		<type>cATQuestTypeComplete</type>
+		<data>
+			<entry>coop</entry>
+		</data>
+		<liveid>35</liveid>
+	</achievement>

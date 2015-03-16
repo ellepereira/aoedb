@@ -1,0 +1,27 @@
+<trait name="FishingNet1H_E006">
+		<dbid>702</dbid>
+		<traittype>FishingNet</traittype>
+		<rarity>epic</rarity>
+		<icon>UserInterface\Icons\Equipment\FishNetE7_ua</icon>
+		<rollovertextid>53780</rollovertextid>
+		<displaynameid>53781</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Weapon" factor="0.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" action="Gather" amount="1.0093" scaling="0.0031" subtype="WorkRate" visible="true" unittype="AbstractFish" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0093" scaling="0.0031" subtype="CarryCapacity" visible="false" resource="Food" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="RangedAttack" amount="1.0098" scaling="0.0027" subtype="MaximumRange" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0220" scaling="0.0061" subtype="DamageBonus" visible="true" unittype="Ship" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

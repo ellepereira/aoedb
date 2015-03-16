@@ -1,0 +1,21 @@
+<equipment version="0" id="218">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\greektechtriremes_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700259</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>7</uirow>
+		<uicol>44</uicol>
+		<agerequirement>4</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="EgyptTechTriremeS" cost="2" descid="700514"/>
+		</ranks>
+		<prereq>217</prereq>
+	</equipment>

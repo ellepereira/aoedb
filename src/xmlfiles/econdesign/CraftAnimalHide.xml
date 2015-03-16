@@ -1,0 +1,24 @@
+<econdesign name="CraftAnimalHide">
+		<icon>UserInterface/Icons/Crafting/CraftingMaterials_ua</icon>
+		<rollovertextid>53190</rollovertextid>
+		<displaynameid>52590</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>3</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<rarity>cRarityCommon</rarity>
+		<productionpoints>900</productionpoints>
+		<input/>
+		<output>
+			<material quantity="1">AnimalHide</material>
+		</output>
+		<outputtraitlevel>0</outputtraitlevel>
+		<autolearn>true</autolearn>
+		<autorepeat>true</autorepeat>
+		<ignoreschool>true</ignoreschool>
+		<advanced>false</advanced>
+		<tag>[LeatherDesigns1]</tag>
+		<budgetmodifier>1</budgetmodifier>
+	</econdesign>

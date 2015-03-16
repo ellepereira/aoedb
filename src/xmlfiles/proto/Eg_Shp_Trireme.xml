@@ -1,0 +1,87 @@
+<Unit id="314" name="Eg_Shp_Trireme">
+		<DBID>1807</DBID>
+		<DisplayNameID>54066</DisplayNameID>
+		<EditorNameID>54067</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCount>3</PopulationCount>
+		<Trait1>Bows</Trait1>
+		<Trait2>Arrows</Trait2>
+		<Trait3>ArmorPlt</Trait3>
+		<Trait4>GearBoat</Trait4>
+		<ObstructionRadiusX>2.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>2.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>10.0000</MaxVelocity>
+		<MaxRunVelocity>15.0000</MaxRunVelocity>
+		<MovementType>water</MovementType>
+		<TurnRate>3.0000</TurnRate>
+		<TurnRadius>0.0000</TurnRadius>
+		<AnimFile>CivEgyptian\Units\Ships\Trireme\Trireme.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>UserInterface\Icons\Units\ETriremeShip64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Units\AvatarETriremeShip_ua</PortraitIcon>
+		<RolloverTextID>54065</RolloverTextID>
+		<ShortRolloverTextID>54064</ShortRolloverTextID>
+		<InitialHitpoints>750.0000</InitialHitpoints>
+		<MaxHitpoints>750.0000</MaxHitpoints>
+		<LOS>31.0000</LOS>
+		<ProjectileProtoUnit>Proj_Bolt</ProjectileProtoUnit>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>25.0000</TrainPoints>
+		<RepairPoints>10.0000</RepairPoints>
+		<Bounty>3.0000</Bounty>
+		<Cost resourcetype="Wood">150.0000</Cost>
+		<Cost resourcetype="Gold">100.0000</Cost>
+		<AllowedAge>1</AllowedAge>
+		<VisualScale>1.0000</VisualScale>
+		<SoundFile>Eg_Shp_Trireme</SoundFile>
+		<HeightBob period="2.0000" magnitude="1.0000"/>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Ship</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractWarShip</UnitType>
+		<UnitType>UnitTypeShipBasic1</UnitType>
+		<UnitType>EquipmentFilterEconomy</UnitType>
+		<Armor type="Ranged" value="0.5000"/>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="1">Stance3</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Tactics>combatShip.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>50.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>26.000000</MaxRange>
+			<DamageArea>1.000000</DamageArea>
+			<DamageFlags>GaiaEnemy</DamageFlags>
+			<DamageType>Ranged</DamageType>
+			<Projectile>Proj_BoltCluster</Projectile>
+			<MaxHeight>9.000000</MaxHeight>
+			<ImpactEffect>effects\impacts\ship</ImpactEffect>
+			<Accuracy>1.000000</Accuracy>
+			<TrackRating>16.000000</TrackRating>
+		</ProtoAction>
+	</Unit>

@@ -1,0 +1,99 @@
+<Unit id="295" name="Eg_Bldg_GuardTower">
+		<DBID>1788</DBID>
+		<DisplayNameID>53884</DisplayNameID>
+		<EditorNameID>53885</EditorNameID>
+		<UnitLevel>1</UnitLevel>
+		<PopulationCapAddition>0</PopulationCapAddition>
+		<Trait1>Bows</Trait1>
+		<Trait2>Arrows</Trait2>
+		<Trait3>ArmorBuilding</Trait3>
+		<Trait4>GearBldg</Trait4>
+		<ObstructionRadiusX>2.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>2.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>CivEgyptian\Buildings\GuardTower\GuardTower.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<PlacementFile>watchtower.xml</PlacementFile>
+		<Icon>UserInterface\Icons\Buildings\Tower64_ua</Icon>
+		<PortraitIcon>UserInterface\Icons\Buildings\AvatarTower_ua</PortraitIcon>
+		<RolloverTextID>53883</RolloverTextID>
+		<ShortRolloverTextID>53882</ShortRolloverTextID>
+		<InitialHitpoints>1200.0000</InitialHitpoints>
+		<MaxHitpoints>1200.0000</MaxHitpoints>
+		<LOS>32.0000</LOS>
+		<ProjectileProtoUnit>Proj_Bolt</ProjectileProtoUnit>
+		<BuildPoints>50.0000</BuildPoints>
+		<Bounty>5.0000</Bounty>
+		<Cost resourcetype="Wood">100.0000</Cost>
+		<Cost resourcetype="stone">150.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<MaxContained>10</MaxContained>
+		<AllowedAge>1</AllowedAge>
+		<InputContext>GarrisonAccel</InputContext>
+		<SoundFile>Eg_Bldg_GuardTower</SoundFile>
+		<BuilderLimit>10</BuilderLimit>
+		<UnitType>LogicalTypeRamUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeConvertableBuildings</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeLandPickerTarget</UnitType>
+		<UnitType>LogicalTypeRamUnitsAttack</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>MilitaryBuilding</UnitType>
+		<UnitType>ColonyBuilding</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>ConvertableBuilding</UnitType>
+		<UnitType>UnitTypeBldgTower</UnitType>
+		<UnitType>EquipmentFilterUtility</UnitType>
+		<Armor type="Ranged" value="0.8000"/>
+		<Tech row="0" page="0" column="0">TechTower1_Shadow</Tech>
+		<Tech row="0" page="0" column="0">TechTower2</Tech>
+		<Tech row="0" page="0" column="0">TechTower3</Tech>
+		<Tech row="0" page="0" column="0">TechTowerS</Tech>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>Burnable</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>TileAlignPlacement</Flag>
+		<Flag>NotObscuredByUnitsAsFoundation</Flag>
+		<Flag>TieAnimTimeToBuildPercent</Flag>
+		<Flag>Tracked</Flag>
+		<Contain>UnitTypeVillager1</Contain>
+		<Contain>UnitTypePriest3</Contain>
+		<Command row="0" page="10" column="3">Eject</Command>
+		<Command row="0" page="10" column="2">Delete</Command>
+		<Tactics>combatBuilding.tactics</Tactics>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>25.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MinRange>5.000000</MinRange>
+			<MaxRange>30.000000</MaxRange>
+			<DamageType>Ranged</DamageType>
+			<Projectile>Proj_BoltCluster</Projectile>
+			<MaxHeight>2.000000</MaxHeight>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageBonus type="Ship">4.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

@@ -1,0 +1,21 @@
+<equipment version="0" id="472">
+		<civ>Greek</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\techs\greektechmurderholes_ua</icon>
+		<largeicon>false</largeicon>
+		<bldorunit>false</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700632</displaynameid>
+		<uipanel>3</uipanel>
+		<uirow>6</uirow>
+		<uicol>41</uicol>
+		<agerequirement>2</agerequirement>
+		<offertype>eOfferNone</offertype>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="TechMurderHoles" cost="0" descid="700633"/>
+		</ranks>
+		<prereq>110</prereq>
+	</equipment>

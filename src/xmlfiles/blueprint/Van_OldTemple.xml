@@ -1,0 +1,21 @@
+<blueprint name="Van_OldTemple">
+		<icon>UserInterface/Icons/Blueprints/BlueprintVanity3_ua</icon>
+		<rollovertextid>800193</rollovertextid>
+		<displaynameid>0</displaynameid>
+		<stacksize>0</stacksize>
+		<offertype>eOfferCivEgyptian</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="40">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityRare</rarity>
+		<cost>
+			<material quantity="5">3ConcreteBlock</material>
+			<material quantity="4">3VellumScript</material>
+			<material quantity="3">!GizaLimestone</material>
+		</cost>
+		<protounit>Eg_Van_Temple</protounit>
+	</blueprint>

@@ -1,0 +1,11 @@
+<achievement>
+		<internalname>A_C04_GENERAL</internalname>
+		<displaynameid>62108</displaynameid>
+		<type>cATLevel</type>
+		<data>
+			<entry>Persian</entry>
+			<entry>30</entry>
+		</data>
+		<liveid>62</liveid>
+		<offer>eOfferCivPersian</offer>
+	</achievement>

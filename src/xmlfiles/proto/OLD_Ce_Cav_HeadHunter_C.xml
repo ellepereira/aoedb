@@ -1,0 +1,86 @@
+<Unit id="663" name="OLD_Ce_Cav_HeadHunter_C">
+		<DBID>2205</DBID>
+		<DisplayNameID>58597</DisplayNameID>
+		<EditorNameID>58598</EditorNameID>
+		<UnitLevel>3</UnitLevel>
+		<PopulationCount>2</PopulationCount>
+		<Trait1>ConCommonCav</Trait1>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>11.0000</MaxVelocity>
+		<MaxRunVelocity>16.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>10.0000</TurnRate>
+		<AnimFile>CivCelt\Units\Mounted\HeadHunter\headhunterL0.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>\UserInterface\Icons\Units\CHeadHunter64_ua</Icon>
+		<PortraitIcon>\UserInterface\Icons\Units\AvatarCHeadHunter_ua</PortraitIcon>
+		<RolloverTextID>58596</RolloverTextID>
+		<ShortRolloverTextID>58595</ShortRolloverTextID>
+		<InitialHitpoints>454.0000</InitialHitpoints>
+		<MaxHitpoints>454.0000</MaxHitpoints>
+		<LOS>35.0000</LOS>
+		<AutoAttackRange>1.0000</AutoAttackRange>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>25.0000</TrainPoints>
+		<Bounty>2.0000</Bounty>
+		<Cost resourcetype="Gold">200.0000</Cost>
+		<CarryCapacity resourcetype="Food">100.0000</CarryCapacity>
+		<AllowedAge>0</AllowedAge>
+		<VisualScale>0.5000</VisualScale>
+		<SoundFile>Ce_Cav_HeadHunter</SoundFile>
+		<UnitType>LogicalTypeAnimalsAttack</UnitType>
+		<UnitType>LogicalTypeFailQuest</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeExplorer</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<UnitType>AbstractTransportable</UnitType>
+		<UnitType>ConvertableCavalry</UnitType>
+		<UnitType>UnitTypeUniqueUnit1</UnitType>
+		<UnitType>UnitUpgradeAge3</UnitType>
+		<UnitType>UnitUpgradeLevel13</UnitType>
+		<UnitType>UnitUpgrade2Rare</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>Tracked</Flag>
+		<Command row="0" page="10" column="0">Stance1</Command>
+		<Command row="0" page="10" column="2">Stance3</Command>
+		<Command row="0" page="10" column="1">Delete</Command>
+		<Tactics>melee.tactics</Tactics>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="AbstractInfantry">2.000000</DamageBonus>
+			<Damage>21.889999</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Cavalry</DamageType>
+			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<DamageBonus type="UnitTypeVillager1">2.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>

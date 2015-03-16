@@ -1,0 +1,18 @@
+<consumable name="ConsumableFireShips_E">
+		<icon>UserInterface\Icons\Consumable\ConFireship4_ua</icon>
+		<rollovertextid>57252</rollovertextid>
+		<displaynameid>57248</displaynameid>
+		<stackable/>
+		<stacksize>20</stacksize>
+		<offertype>eOfferCivMatching</offertype>
+		<itemlevel>10</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="20">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityEpic</rarity>
+		<power>PowerSpawnFireShips_E</power>
+		<civmatchingtype>eCivMatchingTypeAny</civmatchingtype>
+	</consumable>

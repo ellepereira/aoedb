@@ -1,0 +1,19 @@
+<equipment version="0" id="332">
+		<civ>Celtic</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\buildings\barracks64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>true</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700183</displaynameid>
+		<uipanel>2</uipanel>
+		<uirow>2</uirow>
+		<uicol>4</uicol>
+		<agerequirement>1</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Ce_Ct_BldgBarracks1" cost="0" descid="700184"/>
+		</ranks>
+	</equipment>

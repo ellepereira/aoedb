@@ -1,0 +1,89 @@
+<vendor name="ArgosWeaponStore">
+		<protounit>Gr_Cap_BasicStoreArgos05</protounit>
+		<itemsets>
+			<itemset regionid="255">
+				<items>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Axe2H_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="80">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Spear2H_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="85">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Sword1H_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="100">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Spear1H_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="95">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Bow1H_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="80">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">ArrowOH_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="80">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Javalin2H_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="90">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Sling2H_U002</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="80">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Ballista2H_U001</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="90">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+					<item>
+						<purchase>
+							<trait quantity="1" level="23">Ballista2H_R012</trait>
+						</purchase>
+						<cost>
+							<capitalresource quantity="150">cCapResFactionPoints2</capitalresource>
+						</cost>
+					</item>
+				</items>
+			</itemset>
+		</itemsets>
+	</vendor>

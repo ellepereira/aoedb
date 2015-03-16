@@ -1,0 +1,21 @@
+<trait name="Spear2H_U201">
+		<dbid>1953</dbid>
+		<traittype>Spears2H</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\SPEAR2H_R001_ua</icon>
+		<rollovertextid>62494</rollovertextid>
+		<displaynameid>62495</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<visualfactor type="Weapon" factor="4.0000"/>
+		<sellable>0</sellable>
+		<tradeable>0</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0449" scaling="0.0080" subtype="Damage" visible="true" allactions="1" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" action="MeleeAttack" amount="1.0049" scaling="0.0008" subtype="HitPercent" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

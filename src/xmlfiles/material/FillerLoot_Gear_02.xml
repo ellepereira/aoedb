@@ -1,0 +1,17 @@
+<material name="FillerLoot_Gear_02">
+		<icon>UserInterface\Icons\Equipment\Gear_Inf_C002_ua</icon>
+		<rollovertextid>60580</rollovertextid>
+		<displaynameid>801015</displaynameid>
+		<stackable/>
+		<stacksize>1</stacksize>
+		<offertype>eOfferNone</offertype>
+		<itemlevel>0</itemlevel>
+		<sellable>true</sellable>
+		<tradeable>true</tradeable>
+		<destroyable>true</destroyable>
+		<sellcostoverride>
+			<capitalresource quantity="4">cCapResCoin</capitalresource>
+		</sellcostoverride>
+		<rarity>cRarityJunk</rarity>
+		<budgetcost>1</budgetcost>
+	</material>

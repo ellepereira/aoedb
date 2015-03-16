@@ -1,0 +1,19 @@
+<equipment version="0" id="186">
+		<civ>Egyptian</civ>
+		<maxrank>1</maxrank>
+		<icon>UserInterface\Icons\buildings\storagehouse64_ua</icon>
+		<largeicon>true</largeicon>
+		<bldorunit>true</bldorunit>
+		<questreward>false</questreward>
+		<suppresseffects>true</suppresseffects>
+		<displaynameid>700008</displaynameid>
+		<uipanel>1</uipanel>
+		<uirow>2</uirow>
+		<uicol>6</uicol>
+		<agerequirement>1</agerequirement>
+		<grantedatlevel>false</grantedatlevel>
+		<grantinglevel>0</grantinglevel>
+		<ranks>
+			<rank tech="Eg_CT_BldgStorehouse1" cost="1" descid="700376"/>
+		</ranks>
+	</equipment>

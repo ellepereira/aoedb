@@ -1,0 +1,18 @@
+<trait name="Gear_R022">
+		<dbid>731</dbid>
+		<traittype>Gear</traittype>
+		<rarity>rare</rarity>
+		<icon>UserInterface\Icons\Equipment\InfGearMedalsR_ua</icon>
+		<rollovertextid>53850</rollovertextid>
+		<displaynameid>53851</displaynameid>
+		<offertype>eOfferCivMatching</offertype>
+		<visualfactor type="Helmet" factor="3.0000"/>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.1235" scaling="0.0318" subtype="ConvertResist" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>

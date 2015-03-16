@@ -1,0 +1,21 @@
+<trait name="Shield1H_U002">
+		<dbid>963</dbid>
+		<traittype>Shields</traittype>
+		<rarity>uncommon</rarity>
+		<icon>UserInterface\Icons\Equipment\PELTASTSHIELDL2_ua</icon>
+		<rollovertextid>54448</rollovertextid>
+		<displaynameid>54449</displaynameid>
+		<offertype>eOfferNone</offertype>
+		<sellable>1</sellable>
+		<tradeable>1</tradeable>
+		<destroyable>1</destroyable>
+		<visualfactor type="Shield" factor="4.0000"/>
+		<effects>
+			<effect type="Data" bonus="true" amount="1.0086" scaling="0.0014" subtype="Hitpoints" visible="true" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+			<effect type="Data" bonus="true" amount="1.0092" scaling="0.0015" subtype="Armor" visible="true" damagetype="Ranged" relativity="Percent">
+				<target type="Player"/>
+			</effect>
+		</effects>
+	</trait>
