@@ -17,7 +17,7 @@ $config = array(
 				'eg' => 'Egypt',
 				'gr' => 'Greece',
 				'pe' => 'Persia',
-				'ce' => 'Celts'
+				'ce' => 'Celts',
 				'ba' => 'Babylon'
 				)
 

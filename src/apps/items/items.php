@@ -1,5 +1,5 @@
 <?php
-class traits extends app
+class items extends app
 {
 	function __construct(&$parent)
 	{
@@ -7,10 +7,10 @@ class traits extends app
 
 		$this->load->app('aoeo');	
 		
-		$this->load->model('trait');
+		$this->load->model('item');
 		$this->load->model('traiteffect');
 		$this->config['aoeo'] = $this->aoeo->config;
-		$this->load->config('traits', true);
+		$this->load->config('items', true);
 
 	}
 	
@@ -36,7 +36,7 @@ class traits extends app
 	public function c_showall()
 	{
 		$this->header();
-		$data['items'] = $this->m_trait->get_all();					
+		$data['items'] = $this->m_item->get_all();					
 		$this->show('traitlist', $items);
 		$this->footer();
 	}
@@ -46,7 +46,7 @@ class traits extends app
 		if($level)
 			$level += 3;
 
-		$item = $this->m_trait->load($id, $level);
+		$item = $this->m_item->load($id, $level);
 		
 		$this->header($item->info['DisplayName']);
 		
@@ -65,7 +65,7 @@ class traits extends app
 		if($level)
 			$level += 3;
 		
-		$item = $this->m_trait->load($id, $level);
+		$item = $this->m_item->load($id, $level);
 		$data['item'] = $item->info;
 		
 		$this->aoeo->load->view('tinyheader');
@@ -77,7 +77,7 @@ class traits extends app
 	{	
 		$this->header();
 		$newarr = array();
-		foreach($this->config['traits'] as $k=>$n)
+		foreach($this->config['items'] as $k=>$n)
 		{
 			if(strpos($k,'Con') === false && !empty($n))
 				$newarr[$k] = $n;
@@ -92,7 +92,7 @@ class traits extends app
 	public function c_search($term)
 	{
 		$this->header();
-		$items = $this->m_trait->search($term);
+		$items = $this->m_item->search($term);
 		$this->show('searchlist', $items);
 		$this->footer();
 	}
@@ -101,7 +101,7 @@ class traits extends app
 		{		
 			$this->header();
 			
-			$items = $this->m_trait->get_all_by_type($type);
+			$items = $this->m_item->get_all_by_type($type);
 			$this->show('traitlist', $items);
 			
 			$this->footer();
@@ -112,7 +112,7 @@ class traits extends app
 		if($level)
 			$level += 3;
 		
-		$item = $this->m_trait->load($id, $level);	
+		$item = $this->m_item->load($id, $level);	
 		$data['item'] = $item->info;
 		
 		$this->aoeo->load->view('tinyheader');
@@ -122,14 +122,14 @@ class traits extends app
 		
 	public function c_update()
 	{
-		$this->m_trait->db_update();
-		$this->m_trait->db_update_toc();
+		$this->m_item->db_update();
+		$this->m_item->db_update_toc();
 	}
 		
 	public function c_aeffects($dbid, $level)
 	{
 		$level += 3;
-		$effects = $this->m_trait->get_effects($dbid, $level);
+		$effects = $this->m_item->get_effects($dbid, $level);
 		
 		foreach($effects as $effect)
 		{
@@ -142,7 +142,7 @@ class traits extends app
 		$rlevel = $level;
 		$level += 3;
 
-		$tempitem = $this->m_trait->load($dbid, $level);
+		$tempitem = $this->m_item->load($dbid, $level);
 	
 		if (!$tempitem->info)
 			return false;

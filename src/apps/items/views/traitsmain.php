@@ -9,9 +9,9 @@
 </tr>
 
 <?php foreach($data as $k=>$n):	?>
-<tr onclick="document.location.href='/traits/type/<?=$k?>';">
+<tr onclick="document.location.href='/items/type/<?=$k?>';">
 <td><img src="/images/GearSlots/<?=$k?>Slot.png" width="45px" alt="<?=$k?>"/></td>
-<td><a href="/traits/type/<?=$k?>"><?=$n?></a></td>
+<td><a href="/items/type/<?=$k?>"><?=$n?></a></td>
 </tr>
 <?php //<tr><td colspan="5" style="text-align:center">test</td></tr> ?>
 <?php endforeach;?>

@@ -139,7 +139,7 @@ foreach($traits as $trait)
 	else
 		$traitimg = $trait;
 	
-	$traitstring .= "<a href='/traits/type/{$trait}'><img class='equipmentslot' alt='{$traitimg}Slot.png' src='/images/GearSlots/{$traitimg}Slot.png'/></a>";
+	$traitstring .= "<a href='/items/type/{$trait}'><img class='equipmentslot' alt='{$traitimg}Slot.png' src='/images/GearSlots/{$traitimg}Slot.png'/></a>";
 }
 
 ?>

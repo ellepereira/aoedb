@@ -43,12 +43,12 @@ function auctionSell(dbid, ilevel)
 
 function expandItem(dbid, ilevel)
 {
-	$("#itemContainer").load("/traits/a_trait/"+dbid+"/"+ilevel+" #item");
+	$("#itemContainer").load("/items/a_trait/"+dbid+"/"+ilevel+" #item");
 }
 
 function minimizeItem(dbid, ilevel)
 {
-	$("#itemContainer").load("/traits/a_minimized/"+dbid+"/"+ilevel+" #item");
+	$("#itemContainer").load("/items/a_minimized/"+dbid+"/"+ilevel+" #item");
 }
 
 function xmldiag(e, folder, file)
@@ -102,7 +102,7 @@ function changelevel(nlevel)
 	$('#rlevel').html('Required Level: '+level);
 	$('#imglink').html('<a href="/i/'+dbid+'/'+level+'.png">img</a>');
 	ie.html('loading new stats');
-	ie.load('/traits/aeffects/'+dbid+'/'+level);
+	ie.load('/items/aeffects/'+dbid+'/'+level);
 	
 }
 

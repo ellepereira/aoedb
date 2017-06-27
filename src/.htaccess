@@ -1,0 +1,20 @@
+RewriteEngine on
+
+RewriteCond $1 !(index\.php?|images|robots\.txt|script|style|admin)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+RewriteCond %{REQUEST_URI} ((/.*){4})
+RewriteCond $1 ^(style)
+RewriteRule (style.*)$ $1 [L]
+
+RewriteCond %{REQUEST_URI} ((/.*){4})
+RewriteCond $1 ^(images)
+RewriteRule (images.*)$ $1 [L]
+
+RewriteCond %{REQUEST_URI} ((/.*){4})
+RewriteCond $1 ^(script)
+RewriteRule (script.*)$ $1 [L]
+
+RewriteCond %{Request_URI} ((/.*){4})
+RewriteCond $1 ^(admin)
+RewriteRule (admin.*)$ $1 [L]

@@ -29,7 +29,7 @@ if(!empty($item['levels']))
 		}
 		else 
 		{
-			$levels .= "<a href='/traits/{$item['dbid']}/{$level}'>{$level}</a> ";
+			$levels .= "<a href='/items/{$item['dbid']}/{$level}'>{$level}</a> ";
 		}
 		
 	}

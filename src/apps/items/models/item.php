@@ -1,6 +1,6 @@
 <?php
   
-class trait extends model
+class item extends model
 {
   protected $xmlpath;
   public $info, $level;

@@ -6,7 +6,7 @@ class i extends app {
   {
     parent::__construct($parent);
 
-   $this->load->app('traits');
+   $this->load->app('items');
    
   }
   
@@ -60,7 +60,7 @@ class i extends app {
       return;
     }
     
-    if (!$item = $this->traits->getImgData($dbid, $level)) {
+    if (!$item = $this->items->getImgData($dbid, $level)) {
       $this->error("DBID {$dbid} not found");
       return;
     }
@@ -143,7 +143,7 @@ class i extends app {
         
     $this->imagetext_shadow($im, $this->footersize, 0, 10, $height-10, imagecolorallocate($im, 255, 255, 255), $this->footerfont, $item['dbid_str']);
     
-    $this->imagetext_shadow($im, $this->footersize, 0, 220, $height-10, imagecolorallocate($im, 255, 255, 255), $this->footerfont, 'www.aoedb.net');
+    $this->imagetext_shadow($im, $this->footersize, 0, 220, $height-10, imagecolorallocate($im, 255, 255, 255), $this->footerfont, 'www.ageofempires.guide');
     
     if (!is_dir($folder))
       mkdir($folder, 0777, true);

@@ -21,7 +21,7 @@
 		}
 		else
 		{
-			$levels .= "<a href='/traits/{$item['dbid']}/{$level}'>{$level}</a> ";
+			$levels .= "<a href='/items/{$item['dbid']}/{$level}'>{$level}</a> ";
 			$maxlevel = $level;
 		}
 		
@@ -30,9 +30,9 @@
 	
 	
 ?>
-<tr onclick="document.location.href='/traits/<?=$item['dbid']?>';">
+<tr onclick="document.location.href='/items/<?=$item['dbid']?>';">
 <td><img src="/images/Art/<?=$item['icon']?>.png" alt="<?=$item['DisplayName']?>" width="45px" /></td>
-<td><a href="/traits/<?=$item['dbid']?>/<?=$maxlevel?>" ><?=$item['DisplayName']?></a></td>
+<td><a href="/items/<?=$item['dbid']?>/<?=$maxlevel?>" ><?=$item['DisplayName']?></a></td>
 <td><span><?=$levels?></span></td>
 <td> <span class="<?=$item['rarity']?>"><?=$item['rarity'] ?></span></td>
 <td> <?=$item['type'] ?></td>
