@@ -14,7 +14,7 @@ $outputtypes = array('trait' => 'Item',
 switch ($data['outputtype']) {
   case 'trait':
     $level = $data['outputtraitlevel'] - 3;
-    $outputlink = "/traits/{$data['output']['dbid']}/$level";
+    $outputlink = "/items/{$data['output']['dbid']}/$level";
     break;
   case 'material':
     $outputlink = "/materials/{$data['output']['name']}";

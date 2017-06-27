@@ -10,7 +10,7 @@
 	
 <div class="categorieslinks">
 	<p>
-	<a href="/">Home</a> | <a href="/traits">Items</a> | <a href="/units">Units</a> | <a href="/advisors">Advisors</a> | <a href="/blueprints">Blueprints</a> | <a href="/materials">Materials</a> | <a href="/designs">Recipes</a> | <a href="/consumables">Consumables</a>
+	<a href="/">Home</a> | <a href="/items">Items</a> | <a href="/units">Units</a> | <a href="/advisors">Advisors</a> | <a href="/blueprints">Blueprints</a> | <a href="/materials">Materials</a> | <a href="/designs">Recipes</a> | <a href="/consumables">Consumables</a>
 	</p>
 </div>
 </div>

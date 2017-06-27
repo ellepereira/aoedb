@@ -20,7 +20,7 @@ class i extends app {
   //private $fontsize = 10;
   //private $namesize = 13;
   private $footersize = 9;
-  private $imgfooter = 'www.aoedb.net';
+  private $imgfooter = 'aoeodb.net';
   
   public function c2_index($dbid, $level)
   {
@@ -35,7 +35,7 @@ class i extends app {
     //$level = $level-3;
     
     if (!is_numeric($dbid) || !is_numeric($level)) {
-      $this->error("Invalid input. Format is aoedb.net/i/DBID/level.png");
+      $this->error("Invalid input. Format is aoeodb.net/i/DBID/level.png");
       return;
     }
     
@@ -143,7 +143,7 @@ class i extends app {
         
     $this->imagetext_shadow($im, $this->footersize, 0, 10, $height-10, imagecolorallocate($im, 255, 255, 255), $this->footerfont, $item['dbid_str']);
     
-    $this->imagetext_shadow($im, $this->footersize, 0, 220, $height-10, imagecolorallocate($im, 255, 255, 255), $this->footerfont, 'www.ageofempires.guide');
+    $this->imagetext_shadow($im, $this->footersize, 0, 220, $height-10, imagecolorallocate($im, 255, 255, 255), $this->footerfont, 'www.aoedb.net');
     
     if (!is_dir($folder))
       mkdir($folder, 0777, true);

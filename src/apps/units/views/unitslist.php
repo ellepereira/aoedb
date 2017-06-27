@@ -81,7 +81,7 @@ Type:
 		else
 					$traitimg = $trait;
 		
-		$traitstring .= "<a href='/traits/type/{$trait}'><img style='width: 30px' alt='{$traitimg}Slot.png' src='/images/GearSlots/{$traitimg}Slot.png'/></a> ";
+		$traitstring .= "<a href='/items/type/{$trait}'><img style='width: 30px' alt='{$traitimg}Slot.png' src='/images/GearSlots/{$traitimg}Slot.png'/></a> ";
 			}
 	$typecivs = array('Gr' => 'Greek', 'Eg' => 'Egyptian', 'Ce' => 'Celtic', 'Pe' => 'Persian', 'Con' => 'Consumable', 'Pv' => 'Spartan', 'Mn' => 'Minoan', 'Cy' => 'Cypriot');
 	$typetypes = array('Inf' => 'Infantry', 'Cav' => 'Cavalry', 'Bldg' => 'Building', 'Arc' => 'Ranged Unit', 'Shp' => 'Ship', 'Sie' => 'Siege Unit', 'Civ' => 'Economic Unit', 'Spc' => 'Religious Unit', 'Cap' => 'Capital Building', 'WallStraight2' => 'Wall', 'WallConnector' => 'Wall', 'WallStraight1' => 'Wall', 'WallGate' => 'Wall', 'WallStraight5' => 'Wall');
