@@ -23,12 +23,10 @@ class designs extends app
             $this->aoeo->header($this->m_design->displayname . ' Recipe');
             $design = $this->m_design;
             $this->show('design', $design->info);
-            $this->aoeo->load->view('ad_temp');
             $this->aoeo->footer();
         } else {
             $this->aoeo->header('Recipes');
             echo 'Could not load design';
-            $this->aoeo->load->view('ad_temp');
             $this->aoeo->footer();
         }
     }
@@ -39,7 +37,6 @@ class designs extends app
         $this->aoeo->header(ucfirst($type) . ' Recipes');
         $designs = $this->m_design->get_all_by_type($type);
         $this->show('designlist', $designs);
-        $this->aoeo->load->view('ad_temp');
         $this->aoeo->footer();
     }
 

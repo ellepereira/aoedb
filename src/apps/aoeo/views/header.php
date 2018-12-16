@@ -29,17 +29,6 @@
 <div id="overlay"></div>
 <div id="popup"></div>
 	<div id="alltop">
-	
-	<?php
-	/*if(isset($data['user'])){
-		echo "You are logged in as {$data['user']->name} <a href='/aoeo/editprofile'>[edit]</a> (<a href='/aoeo/logout'>logout</a>)";
-	}
-	else
-	{
-		echo "You are not logged in. (<a href='/aoeo/login'>login</a>) | <a href='/aoeo/register'>register</a>)";
-	}
-		*/?>
-	
 	</div>
 	
 <div id="maindiv">

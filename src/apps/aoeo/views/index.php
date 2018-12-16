@@ -17,6 +17,6 @@
 
 <div id = "credits">Visit our <a href="https://forums.projectceleste.com">Forums</a> <br />&copy; 2011-2018 <a href="https://aoedb.net">Age of Empires Online Database</a> (<a href="http://www.aoedb.net">AoEDB.net</a>). Not affiliated<br />
                         with <a href="http://www.microsoft.com/games/">Microsoft Studios</a>, <a href="http://gaspowered.com/">Gas Powered Games</a>, or <a href="http://www.robotentertainment.com/">Robot Entertainment</a>.<br />
-                        Written by <a href='mailto:luciano@aoedb.net'>Luciano Pereira</a> and <a href='mailto:dave@aoedb.net'>David Casagrande</a> with much love, sweat, and tears. <br />                 
+                        Written by <a href='mailto:luciano@aoedb.net'>Luciano Pereira</a> and <a href='mailto:dave@aoedb.net'>David Casagrande</a> with much love, sweat, and tears. <br />
                         </div>
 </div>

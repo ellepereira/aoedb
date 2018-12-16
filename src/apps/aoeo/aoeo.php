@@ -21,11 +21,6 @@ class aoeo extends app
 	public function c_index($page = null)
 	{	
 		$data = array();
-		
-  		$this->checklogin();
-  		
-  		if($this->user->logged_in)
-  			$data['user'] = $this->user;
   		
 		$data['title'] = 'Age of Empires Online Database';
   		$this->show('header', $data);
@@ -39,15 +34,6 @@ class aoeo extends app
 			echo "Could not access: $page";
 		}
 		$this->footer();
-	}
-	
-	private function checklogin()
-	{
-		$this->load->model('user');
-		
-		//login and get username
-		if(isset($this->m_user))
-			$this->user = $this->m_user;
 	}
 	
 	public function c_xml($folder, $file)
@@ -135,45 +121,11 @@ class aoeo extends app
     foreach ($filelist as $filename) {
       echo "<img src='{$filename}'>";
     }
-    
-    
-//    $filelist = substr($filelist, strlen($imgpath));
-    
-//    print_r($filelist);
-//    $c = 0;
-    
-/*    $imgpath_len = strlen($imgpath);
-    foreach ($filelist as $filename) {
-      if (substr($filename, -4, 4) == '.tga' && strpos($filename, '(')) {
-        $outputfilename = $destination . substr($filename, $imgpath_len, strpos($filename, '.') - $imgpath_len) . '.png';
-        echo "<img src='{$outputfilename}'>\n";
-        
-        if (!file_exists($outputfilename)) {
-          $img = imagecreatefromtga_alpha($filename);
-          $outputdir = substr($outputfilename, 0, strrpos($outputfilename, '/'));
-          
-          if (!is_dir($outputdir)) {
-            mkdir($outputdir , 0777, true);
-          }
-          
-          imagepng($img, $outputfilename);
-          $c++;
-        }
-        
-        if ($c >= 25)
-          exit;
-      }
-    } */
   }
 
   	public function header($title = '')
   	{
   		$data = array();
-  		
-  		$this->checklogin();
-  		
-  		if($this->user->logged_in)
-  			$data['user'] = $this->user;
   		
   		if(empty($title))
   			$title = 'Age of Empires Online Database';
@@ -228,153 +180,6 @@ class aoeo extends app
   	{
   		$this->header('Vendors');
   		$this->footer();
-  	}
-  	
-  	public function c_videos()
-  	{
-  		$this->header('Videos');
-  		$this->footer();
-  	}
-  	
-  	function c_login($backto=null)
-  	{
-  		if(isset($backto))
-  			$this->backto = $backto;
-  		
-  		$this->checklogin();
-  	
-  		if($this->input->post('uname') && $this->input->post('password'))
-  		{
-  			
-  			if($this->user->login_form($this->input->post('uname'), $this->input->post('password')))
-  			{ //successful login
-  				echo "yay";
-  				//$this->goback();
-  			}
-  			else
-  			{
-  				$this->header('Login');
-  				$this->show('invalid_login');
-  			}
-  				
-  		}
-  		
-  		else
-  		{
-  			$this->header('Login');
-  		}
-  	
-  		if(!isset($this->user->name))		
-  			$this->c_login_screen();
-  		else
-  			$this->goback();
-  		
-  		$this->footer();
-  	
-  	}
-  	
-  	function c_logout($backto = null)
-  	{
-  		if(isset($backto))
-  			$this->backto = $backto;
-  		
-  		$this->checklogin();
-  		 
-  		$this->user->logout();
-  		
-  		$this->header('Logout');
-  		
-  		$this->footer();
-  		
-  		$this->goback();
-  		 
-  	}
-  	
-  	function c_login_screen()
-  	{
-  		$this->load->view('login');
-  	}
-  	
-  	function c_register_screen()
-  	{
-  		$this->load->view('register');
-  	}
-  	
-  	function c_register()
-  	{ 		
-  		if(count($this->input->post) > 5)
-  		{
-  			$this->load->model('user');
-  			
-  			$p = $this->input->post;
-  			
-  			if(strlen($p['username']) < 5)
-  			{
-  				$this->header('Register');
-  				echo "Username has to be at least 5 characters long.";
-  				$this->footer();
-  				return;
-  			}
-  			
-  			else if(strlen($p['gamertag']) < 5)
-  			{
-  				$this->header('Register');
-  				echo "Gamertag has to be at least 5 characters long.";
-  				$this->footer();
-  				return;
-  			}
-  			
-  			else if(strlen($p['password']) < 6)
-  			{
-  				$this->header('Register');
-  				echo "Password has to be at least 6 characters long.";
-  				$this->footer();
-  				return;
-  			}
-  			
-  			else if(strlen($p['email']) < 6)
-  			{
-  				$this->header('Register');
-  				echo "Invalid email address.";
-  				$this->footer();
-  				return;
-  			}
-  			
-  			else if(!$this->m_user->register($this->input->post))
-  			{
-  				$this->header('Register');
-  				echo 'Registration error - please go back and try again.';
-  				$this->footer();
-  			}
-  			
-  			else 
-  			{
-  				$this->goback();
-  			}
-  		}
-  		
-  	
-  		else
-  		{
-  			$this->header('Register');
-  			$this->c_register_screen();
-  			$this->footer();
-  		}
-  	}
-  	
-  	function c_editprofile()
-  	{
-  		if($this->input->post('username') && $this->input->post('password') && $this->input->post('email'))
-  		{
-  			$this->load->model('user');
-  		}
-  		 
-  		else
-  		{
-  			$this->header('Edit Profile');
-  			$this->show('editprofile', $this->user);
-  			$this->footer();
-  		}
   	}
  	
   	function goback()

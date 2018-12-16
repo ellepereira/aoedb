@@ -20,9 +20,6 @@ class advisors extends app
 			
 			$this->aoeo->header($ad['displayname']);
 			$this->show('advisor', $ad);
-			
-			$this->aoeo->load->view('ad_temp');
-		
 		}
 		else
 		{
@@ -31,7 +28,6 @@ class advisors extends app
 			$data['advisors'] = $this->m_advisor->get_all_by_age('0', 'epic');
 			$data['rarity'] = 'epic';	
 			$this->show('advisorlist', $data);
-			$this->aoeo->load->view('ad_temp');
 		}
 		
 		$this->aoeo->footer();
@@ -45,7 +41,6 @@ class advisors extends app
 		$data['advisors'] = $this->m_advisor->get_all_by_age($age, $rarity);
 		$data['rarity'] = $rarity;	
 		$this->show('advisorlist', $data);
-		$this->aoeo->load->view('ad_temp');
 		$this->aoeo->footer();
 	}
 	
@@ -54,7 +49,6 @@ class advisors extends app
 		$ad = $this->m_advisor->get($name);
 		$this->aoeo->header($ad['displayname']);
 		$this->show('advisorlist', $ad);
-		$this->aoeo->load->view('ad_temp');
 		$this->aoeo->footer();
 	}
 	

@@ -36,7 +36,6 @@ class units extends app
             $unit->info['config'] = $this->config;
             $this->header($unit->info['DisplayName']);
             $this->load->view('unit', $unit->info);
-            $this->aoeo->load->view('ad_temp');
 
             $this->footer();
         } else {
@@ -96,7 +95,6 @@ class units extends app
         $units['civ'] = '';
         $units['type'] = $utype;
         $this->load->view('unitslist', $units);
-        $this->aoeo->load->view('ad_temp');
         $this->footer();
     }
 
@@ -109,7 +107,6 @@ class units extends app
         $units['civ'] = 'Every';
         $units['type'] = $utype;
         $this->load->view('unitslist', $units);
-        $this->aoeo->load->view('ad_temp');
         $this->footer();
     }
 
@@ -125,7 +122,6 @@ class units extends app
         $units['civ'] = $uciv;
         $units['type'] = $type;
         $this->load->view('unitslist', $units);
-        $this->aoeo->load->view('ad_temp');
         $this->footer();
     }
 

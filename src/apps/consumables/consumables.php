@@ -24,7 +24,6 @@ class consumables extends app
             $this->aoeo->header($this->m_consumable->displayname . ' Consumable');
             $consumable = $this->m_consumable;
             $this->load->view('consumable', $consumable->info);
-            $this->aoeo->load->view('ad_temp');
             $this->aoeo->footer();
         } else {
             $this->aoeo->header();
@@ -43,7 +42,6 @@ class consumables extends app
         $this->aoeo->header($rarities[$rarity] . ' Consumables');
         $c = $this->m_consumable->get_all_by_rarity($rarity);
         $this->show('consumableslist', $c);
-        $this->aoeo->load->view('ad_temp');
         $this->aoeo->footer();
     }
 

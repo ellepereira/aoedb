@@ -20,7 +20,6 @@ class materials extends app
             $this->aoeo->header($this->m_material->displayname);
             $material = $this->m_material;
             $this->load->view('material', $material->info);
-            $this->aoeo->load->view('ad_temp');
             $this->aoeo->footer();
         } else {
             $this->aoeo->header('Materials');
@@ -41,7 +40,6 @@ class materials extends app
         $this->aoeo->header($rarities[$rarity] . ' Materials');
         $all = $this->m_material->get_all_by_rarity($rarity);
         $this->load->view('materialslist', $all);
-        $this->aoeo->load->view('ad_temp');
         $this->aoeo->footer();
     }
 

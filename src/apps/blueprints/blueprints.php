@@ -21,7 +21,6 @@ class blueprints extends app
             $this->aoeo->header($this->m_blueprint->displayname . ' Blueprint');
             $blueprint = $this->m_blueprint;
             $this->load->view('blueprint', $blueprint->info);
-            $this->aoeo->load->view('ad_temp');
             $this->aoeo->footer();
         } else {
             $this->aoeo->header('Blueprints');
@@ -42,7 +41,6 @@ class blueprints extends app
 
         $all = $this->m_blueprint->get_all_by_rarity($rarity);
         $this->load->view('blueprintslist', $all);
-        $this->aoeo->load->view('ad_temp');
 
         $this->aoeo->footer();
     }
