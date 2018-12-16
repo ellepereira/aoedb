@@ -101,6 +101,15 @@ class item extends model
     {
         $this->delete_all();
         $this->db->clear_table('traiteffects');
+
+        // also delete the images cache
+        $files = glob('images/cache/*');
+        foreach ($files as $path) {
+            if (is_file($path)) {
+                unlink($path);
+            }
+        }
+
         $this->db_update_from_api();
     }
 

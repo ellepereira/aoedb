@@ -173,7 +173,7 @@ class items extends app
             $item['rarityColor'] = 'ffffff';
         }
 
-        $item['icon'] = 'images/Art/' . $tempitem->info['icon'] . '.png';
+        $item['icon'] = 'https://images.projectceleste.com/Art/' . $tempitem->info['icon'] . '.png';
 
         $item['description'] = 'Required Level: ' . $rlevel . "\n\n" . str_replace('\n', "\n\n", trim($tempitem->info['RolloverText']));
         $item['description'] = str_replace('<color color= "1.0,1.0,0.0">', '', $item['description']);

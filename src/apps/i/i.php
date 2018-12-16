@@ -26,7 +26,7 @@ class i extends app
     public function c2_index($dbid, $level)
     {
         print_r(headers_list());
-        $this->loadfile('images/cache/5428/448_39.png');
+        $this->loadfile('images/cache/448_39.png');
     }
 
     public function c_index($dbid = null, $level = null)
@@ -45,7 +45,7 @@ class i extends app
 
         //$folder = "images/cache/{$this->config['buildnum']}/{$dbid}";
         //$folder = "images/cache/" . strval($this->aoeo->config['build']);
-        $folder = "images/cache/5491";
+        $folder = "images/cache";
         //$this->error($folder);
         //return;
         $filename = "{$folder}/{$dbid}_{$level}.png";
