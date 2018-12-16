@@ -35,7 +35,7 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
     <div class="rarity"><span class="<?=$data['rarity']?>"><?=$data['rarity']?></span></div>
   </div>
   <br><br>
-  <img class="icon" src="/images/Art/<?=$data['icon']?>.png"> <span class="name <?=$data['rarity']?>"><?=$data['displayname']?></span>
+  <img class="icon" src="https://images.projectceleste.com/Art/<?=$data['icon']?>.png"> <span class="name <?=$data['rarity']?>"><?=$data['displayname']?></span>
   <div class="info">
     <div class="description">
       <p><?=$data['rollovertext']?></p>
@@ -54,7 +54,7 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
       <br>
   </div>
   Portrait Icon: <br>
-  <img src="/images/Art/<?=$data['PortraitIcon']?>.png" width="128px">
+  <img src="https://images.projectceleste.com/Art/<?=$data['PortraitIcon']?>.png" width="128px">
   <br>
   <br>
   dbid: <a href="/blueprints/<?=$data['DBID']?>"><?=$data['DBID']?></a> | <span class="scriptlink" onClick="xmldiag(this, 'blueprint', '<?=$data['name']?>')">[xml]</span> | <span style="text-decoration:none"><?=$data['name']?></span>

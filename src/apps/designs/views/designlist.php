@@ -45,11 +45,11 @@ $tags = array('[WoodDesigns1]' => 'Logger\'s Workshop',
 
 <?php foreach ($data as $item): ?>
 <tr onClick="document.location.href='/designs/<?=$item['name']?>';">
-<td><img src="/images/Art/<?=$item['icon']?>.png" width="45px"/></td>
+<td><img src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png" width="45px"/></td>
 <td><?=$item['displayname']?></td>
 <td> <span class="<?=$rarities[$item['rarity']]?>"><?=$rarities[$item['rarity']]?></span></td>
 <td><?=$tags[$item['tag']]?></td>
-<td> <?=$item['cost']?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
+<td> <?=$item['cost']?> <img src="https://images.projectceleste.com/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
 </tr>
 <?php //<tr><td colspan="5" style="text-align:center">test</td></tr> ?>
 <?php endforeach;?>

@@ -172,7 +172,7 @@ foreach ($traits as $trait) {
     <div class="age"><?=$agestring?></div>
   </div>
   <br><br>
-  <img class="icon" src="/images/Art/<?=$data['Icon']?>.png" width="64px"/> <span class="name"><?=$data['DisplayName']?></span>
+  <img class="icon" src="https://images.projectceleste.com/Art<?=$data['Icon']?>.png" width="64px"/> <span class="name"><?=$data['DisplayName']?></span>
   <div class="info">
     <div class="description">
       <p><?=$data['RolloverText']?></p>
@@ -190,7 +190,7 @@ foreach ($traits as $trait) {
   <?=$traitstring?>
   <br>
   Portrait Icon: <br>
-  <img src="/images/Art/<?=$data['PortraitIcon']?>.png" width="128px">
+  <img src="https://images.projectceleste.com/Art/<?=$data['PortraitIcon']?>.png" width="128px">
   <br>
   dbid: <a href="/units/<?=$data['DBID']?>"><?=$data['DBID']?></a> | <span style="text-decoration:none"><?=$data['name']?></span>
 </div>

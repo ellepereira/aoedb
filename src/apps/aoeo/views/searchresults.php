@@ -32,7 +32,7 @@ foreach ($data['results'] as $type => $results) {
 }
 echo '<br />';?>
 <div>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 
 </div>
 </div>

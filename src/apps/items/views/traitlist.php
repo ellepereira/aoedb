@@ -25,7 +25,7 @@
 
     ?>
 	<tr onclick="document.location.href='/items/<?=$item['dbid']?>';">
-	<td><img src="/images/Art/<?=$item['icon']?>.png" alt="<?=$item['DisplayName']?>" width="45px" /></td>
+	<td><img src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png" alt="<?=$item['DisplayName']?>" width="45px" /></td>
 	<td><a href="/items/<?=$item['dbid']?>/<?=$maxlevel?>" ><?=$item['DisplayName']?></a></td>
 	<td><span><?=$levels?></span></td>
 	<td> <span class="<?=$item['rarity']?>"><?=$item['rarity']?></span></td>
@@ -35,7 +35,7 @@
 	<?php endforeach;?>
 </table>
 
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 
 
 </div>

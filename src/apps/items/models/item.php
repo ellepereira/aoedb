@@ -90,7 +90,6 @@ class item extends model
                 $traiteffect[$techEffectAttribute] = null;
             }
         }
-        print_r($traiteffect);
         $this->db->insert('traiteffects', $traiteffect);
     }
 
@@ -265,39 +264,6 @@ class item extends model
             $this->db->insert('tableofcontents', $values);
         }
     }
-
-    /*function types()
-    {
-    $path ='c:\\aoeofiles\\data\\\\data\\traittypes.xml';
-
-    $XMLReader = new XMLReader();
-    $XMLReader->open($path);
-
-    echo "\$config = array(";
-    while ($XMLReader->read()) {
-    if ($XMLReader->nodeType == XMLReader::END_ELEMENT || $XMLReader->name != "traittype")
-    continue;
-
-    $doc = new DomDocument('1.0');
-    $doc->loadXML($XMLReader->readOuterXml());
-
-    $name = $doc->documentElement->getAttribute('name');
-    $displaynameid = $doc->documentElement->getElementsByTagName('displaynameid')->item(0)->nodeValue;
-
-    $r = $this->db->query("SELECT * FROM strings WHERE stringid={$displaynameid}")->results();
-
-    $displayname = explode(' - ', $r['string']);
-    $displayname = explode(' Equipment ', $displayname[0]);
-
-    $displayname = $displayname[0];
-
-    echo "'$name' => '$displayname' , \n <br />";
-
-    }
-
-    echo "'');";
-
-    }*/
 
     public function load($id, $level = null)
     {

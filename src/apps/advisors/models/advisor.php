@@ -86,17 +86,17 @@ class advisor extends model
         return $arr;
     }
 
-    /**
-     * Method to update all database entries by re-reading the XML data files for traits
-     * WARNING will overright any changes made on the database
-     */
     public function db_update()
+    {
+        $this->delete_all();
+        $this->db_update_from_api();
+    }
+
+    public function db_update_from_xml()
     {
 
         $XMLReader = new XMLReader();
         $XMLReader->open($this->xmlpath);
-
-        $this->delete_all();
 
         $fields = array(
             'displaynameid',
@@ -119,7 +119,6 @@ class advisor extends model
             $doc->loadXML($XMLReader->readOuterXml());
 
             $item['name'] = $doc->documentElement->getAttribute('name');
-            //$trait['type'] = $doc->documentElement->getAttribute('type');
 
             // Most of the easy stuff
             foreach ($doc->documentElement->childNodes as $node) {
@@ -146,5 +145,47 @@ class advisor extends model
 
             unset($tech);
         }
+    }
+    public function db_update_from_api()
+    {
+        $response = json_decode(file_get_contents("https://api.projectceleste.com/game/advisors/"), true);
+
+        $fields = array(
+            'displaynameid',
+            'rollovertextid',
+            'icon',
+            'displaydescriptionid',
+            'age',
+            'rarity',
+            'minlevel',
+            'offertype',
+            'itemlevel');
+
+        foreach ($response['data'] as $name => $advisorEntry) {
+            $advisor['name'] = $name;
+            foreach ($fields as $fieldName) {
+                if (isset($advisorEntry[$fieldName])) {
+                    $advisor[$fieldName] = $advisorEntry[$fieldName];
+                } else {
+                    $advisor[$fieldName] = null;
+                }
+            }
+            // fix icon paths
+            if (isset($advisor['icon'])) {
+                $advisor['icon'] = str_replace('\\', '/', $advisor['icon']);
+            }
+
+            if (isset($advisorEntry['techs'])) {
+                $advisor['tech'] = $advisorEntry['techs']['tech'];
+            }
+            
+            if (isset($advisorEntry['sellcostoverride']) && isset($advisorEntry['sellcostoverride']['capitalresource'])) {
+                $advisor['cost'] = $advisorEntry['sellcostoverride']['capitalresource']['quantity'];
+            }
+
+            $this->quicksave($advisor);
+        }
+
+        echo 'finished processing advisors.';
     }
 }

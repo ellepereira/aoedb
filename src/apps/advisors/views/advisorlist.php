@@ -1,10 +1,7 @@
 <?php
 $advisors = array();
 foreach ($data['advisors'] as $k => $n) {
-    // if(is_file("images/Art/{$n['icon']}.png"))
-    // {
     $advisors[$n['displayname']] = $n;
-    //}
 }
 ?>
 
@@ -29,12 +26,12 @@ Rarity: <a href="/advisors/age/<?=$data['age']?>/common">Common</a> | <a href="/
 
 	<?php foreach ($advisors as $item): ?>
 	<tr onClick="document.location.href='/advisors/<?=$item['name']?>';">
-	<td><img class="pic" src="/images/Art/<?=$item['icon']?>.png" width="45px"/></td>
+	<td><img class="pic" src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png" width="45px"/></td>
 	<td><a href="/advisors/<?=$item['name']?>" ><?=$item['displayname']?></a></td>
 	<td><?=($item['age'] + 1)?></td>
 	<td><span class="<?=$item['rarity']?>"><?=$item['rarity']?></span></td>
 	<td> <?=$item['displaydescription']?></td>
-	<td> <?=$item['cost']?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
+	<td> <?=$item['cost']?> <img src="https://images.projectceleste.com/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
 	</tr>
 	<?php //<tr><td colspan="5" style="text-align:center">test</td></tr> ?>
 	<?php endforeach;?>

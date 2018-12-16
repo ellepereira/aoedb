@@ -4,7 +4,7 @@
     ?>
 
 <div class="trait">
-	<img src="/images/Art/<?=$item['icon']?>.png" style="float:left; margin-right: 5px; width:50px" />
+	<img src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png" style="float:left; margin-right: 5px; width:50px" />
 	 <a href="/<?=$item['type']?>s/<?=$item['dbid']?>"  class="<?=$item['rarity']?>rarity" style="font-size: 14px"><?=$item['keyword']?></a>  <br /><?=$item['description']?> (@ level 40)
 	 <div style="text-align: left; margin-left:45px; font-size:12px"><a href="/<?=$item['type']?>s/<?=$item['dbid']?>">[Full info]...</a></div>
 </div>

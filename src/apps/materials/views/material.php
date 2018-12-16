@@ -30,11 +30,11 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
     <div class="rarity"><span class="<?=$data['rarity']?>"><?=$data['rarity']?></span></div>
   </div>
   <br><br>
-  <img class="icon" src="/images/Art/<?=$data['icon']?>.png"> <span class="name <?=$data['rarity']?>"><?=$data['displayname']?></span>
+  <img class="icon" src="https://images.projectceleste.com/Art/<?=$data['icon']?>.png"> <span class="name <?=$data['rarity']?>"><?=$data['displayname']?></span>
   <div class="info">
     <div class="description">
       <p><?=$data['rollovertext']?></p>
-      <p>Sells for: <?php echo floor($data['cost']); ?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"> (<?php echo floor($data['cost'] * $data['stacksize']); ?> per stack of <?=$data['stacksize']?>)</p>
+      <p>Sells for: <?php echo floor($data['cost']); ?> <img src="https://images.projectceleste.com/Art/UserInterface/CapCity/Coin_ua.png" height="16"> (<?php echo floor($data['cost'] * $data['stacksize']); ?> per stack of <?=$data['stacksize']?>)</p>
 
      <?php if (count($data['blueprints']) > 0) { ?>
       <p>Required for the following blueprints:</p>
