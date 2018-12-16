@@ -1,8 +1,0 @@
-<vendor name="LootStore7">
-		<protounit>gn_Cap_LootStore07</protounit>
-		<itemsets>
-			<itemset regionid="255">
-				<items/>
-			</itemset>
-		</itemsets>
-	</vendor>

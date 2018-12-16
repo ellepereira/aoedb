@@ -1,9 +1,0 @@
-<achievement>
-		<internalname>A_THISISSPARTAAAAN</internalname>
-		<displaynameid>57778</displaynameid>
-		<type>cATUnitListInCapital</type>
-		<data>
-			<entry>Van_Cap_MilitaryCollege</entry>
-		</data>
-		<liveid>11</liveid>
-	</achievement>

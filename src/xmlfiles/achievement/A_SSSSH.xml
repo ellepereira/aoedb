@@ -1,9 +1,0 @@
-<achievement>
-		<internalname>A_SSSSH</internalname>
-		<displaynameid>57777</displaynameid>
-		<type>cATUnitListInCapital</type>
-		<data>
-			<entry>Gr_Cap_LibraryCelsus</entry>
-		</data>
-		<liveid>10</liveid>
-	</achievement>

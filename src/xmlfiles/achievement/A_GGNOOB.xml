@@ -1,9 +1,0 @@
-<achievement>
-		<internalname>A_GGNOOB</internalname>
-		<displaynameid>60661</displaynameid>
-		<type>cATQuestTypeComplete</type>
-		<data>
-			<entry>pvp</entry>
-		</data>
-		<liveid>44</liveid>
-	</achievement>

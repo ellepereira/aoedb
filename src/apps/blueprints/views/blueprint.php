@@ -1,4 +1,4 @@
-<?
+<?php
 $rarities = array('cRarityCommon' => 'common',
                   'cRarityUncommon' => 'uncommon',
                   'cRarityRare' => 'rare',
@@ -26,7 +26,7 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
 <div class="tooltip" style="width: 300px;">
 <div class="inside">
   <div class="header">
-    <div class="type"><?
+    <div class="type"><?php
     if (array_key_exists($data['offertype'], $offertypes))
         echo " {$offertypes[$data['offertype']]} Blueprint";
      else
@@ -40,13 +40,13 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
     <div class="description">
       <p><?=$data['rollovertext']?></p>
       <p>Creates: <a href="/units/<?=$data['DBID']?>"><?=$data['displayname']?></a></p>
-      <? if (isset($data['materials'])) { ?>
+      <?php if (isset($data['materials'])) { ?>
       <br>
       Required Materials:<br>
-	    <? foreach ($data['materials'] as $material) {
+	    <?php foreach ($data['materials'] as $material) {
 	    echo "<img src='/images/Art/{$material['icon']}.png' height='32'> {$material['count']}x <a href='/materials/{$material['name']}' style='text-decoration: none'><span class='itemname {$rarities[$material['rarity']]}rarity'>{$material['displayname']}</span></a><br>";
 	    }?>
-	  <? }
+	  <?php }
 	  else {
 	    	echo "<br>No materials required for construction."; 
 	  }?>
@@ -59,7 +59,7 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
   <br>
   dbid: <a href="/blueprints/<?=$data['DBID']?>"><?=$data['DBID']?></a> | <span class="scriptlink" onClick="xmldiag(this, 'blueprint', '<?=$data['name']?>')">[xml]</span> | <span style="text-decoration:none"><?=$data['name']?></span>
 </div>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 </div>
 
 </div>

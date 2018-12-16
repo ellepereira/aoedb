@@ -6,15 +6,14 @@
  * @var array
  */
 $script_folders = array(
-	'.',
-	'components',
-	'libraries',
-	'databases',
-	'interfaces',
-	'exceptions'
+    '.',
+    'components',
+    'libraries',
+    'databases',
+    'interfaces',
+    'exceptions',
 //...
-	);
-		
+);
 
 //Constants
 define('EXT', '.php');

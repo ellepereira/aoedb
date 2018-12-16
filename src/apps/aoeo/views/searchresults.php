@@ -18,6 +18,7 @@
 		{
 				$d = str_replace('\n', " ", $result['description']);
 				
+				
 				if(!in_array($type, $donotlink))
 					echo "<li><a href='/{$type}s/{$result['dbid']}'>{$result['keyword']}</a> - {$d}</li>";
 				else

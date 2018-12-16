@@ -1,10 +1,10 @@
 <br>
 <?php 
 $typetypes = array(''=>'Units','inf' => 'Infantry', 'cav' => 'Cavalry', 'bldg' => 'Building(s)', 'arc' => 'Ranged Unit(s)', 'shp' => 'Ships', 'sie' => 'Siege Unit(s)', 'civ' => 'Economic Unit(s)', 'spc' => 'Religious Unit(s)', 'cap' => 'Capital Building(s)');
-$civs = array(''=>'All', 'gr' => 'Greek', 'eg' => 'Egyptian', 'ba' => 'Babylonian', 'ce' => 'Celtic', 'pe' => 'Persian', 'con' => 'Consumable', 'pv' => 'Spartan', 'mn' => 'Minoan', 'cy' => 'Cypriot');
+$civs = array(''=>'All', 'gr' => 'Greek', 'no' => 'Norse', 'eg' => 'Egyptian', 'ba' => 'Babylonian', 'ce' => 'Celtic', 'pe' => 'Persian', 'con' => 'Consumable', 'pv' => 'Spartan', 'mn' => 'Minoan', 'cy' => 'Cypriot');
 
 ?>
-<h1><?echo $civs[$data['civ']].' '.$typetypes[$data['type']]?></h1>
+<h1><?php echo $civs[$data['civ']].' '.$typetypes[$data['type']] ?></h1>
 
 <?php if(empty($data['civ'])){$data['civ'] = 'gr';}?>
 <p>Civilization: 
@@ -12,7 +12,8 @@ $civs = array(''=>'All', 'gr' => 'Greek', 'eg' => 'Egyptian', 'ba' => 'Babylonia
 <a href="/units/civ/eg/<?=$data['type']?>">Egyptian</a> | 
 <a href="/units/civ/pe/<?=$data['type']?>">Persian</a> |
 <a href="/units/civ/ce/<?=$data['type']?>">Celtic</a> |
-<a href="/units/civ/ba/<?=$data['type']?>">Babylonian</a>
+<a href="/units/civ/ba/<?=$data['type']?>">Babylonian</a> |
+<a href="/units/civ/no/<?=$data['type']?>">Norse</a>
 <br />
 Type: 
 <a href="/units/civ/<?=$data['civ']?>">All</a> | 
@@ -81,9 +82,9 @@ Type:
 		else
 					$traitimg = $trait;
 		
-		$traitstring .= "<a href='/items/type/{$trait}'><img style='width: 30px' alt='{$traitimg}Slot.png' src='/images/GearSlots/{$traitimg}Slot.png'/></a> ";
+		$traitstring .= "<a href='/traits/type/{$trait}'><img style='width: 30px' alt='{$traitimg}Slot.png' src='/images/GearSlots/{$traitimg}Slot.png'/></a> ";
 			}
-	$typecivs = array('Gr' => 'Greek', 'Eg' => 'Egyptian', 'Ce' => 'Celtic', 'Pe' => 'Persian', 'Con' => 'Consumable', 'Pv' => 'Spartan', 'Mn' => 'Minoan', 'Cy' => 'Cypriot');
+	$typecivs = array('Gr' => 'Greek', 'No' => 'Norse', 'Eg' => 'Egyptian', 'Ce' => 'Celtic', 'Pe' => 'Persian', 'Con' => 'Consumable', 'Pv' => 'Spartan', 'Mn' => 'Minoan', 'Cy' => 'Cypriot');
 	$typetypes = array('Inf' => 'Infantry', 'Cav' => 'Cavalry', 'Bldg' => 'Building', 'Arc' => 'Ranged Unit', 'Shp' => 'Ship', 'Sie' => 'Siege Unit', 'Civ' => 'Economic Unit', 'Spc' => 'Religious Unit', 'Cap' => 'Capital Building', 'WallStraight2' => 'Wall', 'WallConnector' => 'Wall', 'WallStraight1' => 'Wall', 'WallGate' => 'Wall', 'WallStraight5' => 'Wall');
 	
 	$typestring = '';
@@ -110,17 +111,17 @@ Type:
 	}
 		
 	?>
-	<tr  onClick="document.location.href='/units/<?=$unit['DBID']?>';">
+	<tr onClick="document.location.href='/units/<?=$unit['DBID']?>';">
 	<td><img class="pic" src="/images/Art/<?=$unit['Icon']?>.png" width="45px"/></td>
 	<td><a href="/units/<?=$unit['DBID']?>" ><?=$unit['DisplayName']?></a></td>
 	<td><span><?=$typestring?></span></td>
 	<td> <?=$agestring?></td>
 	<td> <?=$unit['RolloverText'] ?></td>
 	</tr>
-	<? } ?>
+	<?php } ?>
 </table>
 
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 
 
 </div>

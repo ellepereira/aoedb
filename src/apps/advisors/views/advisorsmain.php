@@ -22,7 +22,7 @@
 	<? end_tooltip(); ?>
 	</td>
 	</tr>
-	
+
 	<tr><td>
 	<? start_tooltip();?>
 	<div style="width: 200px; vertical-align: middle">

@@ -1,9 +1,0 @@
-<achievement>
-		<internalname>A_IMSPECIAL</internalname>
-		<displaynameid>57759</displaynameid>
-		<type>cATQuestTypeComplete</type>
-		<data>
-			<entry>elite</entry>
-		</data>
-		<liveid>41</liveid>
-	</achievement>

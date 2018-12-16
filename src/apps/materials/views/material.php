@@ -1,15 +1,15 @@
-<?
+<?php
 $rarities = array('cRarityCommon' => 'common',
-                  'cRarityUncommon' => 'uncommon',
-                  'cRarityRare' => 'rare',
-                  'cRarityEpic' => 'epic');
+    'cRarityUncommon' => 'uncommon',
+    'cRarityRare' => 'rare',
+    'cRarityEpic' => 'epic');
 
 $offertypes = array('eOfferCivGreek' => 'Greek',
-                    'eOfferCivEgyptian' => 'Egyptian',
-                    'eOfferGreekVanity1' => 'Greek Vanity',
-                    'eOfferGreekVanity2' => 'Greek Vanity',
-                    'eOfferEgyptianVanity1' => 'Egyptian Vanity',
-                    'eOfferEgyptianVanity2' => 'Egyptian Vanity'
+    'eOfferCivEgyptian' => 'Egyptian',
+    'eOfferGreekVanity1' => 'Greek Vanity',
+    'eOfferGreekVanity2' => 'Greek Vanity',
+    'eOfferEgyptianVanity1' => 'Egyptian Vanity',
+    'eOfferEgyptianVanity2' => 'Egyptian Vanity',
 
 );
 
@@ -34,12 +34,12 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
   <div class="info">
     <div class="description">
       <p><?=$data['rollovertext']?></p>
-      <p>Sells for: <? echo floor($data['cost']); ?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"> (<? echo floor($data['cost'] * $data['stacksize']); ?> per stack of <?=$data['stacksize']?>)</p>
-    
-     <? if (count($data['blueprints']) > 0) { ?>
+      <p>Sells for: <?php echo floor($data['cost']); ?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"> (<?php echo floor($data['cost'] * $data['stacksize']); ?> per stack of <?=$data['stacksize']?>)</p>
+
+     <?php if (count($data['blueprints']) > 0) { ?>
       <p>Required for the following blueprints:</p>
       <ul class="itembonuses">
-      <? foreach ($data['blueprints'] as $blueprint) {
+      <?php foreach ($data['blueprints'] as $blueprint) {
         $rarity = $rarities[$blueprint['rarity']];
         echo "<li><a href='/blueprints/{$blueprint['dbid']}' style='text-decoration: none'><span class='{$rarity}'>{$blueprint['displayname']}</span></a>";
         if (array_key_exists($blueprint['offertype'], $offertypes))
@@ -48,44 +48,44 @@ $data['rollovertext'] = str_replace('</color>', '', $data['rollovertext']);
         echo "</li>";
       } ?>
       </ul>
-      <? } else { ?>
+      <?php } else { ?>
       <p>Not required for any blueprint.</p>
-    <? } ?>
-    
-    <? if (count($data['designs_traits']) > 0) { ?>
+    <?php } ?>
+
+    <?php if (count($data['designs_traits']) > 0) { ?>
     <p>Required for the following items:</p>
     <ul class="itembonuses">
-    <? foreach ($data['designs_traits'] as $design) {
+    <?php foreach ($data['designs_traits'] as $design) {
       $rarity = $rarities[$design['rarity']];
       echo "<li><a href='/designs/{$design['name']}' style='text-decoration: none'><span class='{$rarity}'>{$design['displayname']}</span></a>";
 
       echo "</li>";
     } ?>
     </ul>
-    <? } else { ?>
+    <?php } else { ?>
       <p>Not required for any items.</p>
-    <? } ?>
-    
-    <? if (count($data['designs_consumables']) > 0) { ?>
+    <?php } ?>
+
+    <?php if (count($data['designs_consumables']) > 0) { ?>
     <p>Required for the following consumables:</p>
     <ul class="itembonuses">
-    <? foreach ($data['designs_consumables'] as $design) {
+    <?php foreach ($data['designs_consumables'] as $design) {
       $rarity = $rarities[$design['rarity']];
       echo "<li><a href='/designs/{$design['name']}' style='text-decoration: none'><span class='{$rarity}'>{$design['displayname']}</span></a>";
 
       echo "</li>";
     } ?>
     </ul>
-    <? } else { ?>
+    <?php } else { ?>
       <p>Not required for any consumables.</p>
-    <? } ?>   
+    <?php } ?>
     </div>
   </div>
- 
+
   <br>
-  dbid: <a href="/materials/<?=$data['name']?>"><?=$data['name']?></a> | <span class="scriptlink" onClick="xmldiag(this, 'material', '<?=$data['name']?>')">[xml]</span>
+  dbid: <a href="/materials/<?=$data['name']?>"><?=$data['name']?></a>
 </div>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 </div>
 
 </div>

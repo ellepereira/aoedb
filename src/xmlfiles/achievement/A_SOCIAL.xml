@@ -1,9 +1,0 @@
-<achievement>
-		<internalname>A_SOCIAL</internalname>
-		<displaynameid>61591</displaynameid>
-		<type>cATQuestComplete</type>
-		<data>
-			<entry>10100</entry>
-		</data>
-		<liveid>49</liveid>
-	</achievement>

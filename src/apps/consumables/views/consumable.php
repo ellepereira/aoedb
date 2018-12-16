@@ -1,4 +1,4 @@
-<?
+<?php
 $rarities = array('cRarityCommon' => 'common',
                   'cRarityUncommon' => 'uncommon',
                   'cRarityRare' => 'rare',
@@ -22,14 +22,14 @@ $data['rarity'] = $rarities[$data['rarity']];
   <div class="info">
     <div class="description">
       <p><?=$data['rollovertext']?></p>
-      <p>Sells for: <? echo floor($data['cost']); ?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"> (<? echo floor($data['cost'] * $data['stacksize']); ?> per stack of <?=$data['stacksize']?>)</p>
+      <p>Sells for: <?php echo floor($data['cost']); ?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"> (<? echo floor($data['cost'] * $data['stacksize']); ?> per stack of <?=$data['stacksize']?>)</p>
   	</div>
   </div>
- 
+
   <br>
   dbid: <a href="/consumables/<?=$data['name']?>"><?=$data['name']?></a> | <span class="scriptlink" onClick="xmldiag(this, 'consumable', '<?=$data['name']?>')">[xml]</span>
 </div>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 </div>
 
 </div>

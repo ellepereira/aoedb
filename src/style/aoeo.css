@@ -272,8 +272,11 @@ table.list tr:hover td {
 {
 	font-size: 10px;
 	color: white;
-	margin-top: 80px;
 	font-family: Arial;
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
 }
 
 #credits a:link {

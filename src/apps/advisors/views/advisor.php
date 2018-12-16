@@ -1,4 +1,4 @@
-<? 
+<?php
 if(!is_file("images/Art/{$data['icon']}.png")) {
 	$data['icon'] = "transparent";
 }
@@ -21,9 +21,9 @@ if(!is_file("images/Art/{$data['icon']}.png")) {
 		<br>
 		<p style="font-size: 16px"><?=$data['displaydescription']?></p>
 	</div>
-	dbid: <?=$data['name']?> | <span class="scriptlink" style="text-decoration: underline" onClick="xmldiag(this, 'advisor', '<?=$data['name']?>')">xml</span>
+	dbid: <?=$data['name']?>
 </div>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 </div>
 
 </div>

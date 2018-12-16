@@ -1,4 +1,4 @@
-<?
+<?php
 $rarities = array('cRarityCommon' => 'common',
                   'cRarityUncommon' => 'uncommon',
                   'cRarityRare' => 'rare',
@@ -36,6 +36,6 @@ Rarity: <a href="/blueprints/rarity/cRarityCommon">Common</a> |
 <?php endforeach;?>
 </table>
 
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 
 </div>

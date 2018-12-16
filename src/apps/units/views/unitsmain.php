@@ -24,4 +24,3 @@
 </table>
 <? make_tooltip(); ?>
 </div>
-

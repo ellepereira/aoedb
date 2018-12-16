@@ -8,7 +8,7 @@
 <th>Name</th>
 </tr>
 
-<?php foreach($data as $k=>$n):	?>
+<?php foreach ($data as $k => $n): ?>
 <tr onclick="document.location.href='/items/type/<?=$k?>';">
 <td><img src="/images/GearSlots/<?=$k?>Slot.png" width="45px" alt="<?=$k?>"/></td>
 <td><a href="/items/type/<?=$k?>"><?=$n?></a></td>
