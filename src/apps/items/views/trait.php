@@ -57,7 +57,7 @@ if (!empty($item['levels'])) {
 
   </div>
   <br><br>
-  <img class="icon" src="/images/Art/<?=$item['icon']?>.png"> <span class="name <?=$item['rarity']?>"><?=$item['DisplayName']?></span>
+  <img class="icon" src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png"> <span class="name <?=$item['rarity']?>"><?=$item['DisplayName']?></span>
   <div class="info">
     <div class="description">
       <span id="rlevel">Required Level: <?=$requiredlevel?></span><span id="changelevel" class="scriptlink" style="font-size: 8px"><img src="/images/edit.png" width="12px"> [edit]</span>
@@ -65,7 +65,7 @@ if (!empty($item['levels'])) {
       <p><?=$item['RolloverText']?></p>
     </div>
     <ul id="itemeffects" class="itembonuses">
-      <? foreach($item['effectstrings'] as $effect)
+      <?php foreach($item['effectstrings'] as $effect)
       {
         echo "<li class='bonus{$effect->bonus}'>{$effect}</li>";
       }?>
@@ -77,7 +77,7 @@ if (!empty($item['levels'])) {
   <span class="scriptlink" style="text-decoration: underline" onClick="auctionSell(dbid, rlevel, '<?=$item['name']?>')">sell</span>
   <span class="scriptlink" style="float: right; font-size: 10px;" onClick="minimizeItem(dbid, rlevel)">[ - ]</span>
 </div>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 </div>
 
 </div>

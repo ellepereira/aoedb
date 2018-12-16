@@ -26,11 +26,11 @@ Rarity: <a href="/blueprints/rarity/cRarityCommon">Common</a> |
 
 <?php foreach($data as $item): ?>
 <tr onClick="document.location.href='/blueprints/<?=$item['DBID']?>';">
-<td><img class="pic" src="/images/Art/<?=$item['icon']?>.png" width="45px"/></td>
+<td><img class="pic" src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png" width="45px"/></td>
 <td><a href="/blueprints/<?=$item['DBID']?>" ><?=$item['displayname']?></a></td>
 <td><a href="/units/<?=$item['DBID']?>"><?=$item['displayname']?></a></td>
 <td><span class="<?=$rarities[$item['rarity']]?>"><?=$rarities[$item['rarity']]?></span></td>
-<td> <?=$item['cost']?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
+<td> <?=$item['cost']?> <img src="https://images.projectceleste.com/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
 </tr>
 <?php //<tr><td colspan="5" style="text-align:center">test</td></tr> ?>
 <?php endforeach;?>

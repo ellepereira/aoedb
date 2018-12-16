@@ -112,7 +112,7 @@ Type:
 		
 	?>
 	<tr onClick="document.location.href='/units/<?=$unit['DBID']?>';">
-	<td><img class="pic" src="/images/Art/<?=$unit['Icon']?>.png" width="45px"/></td>
+	<td><img class="pic" src="https://images.projectceleste.com/Art/<?=$unit['Icon']?>.png" width="45px"/></td>
 	<td><a href="/units/<?=$unit['DBID']?>" ><?=$unit['DisplayName']?></a></td>
 	<td><span><?=$typestring?></span></td>
 	<td> <?=$agestring?></td>

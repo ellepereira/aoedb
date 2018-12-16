@@ -33,11 +33,11 @@ Rarity: <a href="/consumables/rarity/cRarityCommon">Common</a> |
 
 <?php foreach ($consumables as $item): ?>
 <tr onClick="document.location.href='/consumables/<?=$item['name']?>';">
-<td><img class="pic" src="/images/Art/<?=$item['icon']?>.png" width="45px"/></td>
+<td><img class="pic" src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png" width="45px"/></td>
 <td><a href="/consumables/<?=$item['name']?>" ><?=$item['displayname']?></a></td>
 <td><span class="<?=$rarities[$item['rarity']]?>"><?=$rarities[$item['rarity']]?></span></td>
 <td> <?=$item['stacksize']?></td>
-<td> <?=$item['cost']?> <img src="/images/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
+<td> <?=$item['cost']?> <img src="https://images.projectceleste.com/Art/UserInterface/CapCity/Coin_ua.png" height="16"></td>
 </tr>
 <?php //<tr><td colspan="5" style="text-align:center">test</td></tr> ?>
 <?php endforeach;?>

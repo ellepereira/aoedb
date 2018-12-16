@@ -20,7 +20,7 @@ foreach ($data as $k=>$n) {
 	<?php start_tooltip();?>
 <div style="width: 200px; vertical-align: middle">
 	<a href="/blueprints/<?=$n['DBID']?>">
-		<img src="/images/Art/<?=$n['icon']?>.png" style="float: left; width:40px; margin-right: 5px">
+		<img src="https://images.projectceleste.com/Art/<?=$n['icon']?>.png" style="float: left; width:40px; margin-right: 5px">
 	</a>
 	<a href="/blueprints/<?=$n['DBID']?>" style="font-size: 16px; text-decoration: none"><span class="itemname <?=$rarities[$n['rarity']]?>rarity"><?=$n['displayname']?></span></a>
 </div>

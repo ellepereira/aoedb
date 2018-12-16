@@ -22,5 +22,5 @@
 
 </tr>
 </table>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 </div>

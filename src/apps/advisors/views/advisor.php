@@ -1,10 +1,3 @@
-<?php
-if(!is_file("images/Art/{$data['icon']}.png")) {
-	$data['icon'] = "transparent";
-}
-?>
-
-
 <br />
 <div style="float:left">
 
@@ -17,7 +10,7 @@ if(!is_file("images/Art/{$data['icon']}.png")) {
 	<br>
 	<br>
 	<div style="text-align: center;">
-		<img src="/images/Art/<?=$data['icon']?>.png" width="256">
+		<img src="https://images.projectceleste.com/Art/<?=$data['icon']?>.png" width="256">
 		<br>
 		<p style="font-size: 16px"><?=$data['displaydescription']?></p>
 	</div>

@@ -25,14 +25,14 @@ if ($requiredlevel > 40) {
 
 <div id="item" class="tooltip" style="width: 300px; height: 45px">
 <div class="inside" style="height: 35px">
-<img class="icon" src="/images/Art/<?=$item['icon']?>.png" style="height: 35px">
+<img class="icon" src="https://images.projectceleste.com/Art/<?=$item['icon']?>.png" style="height: 35px">
   <div class="header">
     <span class="name <?=$item['rarity']?>" style="font-size: 14px"><?=$item['DisplayName']?></span><br />
      <div class="type" style="font-size: 12px;">Level <?=$item['level']?> <?=$item['type']?></div>
      <span class="scriptlink" style="float: right; font-size: 10px; margin-top:5px" onClick="expandItem(dbid, rlevel, '<?=$item['name']?>')">[ + ]</span>
   </div>
 </div>
-<? make_tooltip(); ?>
+<?php make_tooltip(); ?>
 </div>
 
 </div>

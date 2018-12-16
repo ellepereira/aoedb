@@ -64,7 +64,7 @@ if (isset($data['tag']) && array_key_exists($data['tag'], $tags)) {
     <div class="rarity"><span class="<?=$data['rarity']?>"><?=$data['rarity']?></span></div>
   </div>
   <br><br>
-  <img class="icon" src="/images/Art/<?=$data['icon']?>.png"> <span class="name <?=$data['rarity']?>"><?=$data['output']['displayname']?></span>
+  <img class="icon" src="https://images.projectceleste.com/Art/<?=$data['icon']?>.png"> <span class="name <?=$data['rarity']?>"><?=$data['output']['displayname']?></span>
   <div class="info">
     <div class="description">
       <p><?=$data['rollovertext']?></p>
