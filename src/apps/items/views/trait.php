@@ -73,9 +73,7 @@ if (!empty($item['levels'])) {
   </div>
   <div>Available at level(s): <?=$levels?></div>
   <br>
-  dbid: <?=$item['dbid']?> | <a id="imglink" href="/i/<?="{$item['dbid']}/{$requiredlevel}"?>.png">img</a> | <span class="scriptlink" style="text-decoration: underline" onClick="xmldiag(this, 'trait', '<?=$item['name']?>')">xml</span> |
-  <span class="scriptlink" style="text-decoration: underline" onClick="auctionSell(dbid, rlevel, '<?=$item['name']?>')">sell</span>
-  <span class="scriptlink" style="float: right; font-size: 10px;" onClick="minimizeItem(dbid, rlevel)">[ - ]</span>
+  dbid: <?=$item['dbid']?> | <a id="imglink" href="/i/<?="{$item['dbid']}/{$requiredlevel}"?>.png">image</a>
 </div>
 <?php make_tooltip(); ?>
 </div>
